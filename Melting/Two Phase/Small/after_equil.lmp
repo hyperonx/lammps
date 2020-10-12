@@ -1,0 +1,156 @@
+
+read_restart after_heating_right_2400.lmp
+
+reset_timestep 0
+region left_cold block INF INF INF INF INF 17.28 units box
+region right_hot block INF INF INF INF 17.28 INF units lattice
+# region middle_cold block INF INF INF INF 3 9 units lattice
+
+
+# #  2 6 units lattice
+# region hot union 2 left_hot right_hot
+group cold_atoms region left_cold
+group hot_atoms region right_hot
+
+
+variable dt equal 0.001
+
+
+pair_style eam/alloy
+pair_coeff * * Mishin-Ni-Al-2009.eam.alloy Ni Al
+
+
+
+min_style cg
+minimize 1e-15 1e-15 100000 500000
+
+variable T equal 1800
+
+velocity all create $T 546445435 mom yes rot yes dist gaussian
+# run 0
+# neighbor 2 bin
+
+# neigh_modify every 10 check yes 
+reset_timestep 0
+fix 1 all npt temp $T $T $(dt*100) iso 0 0 $(dt*1000) drag 1.0
+
+# compute sys_pressure all pressure
+
+variable sys_press equal "press/10000"
+thermo 1000
+thermo_style custom step temp vol press ke pe density v_sys_press
+# variable s equal "vol"
+# print "vol"
+# thermo_modify press v_pressure
+
+fix temp all print 100 "$(step) $(temp) $(press) ${sys_press} $(vol) $(ke) $(pe) $(density)" file temp.txt screen no title  "step temp press pressGiga vol ke pe density"
+
+fix out_file_1 all print 1000 "$(step) $(temp) $(press) ${sys_press} $(vol) $(ke) $(pe) $(density)" file equil_$T.txt screen no title  "step temp press pressGiga vol ke pe density"
+dump 3 all custom 1000 output.lammpstrj id type x y z 
+
+run 250000
+
+compute z_chunk all chunk/atom bin/1d z lower 0.7 units box
+fix 14 all ave/chunk 250000 1 250000 z_chunk density/number file num_density_equil_$T.txt
+
+run 0
+
+# write_data after_heating_right_2400.in
+# write_restart after_heating_right_2400.lmp 
+
+
+
+
+
+
+# dump 3 all custom 1000 traj_npt_new.lammpstrj id type x y z 
+# # dump_modify 3 element Ni Al
+
+# run 500000
+
+# write_data after_two_phase_equil.in
+# write_restart after_two_phase_equil.lmp 
+
+# write_data temp.data 
+# create_box 1 box
+# create_atoms 2 box args mol values
+
+
+# # read_restart after_heating.lmp
+
+# variable x equal 
+
+# variable P equal 0
+# variable dt equal 0.001
+# # variable loopVar loop 8
+
+# region left_hot block 0 3 0 3 0 2 units lattic
+# region cold block
+# # print "step temp vol pe" file heating.txt screen no 
+
+# pair_style eam/alloy
+# pair_coeff * * Mishin-Ni-Al-2009.eam.alloy Ni Al
+
+
+# # velocity all create 300 123123
+
+# # fix 2 all nve 
+# # run 1000
+# # unfix 2
+
+# neighbor 2 bin
+# neigh_modify every 10 check yes 
+
+# timestep $(dt)
+
+# # dump_modify 1 append yes 
+# dump 3 all custom 10000 traj_npt_new.lammpstrj id type x y z 
+
+# thermo 1000
+# thermo_style custom step temp vol press ke pe density
+
+# label ensemble
+# reset_timestep 0
+# variable T equal 2200+${loopVar}*50
+
+# fix 1 all npt temp $T $T $(dt*100) iso 0 0 $(dt*1000)
+# print """
+# <--------------------------------------------------------------------->
+# <------------------ Equilibrating at temperature $T ----------------->
+# <--------------------------------------------------------------------->
+# """
+# fix temp all print 100 "$(step) $(temp) $(press) $(vol) $(ke) $(pe) $(density)" file temp.txt screen no title  "step temp press vol ke pe density"
+# run 250000
+# fix out_file_1 all print 1000 "$(step) $(temp) $(press) $(vol) $(ke) $(pe) $(density)" file heating_$T.txt screen no title  "step temp press vol ke pe density"
+
+# run 100000
+# unfix out_file_1
+# unfix 1 
+# # # clear
+# # next loopVar
+# # # thermo_modify flush yes
+# # jump in.lmp ensemble
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

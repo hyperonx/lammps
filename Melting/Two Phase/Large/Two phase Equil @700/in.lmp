@@ -1,0 +1,58 @@
+
+units metal
+boundary p p p
+atom_style atomic
+
+
+lattice bcc 2.887902 
+read_data in.data 
+
+replicate 8 8 16
+
+# lattice bcc 2.887902
+# region box block  3 0 3 0 8 units lattice
+region left_cold block INF INF INF INF 0 23 units box
+region right_hot block INF INF INF INF 23 INF units box
+# region middle_cold block INF INF INF INF 3 9 units lattice
+
+
+#  2 6 units lattice
+# region hot union 2 left_hot right_hot
+group cold_atoms region left_cold
+group hot_atoms region right_hot
+
+variable dt equal 0.001
+variable T equal 700
+variable sys_press equal "press/10000"
+
+pair_style eam/alloy
+pair_coeff * * Mishin-Ni-Al-2009.eam.alloy Ni Al
+write_data temp.data 
+velocity all create 300 546445435 mom yes rot yes dist gaussian
+
+neighbor 2 bin
+
+neigh_modify every 10 check yes 
+
+fix 1 all npt temp 300 $T $(dt*100) iso 0 0 $(dt*1000) 
+
+thermo 1000
+thermo_style custom step temp vol press ke pe density v_sys_press
+
+
+fix temp all print 100 "$(step) $(temp) $(press) ${sys_press} $(vol) $(ke) $(pe) $(density)" file temp.txt screen no title  "step temp press pressGiga vol ke pe density"
+
+fix out_file_1 all print 1000 "$(step) $(temp) $(press) ${sys_press} $(vol) $(ke) $(pe) $(density)" file equil_$T.txt screen no title  "step temp press pressGiga vol ke pe density"
+
+dump 3 all custom 1000 traj_npt_new.lammpstrj id type x y z 
+# dump_modify 3 element Ni Al
+
+run 500000
+write_data after_two_phase_equil_$T.in
+write_restart after_two_phase_equil_$T.lmp 
+compute z_chunk all chunk/atom bin/1d z lower 0.7 units box
+fix 14 all ave/chunk 500000 1 500000 z_chunk density/number file num_density_700.txt
+
+run 0
+
+
