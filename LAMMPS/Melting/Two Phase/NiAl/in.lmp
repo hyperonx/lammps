@@ -1,0 +1,76 @@
+
+units metal
+boundary p p p
+atom_style atomic
+
+
+# lattice bcc 4
+# region box block 0 1 0 1 0 1 units lattice
+# create_box 1 box 
+# create_atoms 2 box 
+read_data in.data 
+# read_restart after_two_phase_equil_700.lmp
+
+replicate 1 1 16
+
+# lattice bcc 2.887902
+# region box block  3 0 3 0 8 units lattice
+# region left_cold block EDGE EDGE EDGE EDGE EDGE 23.5 units box
+# region right_hot block EDGE EDGE EDGE EDGE 23.5 EDGE units box
+# region middle_cold block INF INF INF INF 3 9 units lattice
+
+
+#  2 6 units lattice
+# region hot union 2 left_hot right_hot
+group cold_atoms id  <= 1024
+group hot_atoms  id  >= 1025
+
+# set type 1 mass 1 
+variable dt equal 0.001
+variable T equal 300
+variable sys_press equal "press/10000"
+
+pair_style eam/alloy
+pair_coeff * * Mishin-Ni-Al-2009.eam.alloy Ni Al
+# pair_style lj/cut 10 
+# pair_coeff * * 1 1
+
+
+compute z_ini_chunk all chunk/atom bin/1d z lower .5 units box
+fix ini all ave/chunk 1 1 1 z_ini_chunk density/number file num_density_ini.txt
+run 0
+# unfix ini
+# write_data temp.data 
+velocity all create 300 546445435 mom yes rot yes dist gaussian
+
+# compute z_chunk all chunk/atom bin/1d z lower 0.8 units box
+# fix 14 all ave/chunk 25000 1 25000 z_chunk density/number file num_density_$T.txt
+
+# run 0
+neighbor 2 bin
+
+neigh_modify every 10 check yes 
+
+reset_timestep 0
+
+fix 1 all npt temp $T $T $(dt*100) iso 0 0 $(dt*1000) 
+# fix 1 all nve
+
+thermo 1000
+thermo_style custom step temp vol press ke pe density v_sys_press
+
+
+fix temp all print 100 "$(step) $(temp) $(press) ${sys_press} $(vol) $(ke) $(pe) $(density)" file temp.txt screen no title  "step temp press pressGiga vol ke pe density"
+
+fix out_file_1 all print 1000 "$(step) $(temp) $(press) ${sys_press} $(vol) $(ke) $(pe) $(density)" file right_melting_$T.txt screen no title  "step temp press pressGiga vol ke pe density"
+
+dump 3 all custom 1000 right_melting.lammpstrj id type x y z 
+# dump_modify 3 element Ni Al
+run 100000
+write_data after_equil_$T.in
+write_restart after_equil_$T.lmp 
+compute z_chunk all chunk/atom bin/1d z lower 0.7 units box
+fix 14 all ave/chunk 100000 1 100000 z_chunk density/number file num_density_$T.txt
+run 0
+
+

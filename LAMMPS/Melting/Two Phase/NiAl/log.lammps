@@ -1,0 +1,131 @@
+LAMMPS (19 Mar 2020)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (../comm.cpp:94)
+  using 1 OpenMP thread(s) per MPI task
+
+units metal
+boundary p p p
+atom_style atomic
+
+
+# lattice bcc 4
+# region box block 0 1 0 1 0 1 units lattice
+# create_box 1 box
+# create_atoms 2 box
+read_data in.data
+  orthogonal box = (0 0 0) to (2.8879 2.8879 2.8879)
+  1 by 1 by 1 MPI processor grid
+  reading atoms ...
+  2 atoms
+  read_data CPU = 0.162997 secs
+# read_restart after_two_phase_equil_700.lmp
+
+replicate 1 1 16
+  orthogonal box = (0 0 0) to (2.8879 2.8879 46.2064)
+  1 by 1 by 1 MPI processor grid
+  32 atoms
+  replicate CPU = 0.066998 secs
+
+# lattice bcc 2.887902
+# region box block  3 0 3 0 8 units lattice
+# region left_cold block EDGE EDGE EDGE EDGE EDGE 23.5 units box
+# region right_hot block EDGE EDGE EDGE EDGE 23.5 EDGE units box
+# region middle_cold block INF INF INF INF 3 9 units lattice
+
+
+#  2 6 units lattice
+# region hot union 2 left_hot right_hot
+group cold_atoms id  <= 1024
+32 atoms in group cold_atoms
+group hot_atoms  id  >= 1025
+0 atoms in group hot_atoms
+
+# set type 1 mass 1
+variable dt equal 0.001
+variable T equal 500
+variable sys_press equal "press/10000"
+
+pair_style eam/alloy
+pair_coeff * * Mishin-Ni-Al-2009.eam.alloy Ni Al
+# pair_style lj/cut 10
+# pair_coeff * * 1 1
+
+
+compute z_ini_chunk all chunk/atom bin/1d z lower .5 units box
+fix ini all ave/chunk 1 1 1 z_ini_chunk density/number file num_density_ini.txt
+run 0
+Neighbor list info ...
+  update every 1 steps, delay 10 steps, check yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 8.28721
+  ghost atom cutoff = 8.28721
+  binsize = 4.1436, bins = 1 1 12
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair eam/alloy, perpetual
+      attributes: half, newton on
+      pair build: half/bin/atomonly/newton
+      stencil: half/bin/3d/newton
+      bin: standard
+Per MPI rank memory allocation (min/avg/max) = 3.505 | 3.505 | 3.505 Mbytes
+Step Temp E_pair E_mol TotEng Press 
+       0            0   -143.75558            0   -143.75558   -82623.384 
+Loop time of 0 on 1 procs for 0 steps with 32 atoms
+
+0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Output  | 0          | 0          | 0          |   0.0 |  0.00
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 0          |            |       |  0.00
+
+Nlocal:    32 ave 32 max 32 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    1802 ave 1802 max 1802 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    2880 ave 2880 max 2880 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 2880
+Ave neighs/atom = 90
+Neighbor list builds = 0
+Dangerous builds = 0
+# unfix ini
+# write_data temp.data
+# velocity all create 300 546445435 mom yes rot yes dist gaussian
+
+# # compute z_chunk all chunk/atom bin/1d z lower 0.8 units box
+# # fix 14 all ave/chunk 25000 1 25000 z_chunk density/number file num_density_$T.txt
+
+# # run 0
+# neighbor 2 bin
+
+# neigh_modify every 10 check yes
+
+# reset_timestep 0
+
+# # fix 1 all npt temp $T $T $(dt*100) iso 0 0 $(dt*1000)
+# fix 1 all nve
+
+# thermo 1000
+# thermo_style custom step temp vol press ke pe density v_sys_press
+
+
+# fix temp all print 100 "$(step) $(temp) $(press) ${sys_press} $(vol) $(ke) $(pe) $(density)" file temp.txt screen no title  "step temp press pressGiga vol ke pe density"
+
+# fix out_file_1 all print 1000 "$(step) $(temp) $(press) ${sys_press} $(vol) $(ke) $(pe) $(density)" file right_melting_$T.txt screen no title  "step temp press pressGiga vol ke pe density"
+
+# dump 3 all custom 1000 right_melting.lammpstrj id type x y z
+# # dump_modify 3 element Ni Al
+# run 30000
+# write_data after_equil_$T.in
+# write_restart after_equil_$T.lmp
+# compute z_chunk all chunk/atom bin/1d z lower 0.7 units box
+# fix 14 all ave/chunk 30000 1 30000 z_chunk density/number file num_density_$T.txt
+# run 0
+
+
+Total wall time: 0:00:01

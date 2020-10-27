@@ -1,0 +1,43 @@
+units           metal
+boundary        p p p
+atom_style      atomic
+###################### variable setting ########################################
+variable        k loop 100            # define the number of loop
+variable        a equal 2.86977+0.01*$k # define the various lattice constant “a”
+
+###################### BCC Fe simulation cell setting ########################## 
+lattice         fcc $a
+region	box block 0 1 0 1 0 1 units lattice
+create_box      1 box
+create_atoms    1 box
+ 
+###################### Define Interatomic Potential ######################
+pair_style eam/alloy 
+pair_coeff * * Co_PurjaPun_2012.eam.alloy Co   ## read in interatomic potential file
+neighbor    0.3 bin                ## define parameters for neighbor list
+neigh_modify    delay 5               ## define parameters for neighbor list
+
+####################### calculated properties SETTINGS ######################
+compute peratom all pe/atom
+compute eatoms all reduce sum c_peratom
+
+
+####################### thermal properties output on screen ######################
+timestep       1
+thermo 5
+thermo_style custom step pe c_eatoms
+# dump 1 all custom 100 min_bccFe.atom id type xs ys zs c_peratom
+####################### minimize the total energy ######################
+
+min_style       cg
+minimize        1.0e-15 1.0e-15 1000 10000
+variable length equal "lx"
+variable E equal "c_eatoms"
+variable N equal count(all)
+variable E_cohesive equal ${E}/${N}
+print "${length} ${E_cohesive}" append CoFCC.dat
+
+####################### jump into next loop  #######################
+clear
+next            k
+jump            in.lmp
