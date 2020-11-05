@@ -1,0 +1,353 @@
+LAMMPS (19 Mar 2020)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (../comm.cpp:94)
+  using 1 OpenMP thread(s) per MPI task
+package omp 0
+using multi-threaded neighbor list subroutines
+package omp 4
+set 4 OpenMP thread(s) per MPI task
+using multi-threaded neighbor list subroutines
+# units metal
+# dimension 3
+# boundary p p p
+
+
+# lattice fcc 3.5440
+# region box block 0 6 0 6 0 12 units lattice
+# create_box 1 box
+# create_atoms 1 box
+
+
+read_restart after_right_melting_2500.lmp
+  restoring atom style atomic from restart
+  orthogonal box = (0 0 -2.86917) to (21.264 21.264 45.3972)
+  1 by 1 by 2 MPI processor grid
+  pair style eam/alloy/omp stores no restart info
+  1728 atoms
+  read_restart CPU = 0.0902386 secs
+
+# variable P equal 0
+# variable dt equal 0.001
+# variable loopVar loop 21
+
+# print "step temp vol pe" file heating.txt screen no
+
+pair_style eam/alloy
+pair_coeff * * Co_Zhou04.eam.alloy Co
+Reading potential file Co_Zhou04.eam.alloy with DATE: 2018-03-30
+
+# write_data in.data
+
+# lattice bcc 2.887902
+# region box block  3 0 3 0 8 units lattice
+# region left_cold block EDGE EDGE EDGE EDGE EDGE 23.5 units box
+# region right_hot block EDGE EDGE EDGE EDGE 23.5 EDGE units box
+# region middle_cold block INF INF INF INF 3 9 units lattice
+
+
+#  2 6 units lattice
+# region hot union 2 left_hot right_hot
+group cold_atoms id  <= 864
+864 atoms in group cold_atoms
+group hot_atoms  id  >= 865
+864 atoms in group hot_atoms
+
+# set type 1 mass 1
+variable dt equal 0.001
+variable T equal 1600
+variable sys_press equal "press/10000"
+
+timestep $(dt)
+timestep 0.0010000000000000000208
+# pair_style eam/alloy
+# pair_coeff * * Mishin-Ni-Al-2009.eam.alloy Ni Al
+# pair_style lj/cut 10
+# pair_coeff * * 1 1
+
+
+# compute z_ini_chunk all chunk/atom bin/1d z lower 0.87 units box
+# fix ini all ave/chunk 1 1 1 z_ini_chunk density/number file num_density_ini.txt
+# run 0
+# unfix ini
+# write_data temp.data
+
+# velocity all create $T 546445435 mom yes rot yes dist gaussian
+
+
+# velocity hot_atoms create $T 546445435
+
+# compute z_chunk all chunk/atom bin/1d z lower 0.8 units box
+# fix 14 all ave/chunk 25000 1 25000 z_chunk density/number file num_density_$T.txt
+
+# run 0
+neighbor 2 bin
+
+neigh_modify every 10 check yes
+
+reset_timestep 0
+
+fix 1 all npt temp $T $T $(dt*100) z 0 0 $(dt*1000)
+fix 1 all npt temp 1600 $T $(dt*100) z 0 0 $(dt*1000)
+fix 1 all npt temp 1600 1600 $(dt*100) z 0 0 $(dt*1000)
+fix 1 all npt temp 1600 1600 0.10000000000000000555 z 0 0 $(dt*1000)
+fix 1 all npt temp 1600 1600 0.10000000000000000555 z 0 0 1
+Resetting global fix info from restart file:
+  fix style: npt/omp, fix ID: 1
+# fix 1 all nve
+
+thermo 1000
+thermo_style custom step temp vol press ke pe density v_sys_press
+
+
+fix temp all print 100 "$(step) $(temp) $(press) ${sys_press} $(vol) $(ke) $(pe) $(density)" file temp.txt screen no title  "step temp press pressGiga vol ke pe density"
+# fix 132 all momentum 100 linear 1 1 1 angular
+fix out_file_1 all print 1000 "$(step) $(temp) $(press) ${sys_press} $(vol) $(ke) $(pe) $(density)" file right_melting_$T_.txt screen no title  "step temp press pressGiga vol ke pe density"
+fix out_file_1 all print 1000 "$(step) $(temp) $(press) ${sys_press} $(vol) $(ke) $(pe) $(density)" file right_melting_1600_.txt screen no title  "step temp press pressGiga vol ke pe density"
+
+dump 3 all custom 1000 right_melting_$T_.lammpstrj id type x y z
+dump 3 all custom 1000 right_melting_1600_.lammpstrj id type x y z
+# compute z_chunk all chunk/atom bin/1d z lower 0.87 units box
+# fix 14 all ave/chunk 10000 1 10000 z_chunk density/number file num_density_z_$T.txt
+# dump_modify 3 element Ni Al
+run 100000
+All restart file global fix info was re-assigned
+Last active /omp style is pair_style eam/alloy/omp
+Neighbor list info ...
+  update every 10 steps, delay 10 steps, check yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 7.60354
+  ghost atom cutoff = 7.60354
+  binsize = 3.80177, bins = 6 6 13
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair eam/alloy/omp, perpetual
+      attributes: half, newton on, omp
+      pair build: half/bin/atomonly/newton/omp
+      stencil: half/bin/3d/newton
+      bin: standard
+Per MPI rank memory allocation (min/avg/max) = 7.361 | 7.368 | 7.375 Mbytes
+Step Temp Volume Press KinEng PotEng Density v_sys_press 
+       0    2584.4058    21823.994    17097.958    576.92277   -6814.7537    7.7484906    1.7097958 
+    1000    1613.3324    21391.211   -5103.4928    360.14786   -7028.6375    7.9052565  -0.51034928 
+    2000    1580.7735    21260.852    1695.8248    352.87967   -7038.6142    7.9537271   0.16958248 
+    3000    1614.1661    21166.097    5322.9456    360.33395   -7043.0461    7.9893337   0.53229456 
+    4000    1637.8819    21204.171   -586.04238    365.62809   -7053.6292    7.9749883 -0.058604238 
+    5000    1580.2086    21146.503    1829.9628    352.75356   -7059.1472    7.9967365   0.18299628 
+    6000    1633.7937     21002.47    6377.3211    364.71547   -7080.0329    8.0515776   0.63773211 
+    7000     1584.805    20964.954    6010.1314    353.77961   -7084.2383    8.0659855   0.60101314 
+    8000     1636.654    20876.399    4406.3142    365.35399    -7122.099    8.1002004   0.44063142 
+    9000    1561.3054    20816.728    4186.8086    348.53374   -7138.5872    8.1234194   0.41868086 
+   10000    1609.2948    20563.716    16713.421    359.24653    -7172.697    8.2233684    1.6713421 
+   11000    1584.0141    20479.603     19908.13    353.60307   -7187.9391     8.257143     1.990813 
+   12000     1607.566      20581.6    15210.005     358.8606   -7172.2266    8.2162229    1.5210005 
+   13000    1621.2041    20499.386    16636.931    361.90508   -7197.0281    8.2491748    1.6636931 
+   14000    1600.5935    20425.754    19206.728    357.30411   -7213.7366    8.2789116    1.9206728 
+   15000    1612.3117    20499.035    14829.542    359.91999   -7201.1549    8.2493158    1.4829542 
+   16000     1630.106    20576.068    11330.585    363.89225   -7190.4235     8.218432    1.1330585 
+   17000    1631.1748    20565.251    10919.487    364.13085   -7195.9326    8.2227546    1.0919487 
+   18000    1600.6144    20466.676    15363.241    357.30879   -7208.4625    8.2623585    1.5363241 
+   19000    1617.3565    20457.489    17045.385    361.04617   -7206.8186    8.2660688    1.7045385 
+   20000    1548.9775    20444.899    15772.684    345.78176    -7214.998    8.2711591    1.5772684 
+   21000    1592.0504     20538.74    10839.762    355.39703   -7203.5423    8.2333684    1.0839762 
+   22000    1619.0614    20526.198    13551.632    361.42674   -7198.9619    8.2383991    1.3551632 
+   23000    1583.3304    20432.645    18192.164    353.45045   -7208.4002    8.2761194    1.8192164 
+   24000    1604.0586    20529.157    13479.828    358.07764   -7197.0061    8.2372117    1.3479828 
+   25000    1575.0526    20445.719    18128.442    351.60258   -7204.6854    8.2708274    1.8128442 
+   26000    1592.8496    20414.743    19339.083    355.57542   -7211.1422    8.2833771    1.9339083 
+   27000    1553.9011    20506.643     14139.59    346.88086   -7200.9787    8.2462552     1.413959 
+   28000    1610.7673    20485.936    15212.864    359.57524   -7205.8772    8.2545905    1.5212864 
+   29000    1574.0816    20499.788    17129.502    351.38581   -7191.1309    8.2490129    1.7129502 
+   30000    1627.7425    20396.499    21452.312    363.36465   -7210.0532    8.2907864    2.1452312 
+   31000    1638.3948    20458.863    19989.429    365.74258   -7192.9216    8.2655139    1.9989429 
+   32000    1632.1512    20496.756    15815.526    364.34881    -7199.045    8.2502329    1.5815526 
+   33000    1624.8583     20486.94    15440.073    362.72081   -7203.3531    8.2541859    1.5440073 
+   34000    1562.4149    20451.339     20740.15    348.78142   -7191.0975    8.2685547     2.074015 
+   35000    1555.8261    20449.004     18480.99     347.3106   -7204.1566    8.2694988     1.848099 
+   36000    1536.9777    20533.774    10825.263    343.10302   -7204.7247    8.2353597    1.0825263 
+   37000    1593.3854    20575.604     9294.493    355.69504   -7196.2813    8.2186173    0.9294493 
+   38000    1649.7728    20475.405    18045.134    368.28253    -7198.279     8.258836    1.8045134 
+   39000    1606.7307    20416.465    19325.563    358.67415   -7214.3034    8.2826786    1.9325563 
+   40000    1574.2696    20453.608    15543.874    351.42778   -7213.7475    8.2676372    1.5543874 
+   41000      1635.59    20531.906    10522.921    365.11647   -7208.5886     8.236109    1.0522921 
+   42000    1609.9624    20472.728    14798.785    359.39556   -7210.4139     8.259916    1.4798785 
+   43000     1563.947    20547.266    7849.4524    349.12343   -7210.2096    8.2299522   0.78494524 
+   44000    1579.4404    20494.315    12849.743    352.58206   -7211.4816    8.2512155    1.2849743 
+   45000    1601.2998     20432.17    17498.216    357.46178   -7214.0437    8.2763118    1.7498216 
+   46000    1627.7898    20460.955    18275.701    363.37521   -7200.5213    8.2646688    1.8275701 
+   47000     1628.367     20453.24    18625.502    363.50407   -7202.8357    8.2677862    1.8625502 
+   48000    1576.9379    20536.633    12862.179    352.02342   -7195.6485    8.2342133    1.2862179 
+   49000    1610.7425    20447.401     19020.43    359.56971   -7201.4923    8.2701472     1.902043 
+   50000    1614.9925    20433.613    20949.926    360.51844   -7200.0951    8.2757274    2.0949926 
+   51000    1595.0238    20436.868    19696.331    356.06079   -7201.4089    8.2744095    1.9696331 
+   52000    1627.2955    20386.539    23809.463    363.26488   -7204.1938    8.2948367    2.3809463 
+   53000    1600.5533    20430.482    19734.523    357.29515    -7205.899    8.2769956    1.9734523 
+   54000    1588.3056    20484.651    15707.207    354.56107    -7202.419    8.2551083    1.5707207 
+   55000    1637.1424    20471.282    16640.233    365.46302    -7205.425    8.2604994    1.6640233 
+   56000    1567.9912    20500.098    13515.656    350.02623   -7206.2124    8.2488882    1.3515656 
+   57000    1580.8171    20505.579    12068.168    352.88938   -7209.1922    8.2466831    1.2068168 
+   58000    1593.7831    20462.632    14515.412    355.78382   -7216.1519    8.2639911    1.4515412 
+   59000    1657.3387    20467.756    16536.962    369.97149   -7209.5616    8.2619226    1.6536962 
+   60000     1652.155    20396.394    20381.738    368.81431   -7216.8336    8.2908289    2.0381738 
+   61000    1655.4992    20472.478    16153.126    369.56084     -7208.13     8.260017    1.6153126 
+   62000    1604.6181    20391.346    20073.834    358.20253   -7216.9148    8.2928815    2.0073834 
+   63000    1605.6757     20488.75    15071.392    358.43863   -7203.2555    8.2534566    1.5071392 
+   64000    1555.5479    20595.236    10418.639     347.2485   -7186.2185    8.2107829    1.0418639 
+   65000    1603.1355    20518.593    13553.099    357.87157    -7199.342    8.2414526    1.3553099 
+   66000    1574.5774    20530.136    11838.497    351.49648   -7201.4154    8.2368189    1.1838497 
+   67000    1574.9765    20517.363    10416.136    351.58558   -7212.9726    8.2419466    1.0416136 
+   68000    1578.1702    20531.078    13672.704    352.29851   -7195.0603     8.236441    1.3672704 
+   69000    1574.7428    20494.034    17445.311     351.5334   -7193.0818    8.2513289    1.7445311 
+   70000    1627.2208     20420.16    18003.263     363.2482   -7218.3938    8.2811795    1.8003263 
+   71000    1587.1923    20455.063    14866.161    354.31254    -7214.014    8.2670494    1.4866161 
+   72000    1581.3119     20574.05    8744.2114    352.99985   -7199.3665     8.219238   0.87442114 
+   73000    1597.0752    20466.663    15873.887    356.51872   -7204.6956    8.2623637    1.5873887 
+   74000    1627.0611    20508.506     14777.63    363.21255   -7199.6603    8.2455063     1.477763 
+   75000    1627.7152    20522.548    14312.068    363.35856   -7198.2243    8.2398643    1.4312068 
+   76000    1613.7066    20543.178    11949.329    360.23138    -7195.994    8.2315898    1.1949329 
+   77000    1579.5137    20453.691    15717.709    352.59844   -7214.1721    8.2676037    1.5717709 
+   78000    1575.7288    20492.407    14734.448    351.75352   -7203.3948     8.251984    1.4734448 
+   79000    1623.9956    20573.414    9045.9331    362.52822    -7200.133    8.2194922   0.90459331 
+   80000    1650.3221    20499.991    15353.586    368.40514   -7201.6128    8.2489311    1.5353586 
+   81000     1614.047    20487.462    15727.249    360.30738   -7203.9307    8.2539757    1.5727249 
+   82000    1572.1342    20475.161    11964.195    350.95108   -7220.7054    8.2589345    1.1964195 
+   83000    1573.5606    20421.489    20367.549    351.26951   -7204.8438    8.2806408    2.0367549 
+   84000    1623.4526    20543.372    10055.084      362.407   -7206.4944    8.2315119    1.0055084 
+   85000    1583.0437    20430.179    17867.051    353.38643   -7211.9764    8.2771184    1.7867051 
+   86000    1623.9407    20422.909    21951.702    362.51596   -7196.9789    8.2800651    2.1951702 
+   87000    1585.5248    20439.259    22132.329    353.94029    -7194.907    8.2734417    2.2132329 
+   88000    1540.3329    20412.523    17668.846    343.85201   -7216.4063     8.284278    1.7668846 
+   89000    1589.0617    20487.405     13598.22    354.72986   -7210.3267    8.2539985     1.359822 
+   90000    1509.3721     20531.01    9739.0926    336.94056   -7206.2002    8.2364683   0.97390926 
+   91000    1630.7326    20398.727    21144.302    364.03215   -7210.3832    8.2898809    2.1144302 
+   92000    1646.3046    20511.958    15353.216    367.50831   -7198.7867    8.2441187    1.5353216 
+   93000    1591.9669     20429.41    18889.824    355.37839   -7207.9962    8.2774303    1.8889824 
+   94000    1565.5764    20527.126    10942.832    349.48717   -7204.7912    8.2380269    1.0942832 
+   95000    1606.5903     20545.54    9365.4576    358.64279   -7208.5018    8.2306434   0.93654576 
+   96000    1598.1596     20526.31    13279.051    356.76079   -7197.4505    8.2383542    1.3279051 
+   97000    1621.1911    20465.832    17726.997    361.90216   -7201.6395    8.2626991    1.7726997 
+   98000    1571.9284    20356.565    22217.532    350.90515   -7217.6938    8.3070504    2.2217532 
+   99000    1655.6819    20481.523     13288.53    369.60163   -7214.7123    8.2563689     1.328853 
+  100000    1569.1183     20449.67    16724.618    350.27783   -7210.6417    8.2692294    1.6724618 
+Loop time of 721.163 on 8 procs for 100000 steps with 1728 atoms
+
+Performance: 11.981 ns/day, 2.003 hours/ns, 138.665 timesteps/s
+85.6% CPU use with 2 MPI tasks x 4 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 456.52     | 458.57     | 460.62     |   9.6 | 63.59
+Neigh   | 5.921      | 6.0311     | 6.1411     |   4.5 |  0.84
+Comm    | 43.191     | 44.895     | 46.6       |  25.4 |  6.23
+Output  | 0.53111    | 0.55168    | 0.57226    |   2.8 |  0.08
+Modify  | 205.8      | 209.66     | 213.53     |  26.7 | 29.07
+Other   |            | 1.45       |            |       |  0.20
+
+Nlocal:    864 ave 868 max 860 min
+Histogram: 1 0 0 0 0 0 0 0 0 1
+Nghost:    3327 ave 3358 max 3296 min
+Histogram: 1 0 0 0 0 0 0 0 0 1
+Neighs:    66853.5 ave 68787 max 64920 min
+Histogram: 1 0 0 0 0 0 0 0 0 1
+
+Total # of neighbors = 133707
+Ave neighs/atom = 77.3767
+Neighbor list builds = 1597
+Dangerous builds = 0
+write_data after_right_melting_$T_.in
+write_data after_right_melting_1600_.in
+Last active /omp style is pair_style eam/alloy/omp
+write_restart after_right_melting_$T_.lmp
+write_restart after_right_melting_1600_.lmp
+Last active /omp style is pair_style eam/alloy/omp
+compute z_chunk all chunk/atom bin/1d z lower 0.87 units box
+fix 14 all ave/chunk 100000 1 100000 z_chunk density/number file num_density_z_$T_.txt
+fix 14 all ave/chunk 100000 1 100000 z_chunk density/number file num_density_z_1600_.txt
+run 0
+Last active /omp style is pair_style eam/alloy/omp
+Per MPI rank memory allocation (min/avg/max) = 7.491 | 7.499 | 7.506 Mbytes
+Step Temp Volume Press KinEng PotEng Density v_sys_press 
+  100000    1569.1183     20449.67    16724.618    350.27783   -7210.6417    8.2692294    1.6724618 
+Loop time of 2.70002e-06 on 8 procs for 0 steps with 1728 atoms
+
+0.0% CPU use with 2 MPI tasks x 4 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Output  | 0          | 0          | 0          |   0.0 |  0.00
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 2.7e-06    |            |       |100.00
+
+Nlocal:    864 ave 868 max 860 min
+Histogram: 1 0 0 0 0 0 0 0 0 1
+Nghost:    3327 ave 3358 max 3296 min
+Histogram: 1 0 0 0 0 0 0 0 0 1
+Neighs:    66853.5 ave 68787 max 64920 min
+Histogram: 1 0 0 0 0 0 0 0 0 1
+
+Total # of neighbors = 133707
+Ave neighs/atom = 77.3767
+Neighbor list builds = 0
+Dangerous builds = 0
+
+
+
+
+
+
+# neighbor 2 bin
+# neigh_modify every 10 check yes
+
+# thermo 1000
+# thermo_style custom step temp vol press ke pe density
+
+
+
+# # fix 2 all npt temp 300 300 $(dt*100) iso 0 0 $(dt*1000)
+# # run 30000
+# # unfix 2
+
+
+
+
+
+# # dump_modify 1 append yes
+# # dump 3 all custom 10000 traj_npt_new.lammpstrj id type x y z
+
+
+# label ensemble
+
+
+
+# variable T equal 2500-${loopVar}*100
+# velocity all create $T 123123
+# reset_timestep 0
+# fix 1 all npt temp $T $T $(dt*100) iso 0 0 $(dt*1000)
+# print """
+# <--------------------------------------------------------------------->
+# <------------------ Equilibrating at temperature $T ----------------->
+# <--------------------------------------------------------------------->
+# """
+# run 150000
+
+# fix out_file_1 all print 1000 "$(step) $(temp) $(press) $(vol) $(ke) $(pe) $(density)" file one_phase_cooling_$T.txt screen no title  "step temp press vol ke pe density"
+# # dump 3 all custom 1000 traj_npt_new.lammpstrj id type x y z
+# run 50000
+
+# unfix out_file_1
+# unfix 1
+# # # clear
+# # write_data after_cooling_$T.in
+# # write_restart after_cooling_$T.lmp
+# next loopVar
+# # # thermo_modify flush yes
+# jump in.lmp ensemble
+# # jump ensemble
+
+
+# # write_data after_cooling_.in
+# # write_restart after_cooling_.lmp
+
+Total wall time: 0:12:01
