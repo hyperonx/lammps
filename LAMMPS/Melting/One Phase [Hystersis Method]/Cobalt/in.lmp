@@ -83,7 +83,7 @@ unfix 1
 next loopVar
 # # thermo_modify flush yes
 jump in.lmp ensemble
-# jump ensemble
+
 
 
 write_data after_cooling_$T_.in
