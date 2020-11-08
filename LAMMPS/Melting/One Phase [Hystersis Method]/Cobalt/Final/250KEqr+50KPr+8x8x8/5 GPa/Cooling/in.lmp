@@ -1,0 +1,112 @@
+# units metal
+# dimension 3
+# boundary p p p
+
+
+# lattice fcc 3.5440 
+# region box block 0 8 0 8 0 8 units lattice
+# create_box 1 box
+# create_atoms 1 box 
+
+read_restart after_heating_press_50000_2600.lmp
+
+variable P equal 50000
+variable dt equal 0.001
+variable loopVar loop 6
+variable sys_press equal "press/10000"
+variable sim string "cooling"
+#variable temp_word equal "heating"
+
+# print "step temp vol pe" file heating.txt screen no 
+
+pair_style eam/alloy
+pair_coeff * * Co_Zhou04.eam.alloy Co
+
+
+
+
+neighbor 2 bin
+neigh_modify every 10 check yes
+
+thermo 1000
+thermo_style custom step temp vol press ke pe density
+
+timestep $(dt)
+
+# fix 2 all npt temp 300 300 $(dt*100) iso 0 0 $(dt*1000)
+# run 30000
+# unfix 2
+
+ 
+
+
+
+# dump_modify 1 append yes 
+# dump 3 all custom 10000 traj_npt_new.lammpstrj id type x y z 
+
+# velocity all create 1900 123123
+
+print """
+
+yo aagadi
+
+"""
+label ensemble
+
+print """
+
+Label pachadi solti, hos garam.
+
+"""
+variable T equal 1700-${loopVar}*100
+#variable T equal 1250
+# velocity all create 1200 123123
+reset_timestep 0
+fix 1 all npt temp $T $T $(dt*100) iso $P $P $(dt*1000)
+print """
+<--------------------------------------------------------------------->
+<------------------ Equilibrating at temperature $T ----------------->
+<--------------------------------------------------------------------->
+"""
+fix temp all print 1000 "$(step) $(temp) $(press) ${sys_press} $(vol) $(ke) $(pe) $(density)" file temp_${sim}.txt screen no title  "step temp press pressGiga vol ke pe density"
+run 250000
+
+
+# fix 132 all momentum 100 linear 1 1 1 angular
+fix out_file_1 all print 1000 "$(step) $(temp) $(press) ${sys_press} $(vol) $(ke) $(pe) $(density)" file one_phase_${sim}_press_$P_$T_.txt screen no title  "step temp press pressGiga vol ke pe density"
+
+# dump 3 all custom 1000 traj_npt_new.lammpstrj id type x y z 
+run 50000
+
+unfix temp
+unfix out_file_1
+
+
+write_data after_${sim}_press_$P_$T.in
+write_restart after_${sim}_press_$P_$T.lmp 
+next loopVar
+jump in.lmp ensemble
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
