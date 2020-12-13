@@ -1,149 +1,109 @@
-# units metal
-# dimension 3
-# boundary p p p
+units metal
+dimension 3
+boundary p p p
 
+lattice fcc 3.5440 
+region box block 0 7 0 7 0 7 units lattice
+create_box 1 box
 
-# lattice fcc 3.5440 
-# region box block 0 6 0 6 0 12 units lattice
-# create_box 1 box
-# create_atoms 1 box 
+read_data solid_400.in add append shift 0 0 3
 
+read_data liquid_6000.in add append shift 0 0 33
 
-read_restart after_right_melting_2500.lmp
+# read_restart file flag
+variable P equal 50000
+variable dt equal 0.001
 
-# variable P equal 0
-# variable dt equal 0.001
-# variable loopVar loop 21
+variable sys_press equal "press/10000"
+variable sim string "heating"
+#variable temp_word equal "heating"
 
 # print "step temp vol pe" file heating.txt screen no 
 
 pair_style eam/alloy
 pair_coeff * * Co_Zhou04.eam.alloy Co
 
-# write_data in.data
-
-# lattice bcc 2.887902
-# region box block  3 0 3 0 8 units lattice
-# region left_cold block EDGE EDGE EDGE EDGE EDGE 23.5 units box
-# region right_hot block EDGE EDGE EDGE EDGE 23.5 EDGE units box
-# region middle_cold block INF INF INF INF 3 9 units lattice
 
 
-#  2 6 units lattice
-# region hot union 2 left_hot right_hot
-group cold_atoms id  <= 864
-group hot_atoms  id  >= 865
+write_data ini_two_phase.in
+neighbor 2 bin
+neigh_modify every 10 check yes
 
-# set type 1 mass 1 
-variable dt equal 0.001
-variable T equal 1600
-variable sys_press equal "press/10000"
+# compute myPress all pressure "press/10000"
+thermo 500
+thermo_style custom step temp vol press v_sys_press ke pe density
+# thermo_modify press myPress
 
 timestep $(dt)
-# pair_style eam/alloy
-# pair_coeff * * Mishin-Ni-Al-2009.eam.alloy Ni Al
-# pair_style lj/cut 10 
-# pair_coeff * * 1 1
+variable T equal 1950
+# write_data mixed.in
+# run 0 
+velocity all create $T 89347
 
+# print """
 
-# compute z_ini_chunk all chunk/atom bin/1d z lower 0.87 units box
-# fix ini all ave/chunk 1 1 1 z_ini_chunk density/number file num_density_ini.txt
-# run 0
-# unfix ini
-# write_data temp.data 
+# yo aagadi
 
-# velocity all create $T 546445435 mom yes rot yes dist gaussian
-
-
-# velocity hot_atoms create $T 546445435 
-
-# compute z_chunk all chunk/atom bin/1d z lower 0.8 units box
-# fix 14 all ave/chunk 25000 1 25000 z_chunk density/number file num_density_$T.txt
-
-# run 0
-neighbor 2 bin
-
-neigh_modify every 10 check yes 
-
-reset_timestep 0
-
-fix 1 all npt temp $T $T $(dt*100) z 0 0 $(dt*1000) 
-# fix 1 all nve
-
-thermo 1000
-thermo_style custom step temp vol press ke pe density v_sys_press
-
-
-fix temp all print 100 "$(step) $(temp) $(press) ${sys_press} $(vol) $(ke) $(pe) $(density)" file temp.txt screen no title  "step temp press pressGiga vol ke pe density"
-# fix 132 all momentum 100 linear 1 1 1 angular
-fix out_file_1 all print 1000 "$(step) $(temp) $(press) ${sys_press} $(vol) $(ke) $(pe) $(density)" file right_melting_$T_.txt screen no title  "step temp press pressGiga vol ke pe density"
-
-dump 3 all custom 1000 right_melting_$T_.lammpstrj id type x y z 
-# compute z_chunk all chunk/atom bin/1d z lower 0.87 units box
-# fix 14 all ave/chunk 10000 1 10000 z_chunk density/number file num_density_z_$T.txt
-# dump_modify 3 element Ni Al
-run 100000
-write_data after_right_melting_$T_.in
-write_restart after_right_melting_$T_.lmp 
-compute z_chunk all chunk/atom bin/1d z lower 0.87 units box
-fix 14 all ave/chunk 100000 1 100000 z_chunk density/number file num_density_z_$T_.txt
-run 0
-
-
-
-
-
-
-# neighbor 2 bin
-# neigh_modify every 10 check yes
-
-# thermo 1000
-# thermo_style custom step temp vol press ke pe density
-
-
-
-# # fix 2 all npt temp 300 300 $(dt*100) iso 0 0 $(dt*1000)
-# # run 30000
-# # unfix 2
-
- 
-
-
-
-# # dump_modify 1 append yes 
-# # dump 3 all custom 10000 traj_npt_new.lammpstrj id type x y z 
-
-
+# """
 # label ensemble
 
-
-
-# variable T equal 2500-${loopVar}*100
-# velocity all create $T 123123
-# reset_timestep 0
-# fix 1 all npt temp $T $T $(dt*100) iso 0 0 $(dt*1000)
 # print """
-# <--------------------------------------------------------------------->
-# <------------------ Equilibrating at temperature $T ----------------->
-# <--------------------------------------------------------------------->
+
+# Label pachadi solti, hos garam.
+
 # """
-# run 150000
+# # variable T equal 3700+${loopVar}*100
+# variable T equal 2000
 
-# fix out_file_1 all print 1000 "$(step) $(temp) $(press) $(vol) $(ke) $(pe) $(density)" file one_phase_cooling_$T.txt screen no title  "step temp press vol ke pe density"
-# # dump 3 all custom 1000 traj_npt_new.lammpstrj id type x y z 
-# run 50000
 
+# reset_timestep 0
+fix 1 all npt temp $T $T $(dt*100) iso $P $P $(dt*1000)
+print """
+<--------------------------------------------------------------------->
+<------------------ Equilibrating at temperature $T ----------------->
+<--------------------------------------------------------------------->
+"""
+
+fix temp all print 1000 "$(step) $(temp) $(press) ${sys_press} $(vol) $(ke) $(pe) $(density)" file temp_two_phase_.txt screen no title  "step temp press pressGiga vol ke pe density"
+dump 3 all custom 1000 two_phase_press_$P_$TK_.lammpstrj id type x y z 
+run 2000
+
+
+# # fix 132 all momentum 100 linear 1 1 1 angular
+# fix out_file_1 all print 1000 "$(step) $(temp) $(press) ${sys_press} $(vol) $(ke) $(pe) $(density)" file two_phase_press_$P_$T_.txt screen no title  "step temp press pressGiga vol ke pe density"
+
+
+# run 10000
+
+# unfix temp
 # unfix out_file_1
-# unfix 1 
-# # # clear
-# # write_data after_cooling_$T.in
-# # write_restart after_cooling_$T.lmp 
+
+
+write_data two_phase_press_$P_$T_.in
+write_restart two_phase_press_$P_$T_ini.lmp 
 # next loopVar
-# # # thermo_modify flush yes
 # jump in.lmp ensemble
-# # jump ensemble
 
 
-# # write_data after_cooling_.in
-# # write_restart after_cooling_.lmp 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

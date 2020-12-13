@@ -1,0 +1,8 @@
+read_restart two_phase_press_0_400_ini.lmp
+pair_style eam/alloy
+pair_coeff * * Co_Zhou04.eam.alloy Co
+comm_modify cutoff 20.0
+compute myRDF all rdf 100 cutoff 10
+# compute myRDF all rdf 50 
+fix myrdf all ave/time 300000 1 300000 c_myRDF[*] file rdf_cutoff_10_press_0_400.rdf mode vector
+run 0

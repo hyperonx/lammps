@@ -1,0 +1,21 @@
+{
+    "lines.linewidth": 2.0,
+    "patch.linewidth": 0.5,
+    "legend.fancybox": false,
+    "axes.labelsize": "large",
+    "axes.labelcolor":"black",
+    "axes.grid": false,
+    "axes.facecolor":"white",
+    "axes.edgecolor": "black",
+    "axes.titlesize": "x-large",
+    "figure.figsize": [11.8, 7],
+    "font.size":16,
+    "xtick.major.size" : 3.5,
+    "ytick.major.size" : 3.5,
+      "xtick.labelsize" : 12,
+    "xtick.color":"black",
+    "ytick.color":"black",
+    "ytick.labelsize" : 12,
+    "figure.edgecolor": "black",
+     "figure.facecolor": "white"
+  }

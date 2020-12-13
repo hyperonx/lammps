@@ -1,0 +1,107 @@
+units metal
+dimension 3
+boundary p p p
+
+
+lattice fcc 3.5440 
+region box block 0 6 0 6 0 14 units lattice
+create_box 1 box
+create_atoms 1 box 
+
+# read_restart after_heating_press_800000_2500.lmp
+
+variable P equal 0
+# variable dt equal 0.001
+# variable loopVar loop 6
+variable sys_press equal "press/10000"
+variable sim string "heating"
+#variable temp_word equal "heating"
+
+# print "step temp vol pe" file heating.txt screen no 
+
+pair_style eam/alloy
+pair_coeff * * Co_Zhou04.eam.alloy Co
+
+
+
+
+neighbor 2 bin
+neigh_modify every 10 check yes
+
+thermo 1000
+thermo_style custom step temp vol press ke pe density
+
+timestep $(dt)
+
+
+
+velocity all create 400 123123
+
+print """
+
+yo aagadi
+
+"""
+label ensemble
+
+print """
+
+Label pachadi solti, hos garam.
+
+"""
+# variable T equal 3700+${loopVar}*100
+variable T equal 400
+
+
+reset_timestep 0
+fix 1 all npt temp $T $T $(dt*100) iso $P $P $(dt*1000)
+print """
+<--------------------------------------------------------------------->
+<------------------ Equilibrating at temperature $T ----------------->
+<--------------------------------------------------------------------->
+"""
+fix temp all print 1000 "$(step) $(temp) $(press) ${sys_press} $(vol) $(ke) $(pe) $(density)" file temp_two_phase.txt screen no title  "step temp press pressGiga vol ke pe density"
+run 250000
+
+
+# fix 132 all momentum 100 linear 1 1 1 angular
+fix out_file_1 all print 1000 "$(step) $(temp) $(press) ${sys_press} $(vol) $(ke) $(pe) $(density)" file two_phase_press_$P_$T_.txt screen no title  "step temp press pressGiga vol ke pe density"
+
+dump 3 all custom 1000 traj_npt_ini_$P_$T.lammpstrj id type x y z vx vy vz
+
+compute myRDF all rdf 50
+fix myrdf all ave/time 300000 1 300000 c_myRDF[*] file tmp.rdf mode vector
+run 50000
+
+unfix temp
+unfix out_file_1
+unfix myrdf
+
+write_data two_phase_press_$P_$T_ini.in
+write_restart two_phase_press_$P_$T_ini.lmp 
+# next loopVar
+# jump in.lmp ensemble
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
