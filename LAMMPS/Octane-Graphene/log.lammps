@@ -1,0 +1,14 @@
+LAMMPS (29 Oct 2020)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:94)
+  using 1 OpenMP thread(s) per MPI task
+package omp 0
+using multi-threaded neighbor list subroutines
+package omp 16
+set 16 OpenMP thread(s) per MPI task
+using multi-threaded neighbor list subroutines
+variable file_name string "npt_octane_ua_graphene.dat"
+variable log_file_name string "npt_octane_ua_graphene.log"
+variable dump_file_name string "npt_octane_ua_graphene.lammpstrj"
+
+log ${log_file_name}
+log npt_octane_ua_graphene.log

@@ -1,0 +1,1086 @@
+<?xml version="1.0" encoding="latin1"?>
+<!DOCTYPE XSD []>
+<XSD Version="19.1" WrittenBy="Materials Studio 19.1">
+	<AtomisticTreeRoot ID="1" NumProperties="62" HasProperties="1" NumChildren="2">
+		<Property Name="AngleAxisType" DefinedOn="AngleBetweenPlanesBender" Type="Enumerated"/>
+		<Property Name="AngleEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="BeadDocumentID" DefinedOn="MesoMoleculeSet" Type="String"/>
+		<Property Name="BendBendEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="BendTorsionBendEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="BondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="EFGAsymmetry" DefinedOn="Atom" Type="Double"/>
+		<Property Name="EFGQuadrupolarCoupling" DefinedOn="Atom" Type="Double"/>
+		<Property Name="ElectrostaticEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="FaceMillerIndex" DefinedOn="GrowthFace" Type="MillerIndex"/>
+		<Property Name="FacetTransparency" DefinedOn="GrowthFace" Type="Float"/>
+		<Property Name="FermiLevel" DefinedOn="ScalarFieldBase" Type="Double"/>
+		<Property Name="Force" DefinedOn="Matter" Type="CoDirection"/>
+		<Property Name="FrameFilter" DefinedOn="Trajectory" Type="String"/>
+		<Property Name="HarmonicForceConstant" DefinedOn="HarmonicRestraint" Type="Double"/>
+		<Property Name="HarmonicMinimum" DefinedOn="HarmonicRestraint" Type="Double"/>
+		<Property Name="HydrogenBondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ImportOrder" DefinedOn="Bondable" Type="UnsignedInteger"/>
+		<Property Name="InversionEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="IsBackboneAtom" DefinedOn="Atom" Type="Boolean"/>
+		<Property Name="IsChiralCenter" DefinedOn="Atom" Type="Boolean"/>
+		<Property Name="IsOutOfPlane" DefinedOn="Atom" Type="Boolean"/>
+		<Property Name="IsRepeatArrowVisible" DefinedOn="ElectrodeWire" Type="Boolean"/>
+		<Property Name="KineticEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="LineExtentPadding" DefinedOn="BestFitLineMonitor" Type="Double"/>
+		<Property Name="LinkageGroupName" DefinedOn="Linkage" Type="String"/>
+		<Property Name="ListIdentifier" DefinedOn="PropertyList" Type="String"/>
+		<Property Name="NMRShielding" DefinedOn="Atom" Type="Double"/>
+		<Property Name="NonBondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="NormalMode" DefinedOn="Bondable" Type="Direction"/>
+		<Property Name="NormalModeFrequency" DefinedOn="Bondable" Type="Double"/>
+		<Property Name="NumScanSteps" DefinedOn="LinearScan" Type="UnsignedInteger"/>
+		<Property Name="OrbitalCutoffRadius" DefinedOn="Bondable" Type="Double"/>
+		<Property Name="PlaneExtentPadding" DefinedOn="BestFitPlaneMonitor" Type="Double"/>
+		<Property Name="PotentialEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="QuantizationValue" DefinedOn="ScalarFieldBase" Type="Double"/>
+		<Property Name="RelativeVelocity" DefinedOn="Matter" Type="Direction"/>
+		<Property Name="RepeatArrowScale" DefinedOn="ElectrodeWire" Type="Float"/>
+		<Property Name="RestraintEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ScanEnd" DefinedOn="LinearScan" Type="Double"/>
+		<Property Name="ScanStart" DefinedOn="LinearScan" Type="Double"/>
+		<Property Name="SeparatedStretchStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ServerDipoleMoment" DefinedOn="MatterGroupProperties" Type="Direction"/>
+		<Property Name="SimulationStep" DefinedOn="Trajectory" Type="Integer"/>
+		<Property Name="SpinQuantizationDirection" DefinedOn="Atom" Type="Direction"/>
+		<Property Name="Stiffness" DefinedOn="SymmetryMatterHessian" Type="Matrix6x6"/>
+		<Property Name="StretchBendStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="StretchStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="StretchTorsionStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="Temperature" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ThreeBodyNonBondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TorsionBendBendEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TorsionEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TorsionStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TotalEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="Units" DefinedOn="ScalarFieldBase" Type="String"/>
+		<Property Name="ValenceCrossTermEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ValenceDiagonalEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="VanDerWaalsEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="_ServerAtomNames" DefinedOn="IndexProvider" Type="String"/>
+		<Property Name="_Stress" DefinedOn="MatterSymmetrySystem" Type="Matrix"/>
+		<Property Name="_TrajectoryStress" DefinedOn="MatterSymmetrySystem" Type="Matrix"/>
+		<Properties TotalEnergy="0" KineticEnergy="0" PotentialEnergy="0" ValenceDiagonalEnergy="0" BondEnergy="0" AngleEnergy="0" TorsionEnergy="0" InversionEnergy="0" ValenceCrossTermEnergy="0" StretchStretchEnergy="0" StretchBendStretchEnergy="0" StretchTorsionStretchEnergy="0" SeparatedStretchStretchEnergy="0" TorsionStretchEnergy="0" BendBendEnergy="0" TorsionBendBendEnergy="0" BendTorsionBendEnergy="0" NonBondEnergy="0" HydrogenBondEnergy="0" VanDerWaalsEnergy="0" ElectrostaticEnergy="0" RestraintEnergy="0" ThreeBodyNonBondEnergy="0" Temperature="1"/>
+		<SymmetrySystem ID="2" HasProperties="1" Mapping="3" Children="ci(501):501+4" Normalized="1" OverspecificationTolerance="0.01" PeriodicDisplayType="Original" HasSymmetryHistory="1">
+			<Properties _TrajectoryStress="0,0,0,0,0,0,0,0,0"/>
+			<MappingSet ID="505" SymmetryDefinition="4" ActiveSystem="2" NumFamilies="1" OwnsTotalConstraintMapping="1" TotalConstraintMapping="3">
+				<MappingFamily ID="506" NumImageMappings="0">
+					<IdentityMapping ID="507" Element="1,0,0,0,0,1,0,0,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(1000):508,5,509,6,510,7,511,8,512,9,513,10,514,11,515,12,516,13,517,14,518,15,519,16,520,17,521,18,522,19,523,20,524,21,525,22,526,23,527,24,528,25,529,26,530,27,531,28,532,29,533,30,534,31,535,32,536,33,537,34,538,35,539,36,540,37,541,38,542,39,543,40,544,41,545,42,546,43,547,44,548,45,549,46,550,47,551,48,552,49,553,50,554,51,555,52,556,53,557,54,558,55,559,56,560,57,561,58,562,59,563,60,564,61,565,62,566,63,567,64,568,65,569,66,570,67,571,68,572,69,573,70,574,71,575,72,576,73,577,74,578,75,579,76,580,77,581,78,582,79,583,80,584,81,585,82,586,83,587,84,588,85,589,86,590,87,591,88,592,89,593,90,594,91,595,92,596,93,597,94,598,95,599,96,600,97,601,98,602,99,603,100,604,101,605,102,606,103,607,104,608,105,609,106,610,107,611,108,612,109,613,110,614,111,615,112,616,113,617,114,618,115,619,116,620,117,621,118,622,119,623,120,624,121,625,122,626,123,627,124,628,125,629,126,630,127,631,128,632,129,633,130,634,131,635,132,636,133,637,134,638,135,639,136,640,137,641,138,642,139,643,140,644,141,645,142,646,143,647,144,648,145,649,146,650,147,651,148,652,149,653,150,654,151,655,152,656,153,657,154,658,155,659,156,660,157,661,158,662,159,663,160,664,161,665,162,666,163,667,164,668,165,669,166,670,167,671,168,672,169,673,170,674,171,675,172,676,173,677,174,678,175,679,176,680,177,681,178,682,179,683,180,684,181,685,182,686,183,687,184,688,185,689,186,690,187,691,188,692,189,693,190,694,191,695,192,696,193,697,194,698,195,699,196,700,197,701,198,702,199,703,200,704,201,705,202,706,203,707,204,708,205,709,206,710,207,711,208,712,209,713,210,714,211,715,212,716,213,717,214,718,215,719,216,720,217,721,218,722,219,723,220,724,221,725,222,726,223,727,224,728,225,729,226,730,227,731,228,732,229,733,230,734,231,735,232,736,233,737,234,738,235,739,236,740,237,741,238,742,239,743,240,744,241,745,242,746,243,747,244,748,245,749,246,750,247,751,248,752,249,753,250,754,251,755,252,756,253,757,254,758,255,759,256,760,257,761,258,762,259,763,260,764,261,765,262,766,263,767,264,768,265,769,266,770,267,771,268,772,269,773,270,774,271,775,272,776,273,777,274,778,275,779,276,780,277,781,278,782,279,783,280,784,281,785,282,786,283,787,284,788,285,789,286,790,287,791,288,792,289,793,290,794,291,795,292,796,293,797,294,798,295,799,296,800,297,801,298,802,299,803,300,804,301,805,302,806,303,807,304,808,305,809,306,810,307,811,308,812,309,813,310,814,311,815,312,816,313,817,314,818,315,819,316,820,317,821,318,822,319,823,320,824,321,825,322,826,323,827,324,828,325,829,326,830,327,831,328,832,329,833,330,834,331,835,332,836,333,837,334,838,335,839,336,840,337,841,338,842,339,843,340,844,341,845,342,846,343,847,344,848,345,849,346,850,347,851,348,852,349,853,350,854,351,855,352,856,353,857,354,858,355,859,356,860,357,861,358,862,359,863,360,864,361,865,362,866,363,867,364,868,365,869,366,870,367,871,368,872,369,873,370,874,371,875,372,876,373,877,374,878,375,879,376,880,377,881,378,882,379,883,380,884,381,885,382,886,383,887,384,888,385,889,386,890,387,891,388,892,389,893,390,894,391,895,392,896,393,897,394,898,395,899,396,900,397,901,398,902,399,903,400,904,401,905,402,906,403,907,404,908,405,909,406,910,407,911,408,912,409,913,410,914,411,915,412,916,413,917,414,918,415,919,416,920,417,921,418,922,419,923,420,924,421,925,422,926,423,927,424,928,425,929,426,930,427,931,428,932,429,933,430,934,431,935,432,936,433,937,434,938,435,939,436,940,437,941,438,942,439,943,440,944,441,945,442,946,443,947,444,948,445,949,446,950,447,951,448,952,449,953,450,954,451,955,452,956,453,957,454,958,455,959,456,960,457,961,458,962,459,963,460,964,461,965,462,966,463,967,464,968,465,969,466,970,467,971,468,972,469,973,470,974,471,975,472,976,473,977,474,978,475,979,476,980,477,981,478,982,479,983,480,984,481,985,482,986,483,987,484,988,485,989,486,990,487,991,488,992,489,993,490,994,491,995,492,996,493,997,494,998,495,999,496,1000,497,1001,498,1002,499,1003,500,1004,501,1005,502,1006,503,1007,504" DefectObjects="4,1008" NumImages="1000" NumDefects="2">
+						<Atom3d ID="508" Mapping="507" Parent="5" UserID="1" DisplayStyle="Ball and Stick" XYZ="0.25568843,0.15834703,0.61744672" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="5" Mapping="507" Parent="2" Children="508" Name="Sketch 1"/>
+						<Atom3d ID="509" Mapping="507" Parent="6" UserID="2" DisplayStyle="Ball and Stick" XYZ="0.14921032,0.91239679,0.15132898" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="6" Mapping="507" Parent="2" Children="509" Name="Sketch 1"/>
+						<Atom3d ID="510" Mapping="507" Parent="7" UserID="3" DisplayStyle="Ball and Stick" XYZ="0.41879994,0.13974252,0.49038726" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="7" Mapping="507" Parent="2" Children="510" Name="Sketch 1"/>
+						<Atom3d ID="511" Mapping="507" Parent="8" UserID="4" DisplayStyle="Ball and Stick" XYZ="0.43883723,0.05288463,0.44535035" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="8" Mapping="507" Parent="2" Children="511" Name="Sketch 1"/>
+						<Atom3d ID="512" Mapping="507" Parent="9" UserID="5" DisplayStyle="Ball and Stick" XYZ="0.15663014,0.81052428,0.19941039" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="9" Mapping="507" Parent="2" Children="512" Name="Sketch 1"/>
+						<Atom3d ID="513" Mapping="507" Parent="10" UserID="6" DisplayStyle="Ball and Stick" XYZ="0.34094989,0.97786427,0.43392834" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="10" Mapping="507" Parent="2" Children="513" Name="Sketch 1"/>
+						<Atom3d ID="514" Mapping="507" Parent="11" UserID="7" DisplayStyle="Ball and Stick" XYZ="0.59721673,0.15851764,0.39067987" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="11" Mapping="507" Parent="2" Children="514" Name="Sketch 1"/>
+						<Atom3d ID="515" Mapping="507" Parent="12" UserID="8" DisplayStyle="Ball and Stick" XYZ="0.20465346,0.10666458,0.14795427" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="12" Mapping="507" Parent="2" Children="515" Name="Sketch 1"/>
+						<Atom3d ID="516" Mapping="507" Parent="13" UserID="9" DisplayStyle="Ball and Stick" XYZ="0.29196036,0.90209925,0.33237076" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="13" Mapping="507" Parent="2" Children="516" Name="Sketch 1"/>
+						<Atom3d ID="517" Mapping="507" Parent="14" UserID="10" DisplayStyle="Ball and Stick" XYZ="0.66272998,0.0781077299999999,0.59337717" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="14" Mapping="507" Parent="2" Children="517" Name="Sketch 1"/>
+						<Atom3d ID="518" Mapping="507" Parent="15" UserID="11" DisplayStyle="Ball and Stick" XYZ="0.29878837,0.84486496,0.29245993" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="15" Mapping="507" Parent="2" Children="518" Name="Sketch 1"/>
+						<Atom3d ID="519" Mapping="507" Parent="16" UserID="12" DisplayStyle="Ball and Stick" XYZ="0.36652112,0.02249485,0.28321275" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="16" Mapping="507" Parent="2" Children="519" Name="Sketch 1"/>
+						<Atom3d ID="520" Mapping="507" Parent="17" UserID="13" DisplayStyle="Ball and Stick" XYZ="0.59749317,0.19117621,0.15737119" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="17" Mapping="507" Parent="2" Children="520" Name="Sketch 1"/>
+						<Atom3d ID="521" Mapping="507" Parent="18" UserID="14" DisplayStyle="Ball and Stick" XYZ="0.36937428,0.08328789,0.11538438" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="18" Mapping="507" Parent="2" Children="521" Name="Sketch 1"/>
+						<Atom3d ID="522" Mapping="507" Parent="19" UserID="15" DisplayStyle="Ball and Stick" XYZ="0.22962362,0.07903335,0.354085390000001" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="19" Mapping="507" Parent="2" Children="522" Name="Sketch 1"/>
+						<Atom3d ID="523" Mapping="507" Parent="20" UserID="16" DisplayStyle="Ball and Stick" XYZ="0.65648115,0.13314486,0.02841404" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="20" Mapping="507" Parent="2" Children="523" Name="Sketch 1"/>
+						<Atom3d ID="524" Mapping="507" Parent="21" UserID="17" DisplayStyle="Ball and Stick" XYZ="0.39301646,0.89024293,0.92728949" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="21" Mapping="507" Parent="2" Children="524" Name="Sketch 1"/>
+						<Atom3d ID="525" Mapping="507" Parent="22" UserID="18" DisplayStyle="Ball and Stick" XYZ="0.395311,0.1363136,0.2713179" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="22" Mapping="507" Parent="2" Children="525" Name="Sketch 1"/>
+						<Atom3d ID="526" Mapping="507" Parent="23" UserID="19" DisplayStyle="Ball and Stick" XYZ="0.45711258,0.11191027,0.0233632" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="23" Mapping="507" Parent="2" Children="526" Name="Sketch 1"/>
+						<Atom3d ID="527" Mapping="507" Parent="24" UserID="20" DisplayStyle="Ball and Stick" XYZ="0.47169843,0.00416739,0.58931148" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="24" Mapping="507" Parent="2" Children="527" Name="Sketch 1"/>
+						<Atom3d ID="528" Mapping="507" Parent="25" UserID="21" DisplayStyle="Ball and Stick" XYZ="0.32554802,0.22333452,0.88225645" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="25" Mapping="507" Parent="2" Children="528" Name="Sketch 1"/>
+						<Atom3d ID="529" Mapping="507" Parent="26" UserID="22" DisplayStyle="Ball and Stick" XYZ="0.44257736,0.16501388,0.71139449" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="26" Mapping="507" Parent="2" Children="529" Name="Sketch 1"/>
+						<Atom3d ID="530" Mapping="507" Parent="27" UserID="23" DisplayStyle="Ball and Stick" XYZ="0.1089719,0.16889614,0.000262759999999982" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="27" Mapping="507" Parent="2" Children="530" Name="Sketch 1"/>
+						<Atom3d ID="531" Mapping="507" Parent="28" UserID="24" DisplayStyle="Ball and Stick" XYZ="0.53922147,0.0877885,0.19486807" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="28" Mapping="507" Parent="2" Children="531" Name="Sketch 1"/>
+						<Atom3d ID="532" Mapping="507" Parent="29" UserID="25" DisplayStyle="Ball and Stick" XYZ="0.25506702,0.90388596,0.98594093" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="29" Mapping="507" Parent="2" Children="532" Name="Sketch 1"/>
+						<Atom3d ID="533" Mapping="507" Parent="30" UserID="26" DisplayStyle="Ball and Stick" XYZ="0.16324571,0.04543275,0.80394626" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="30" Mapping="507" Parent="2" Children="533" Name="Sketch 1"/>
+						<Atom3d ID="534" Mapping="507" Parent="31" UserID="27" DisplayStyle="Ball and Stick" XYZ="0.6230213,0.98156911,0.82262766" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="31" Mapping="507" Parent="2" Children="534" Name="Sketch 1"/>
+						<Atom3d ID="535" Mapping="507" Parent="32" UserID="28" DisplayStyle="Ball and Stick" XYZ="0.79320717,0.0406257,0.50174165" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="32" Mapping="507" Parent="2" Children="535" Name="Sketch 1"/>
+						<Atom3d ID="536" Mapping="507" Parent="33" UserID="29" DisplayStyle="Ball and Stick" XYZ="0.70432544,0.11943453,0.2345508" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="33" Mapping="507" Parent="2" Children="536" Name="Sketch 1"/>
+						<Atom3d ID="537" Mapping="507" Parent="34" UserID="30" DisplayStyle="Ball and Stick" XYZ="0.16822113,0.03478236,0.43677184" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="34" Mapping="507" Parent="2" Children="537" Name="Sketch 1"/>
+						<Atom3d ID="538" Mapping="507" Parent="35" UserID="31" DisplayStyle="Ball and Stick" XYZ="0.72963119,0.99020267,0.0699291200000001" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="35" Mapping="507" Parent="2" Children="538" Name="Sketch 1"/>
+						<Atom3d ID="539" Mapping="507" Parent="36" UserID="32" DisplayStyle="Ball and Stick" XYZ="0.42643982,0.02629842,0.81231678" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="36" Mapping="507" Parent="2" Children="539" Name="Sketch 1"/>
+						<Atom3d ID="540" Mapping="507" Parent="37" UserID="33" DisplayStyle="Ball and Stick" XYZ="0.15766048,0.1267242,0.66921973" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="37" Mapping="507" Parent="2" Children="540" Name="Sketch 1"/>
+						<Atom3d ID="541" Mapping="507" Parent="38" UserID="34" DisplayStyle="Ball and Stick" XYZ="0.34700516,0.84310877,0.54004145" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="38" Mapping="507" Parent="2" Children="541" Name="Sketch 1"/>
+						<Atom3d ID="542" Mapping="507" Parent="39" UserID="35" DisplayStyle="Ball and Stick" XYZ="0.32841936,0.14529727,0.98153806" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="39" Mapping="507" Parent="2" Children="542" Name="Sketch 1"/>
+						<Atom3d ID="543" Mapping="507" Parent="40" UserID="36" DisplayStyle="Ball and Stick" XYZ="0.65528256,0.24189039,0.97720647" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="40" Mapping="507" Parent="2" Children="543" Name="Sketch 1"/>
+						<Atom3d ID="544" Mapping="507" Parent="41" UserID="37" DisplayStyle="Ball and Stick" XYZ="0.42444986,0.02701931,0.0587907299999998" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="41" Mapping="507" Parent="2" Children="544" Name="Sketch 1"/>
+						<Atom3d ID="545" Mapping="507" Parent="42" UserID="38" DisplayStyle="Ball and Stick" XYZ="0.49322462,0.98263747,0.36082581" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="42" Mapping="507" Parent="2" Children="545" Name="Sketch 1"/>
+						<Atom3d ID="546" Mapping="507" Parent="43" UserID="39" DisplayStyle="Ball and Stick" XYZ="0.43242225,0.81864202,0.12749858" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="43" Mapping="507" Parent="2" Children="546" Name="Sketch 1"/>
+						<Atom3d ID="547" Mapping="507" Parent="44" UserID="40" DisplayStyle="Ball and Stick" XYZ="0.2338386,0.82380748,0.90678996" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="44" Mapping="507" Parent="2" Children="547" Name="Sketch 1"/>
+						<Atom3d ID="548" Mapping="507" Parent="45" UserID="41" DisplayStyle="Ball and Stick" XYZ="0.00209140999999988,0.07025784,0.47815016" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="45" Mapping="507" Parent="2" Children="548" Name="Sketch 1"/>
+						<Atom3d ID="549" Mapping="507" Parent="46" UserID="42" DisplayStyle="Ball and Stick" XYZ="0.78174442,0.12911302,0.98648125" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="46" Mapping="507" Parent="2" Children="549" Name="Sketch 1"/>
+						<Atom3d ID="550" Mapping="507" Parent="47" UserID="43" DisplayStyle="Ball and Stick" XYZ="0.19103163,0.96868277,0.37762088" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="47" Mapping="507" Parent="2" Children="550" Name="Sketch 1"/>
+						<Atom3d ID="551" Mapping="507" Parent="48" UserID="44" DisplayStyle="Ball and Stick" XYZ="0.19912913,0.14684623,0.36496204" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="48" Mapping="507" Parent="2" Children="551" Name="Sketch 1"/>
+						<Atom3d ID="552" Mapping="507" Parent="49" UserID="45" DisplayStyle="Ball and Stick" XYZ="0.39559942,0.22458589,0.36357534" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="49" Mapping="507" Parent="2" Children="552" Name="Sketch 1"/>
+						<Atom3d ID="553" Mapping="507" Parent="50" UserID="46" DisplayStyle="Ball and Stick" XYZ="0.15356745,0.85433555,0.0325807200000001" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="50" Mapping="507" Parent="2" Children="553" Name="Sketch 1"/>
+						<Atom3d ID="554" Mapping="507" Parent="51" UserID="47" DisplayStyle="Ball and Stick" XYZ="0.47816429,0.84861654,0.94227785" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="51" Mapping="507" Parent="2" Children="554" Name="Sketch 1"/>
+						<Atom3d ID="555" Mapping="507" Parent="52" UserID="48" DisplayStyle="Ball and Stick" XYZ="0.19597161,0.82713926,0.66645753" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="52" Mapping="507" Parent="2" Children="555" Name="Sketch 1"/>
+						<Atom3d ID="556" Mapping="507" Parent="53" UserID="49" DisplayStyle="Ball and Stick" XYZ="0.962564950000001,0.01756364,0.65911734" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="53" Mapping="507" Parent="2" Children="556" Name="Sketch 1"/>
+						<Atom3d ID="557" Mapping="507" Parent="54" UserID="50" DisplayStyle="Ball and Stick" XYZ="0.965668620000001,0.0637126399999999,0.77710629" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="54" Mapping="507" Parent="2" Children="557" Name="Sketch 1"/>
+						<Atom3d ID="558" Mapping="507" Parent="55" UserID="51" DisplayStyle="Ball and Stick" XYZ="0.61222345,0.04896368,0.80798495" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="55" Mapping="507" Parent="2" Children="558" Name="Sketch 1"/>
+						<Atom3d ID="559" Mapping="507" Parent="56" UserID="52" DisplayStyle="Ball and Stick" XYZ="0.55062187,0.1381775,0.79217023" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="56" Mapping="507" Parent="2" Children="559" Name="Sketch 1"/>
+						<Atom3d ID="560" Mapping="507" Parent="57" UserID="53" DisplayStyle="Ball and Stick" XYZ="0.30262217,0.78878999,0.61025703" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="57" Mapping="507" Parent="2" Children="560" Name="Sketch 1"/>
+						<Atom3d ID="561" Mapping="507" Parent="58" UserID="54" DisplayStyle="Ball and Stick" XYZ="0.887346740000001,0.16457297,0.0103952099999999" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="58" Mapping="507" Parent="2" Children="561" Name="Sketch 1"/>
+						<Atom3d ID="562" Mapping="507" Parent="59" UserID="55" DisplayStyle="Ball and Stick" XYZ="0.43251297,0.29566136,0.60227937" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="59" Mapping="507" Parent="2" Children="562" Name="Sketch 1"/>
+						<Atom3d ID="563" Mapping="507" Parent="60" UserID="56" DisplayStyle="Ball and Stick" XYZ="0.32724261,0.70483691,0.7922616" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="60" Mapping="507" Parent="2" Children="563" Name="Sketch 1"/>
+						<Atom3d ID="564" Mapping="507" Parent="61" UserID="57" DisplayStyle="Ball and Stick" XYZ="0.81549007,0.08081029,0.81254619" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="61" Mapping="507" Parent="2" Children="564" Name="Sketch 1"/>
+						<Atom3d ID="565" Mapping="507" Parent="62" UserID="58" DisplayStyle="Ball and Stick" XYZ="0.18451723,0.73371279,0.18766001" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="62" Mapping="507" Parent="2" Children="565" Name="Sketch 1"/>
+						<Atom3d ID="566" Mapping="507" Parent="63" UserID="59" DisplayStyle="Ball and Stick" XYZ="0.43564424,0.96890777,0.75225091" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="63" Mapping="507" Parent="2" Children="566" Name="Sketch 1"/>
+						<Atom3d ID="567" Mapping="507" Parent="64" UserID="60" DisplayStyle="Ball and Stick" XYZ="0.48734254,0.9208684,0.68197846" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="64" Mapping="507" Parent="2" Children="567" Name="Sketch 1"/>
+						<Atom3d ID="568" Mapping="507" Parent="65" UserID="61" DisplayStyle="Ball and Stick" XYZ="0.11794782,0.73293763,0.42067501" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="65" Mapping="507" Parent="2" Children="568" Name="Sketch 1"/>
+						<Atom3d ID="569" Mapping="507" Parent="66" UserID="62" DisplayStyle="Ball and Stick" XYZ="0.50682116,0.85106653,0.44580781" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="66" Mapping="507" Parent="2" Children="569" Name="Sketch 1"/>
+						<Atom3d ID="570" Mapping="507" Parent="67" UserID="63" DisplayStyle="Ball and Stick" XYZ="0.36391485,0.08446129,0.58633292" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="67" Mapping="507" Parent="2" Children="570" Name="Sketch 1"/>
+						<Atom3d ID="571" Mapping="507" Parent="68" UserID="64" DisplayStyle="Ball and Stick" XYZ="0.0204289600000002,0.82414812,0.8738935" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="68" Mapping="507" Parent="2" Children="571" Name="Sketch 1"/>
+						<Atom3d ID="572" Mapping="507" Parent="69" UserID="65" DisplayStyle="Ball and Stick" XYZ="0.03234867,0.91182357,0.2730794" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="69" Mapping="507" Parent="2" Children="572" Name="Sketch 1"/>
+						<Atom3d ID="573" Mapping="507" Parent="70" UserID="66" DisplayStyle="Ball and Stick" XYZ="0.91493273,0.90342915,0.5057714" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="70" Mapping="507" Parent="2" Children="573" Name="Sketch 1"/>
+						<Atom3d ID="574" Mapping="507" Parent="71" UserID="67" DisplayStyle="Ball and Stick" XYZ="0.18143377,0.96979147,0.0685399499999996" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="71" Mapping="507" Parent="2" Children="574" Name="Sketch 1"/>
+						<Atom3d ID="575" Mapping="507" Parent="72" UserID="68" DisplayStyle="Ball and Stick" XYZ="0.54828674,0.0317136899999999,0.20232031" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="72" Mapping="507" Parent="2" Children="575" Name="Sketch 1"/>
+						<Atom3d ID="576" Mapping="507" Parent="73" UserID="69" DisplayStyle="Ball and Stick" XYZ="0.19035196,0.18888165,0.20328657" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="73" Mapping="507" Parent="2" Children="576" Name="Sketch 1"/>
+						<Atom3d ID="577" Mapping="507" Parent="74" UserID="70" DisplayStyle="Ball and Stick" XYZ="0.82698673,0.14891106,0.7726295" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="74" Mapping="507" Parent="2" Children="577" Name="Sketch 1"/>
+						<Atom3d ID="578" Mapping="507" Parent="75" UserID="71" DisplayStyle="Ball and Stick" XYZ="0.43543926,0.78072083,0.46164906" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="75" Mapping="507" Parent="2" Children="578" Name="Sketch 1"/>
+						<Atom3d ID="579" Mapping="507" Parent="76" UserID="72" DisplayStyle="Ball and Stick" XYZ="0.0897849500000001,0.08059233,0.19841023" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="76" Mapping="507" Parent="2" Children="579" Name="Sketch 1"/>
+						<Atom3d ID="580" Mapping="507" Parent="77" UserID="73" DisplayStyle="Ball and Stick" XYZ="0.04608872,0.20166336,0.37431499" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="77" Mapping="507" Parent="2" Children="580" Name="Sketch 1"/>
+						<Atom3d ID="581" Mapping="507" Parent="78" UserID="74" DisplayStyle="Ball and Stick" XYZ="0.74935317,0.04434954,0.2180675" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="78" Mapping="507" Parent="2" Children="581" Name="Sketch 1"/>
+						<Atom3d ID="582" Mapping="507" Parent="79" UserID="75" DisplayStyle="Ball and Stick" XYZ="0.70261419,0.9888252,0.42219287" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="79" Mapping="507" Parent="2" Children="582" Name="Sketch 1"/>
+						<Atom3d ID="583" Mapping="507" Parent="80" UserID="76" DisplayStyle="Ball and Stick" XYZ="0.07514829,0.91022485,0.799796639999999" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="80" Mapping="507" Parent="2" Children="583" Name="Sketch 1"/>
+						<Atom3d ID="584" Mapping="507" Parent="81" UserID="77" DisplayStyle="Ball and Stick" XYZ="0.00479978999999999,0.93110341,0.0423165899999997" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="81" Mapping="507" Parent="2" Children="584" Name="Sketch 1"/>
+						<Atom3d ID="585" Mapping="507" Parent="82" UserID="78" DisplayStyle="Ball and Stick" XYZ="0.56840026,0.09636036,0.92984128" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="82" Mapping="507" Parent="2" Children="585" Name="Sketch 1"/>
+						<Atom3d ID="586" Mapping="507" Parent="83" UserID="79" DisplayStyle="Ball and Stick" XYZ="0.5292806,0.21676108,0.75066477" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="83" Mapping="507" Parent="2" Children="586" Name="Sketch 1"/>
+						<Atom3d ID="587" Mapping="507" Parent="84" UserID="80" DisplayStyle="Ball and Stick" XYZ="0.80287492,0.95599109,0.27083114" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="84" Mapping="507" Parent="2" Children="587" Name="Sketch 1"/>
+						<Atom3d ID="588" Mapping="507" Parent="85" UserID="81" DisplayStyle="Ball and Stick" XYZ="0.0881908,0.11332504,0.97437334" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="85" Mapping="507" Parent="2" Children="588" Name="Sketch 1"/>
+						<Atom3d ID="589" Mapping="507" Parent="86" UserID="82" DisplayStyle="Ball and Stick" XYZ="0.937521820000001,0.16773497,0.24308351" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="86" Mapping="507" Parent="2" Children="589" Name="Sketch 1"/>
+						<Atom3d ID="590" Mapping="507" Parent="87" UserID="83" DisplayStyle="Ball and Stick" XYZ="0.86000705,0.72898024,0.37297019" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="87" Mapping="507" Parent="2" Children="590" Name="Sketch 1"/>
+						<Atom3d ID="591" Mapping="507" Parent="88" UserID="84" DisplayStyle="Ball and Stick" XYZ="0.89509428,0.21671568,0.38544649" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="88" Mapping="507" Parent="2" Children="591" Name="Sketch 1"/>
+						<Atom3d ID="592" Mapping="507" Parent="89" UserID="85" DisplayStyle="Ball and Stick" XYZ="0.74211478,0.80259103,0.0494248500000002" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="89" Mapping="507" Parent="2" Children="592" Name="Sketch 1"/>
+						<Atom3d ID="593" Mapping="507" Parent="90" UserID="86" DisplayStyle="Ball and Stick" XYZ="0.21969971,0.74396282,0.56788951" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="90" Mapping="507" Parent="2" Children="593" Name="Sketch 1"/>
+						<Atom3d ID="594" Mapping="507" Parent="91" UserID="87" DisplayStyle="Ball and Stick" XYZ="0.77541095,0.26080763,0.62747574" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="91" Mapping="507" Parent="2" Children="594" Name="Sketch 1"/>
+						<Atom3d ID="595" Mapping="507" Parent="92" UserID="88" DisplayStyle="Ball and Stick" XYZ="0.1331529,0.80082023,0.44568244" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="92" Mapping="507" Parent="2" Children="595" Name="Sketch 1"/>
+						<Atom3d ID="596" Mapping="507" Parent="93" UserID="89" DisplayStyle="Ball and Stick" XYZ="0.00150835000000003,0.12505643,0.40928435" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="93" Mapping="507" Parent="2" Children="596" Name="Sketch 1"/>
+						<Atom3d ID="597" Mapping="507" Parent="94" UserID="90" DisplayStyle="Ball and Stick" XYZ="0.55871332,0.05031536,0.43942443" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="94" Mapping="507" Parent="2" Children="597" Name="Sketch 1"/>
+						<Atom3d ID="598" Mapping="507" Parent="95" UserID="91" DisplayStyle="Ball and Stick" XYZ="0.3594456,0.84480822,0.80995899" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="95" Mapping="507" Parent="2" Children="598" Name="Sketch 1"/>
+						<Atom3d ID="599" Mapping="507" Parent="96" UserID="92" DisplayStyle="Ball and Stick" XYZ="0.64127141,0.20022522,0.75759131" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="96" Mapping="507" Parent="2" Children="599" Name="Sketch 1"/>
+						<Atom3d ID="600" Mapping="507" Parent="97" UserID="93" DisplayStyle="Ball and Stick" XYZ="0.98289454,0.98062342,0.41959733" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="97" Mapping="507" Parent="2" Children="600" Name="Sketch 1"/>
+						<Atom3d ID="601" Mapping="507" Parent="98" UserID="94" DisplayStyle="Ball and Stick" XYZ="0.60464054,0.79030019,0.1983858" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="98" Mapping="507" Parent="2" Children="601" Name="Sketch 1"/>
+						<Atom3d ID="602" Mapping="507" Parent="99" UserID="95" DisplayStyle="Ball and Stick" XYZ="0.00563725999999997,0.18145722,0.59390897" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="99" Mapping="507" Parent="2" Children="602" Name="Sketch 1"/>
+						<Atom3d ID="603" Mapping="507" Parent="100" UserID="96" DisplayStyle="Ball and Stick" XYZ="0.89001882,0.72878891,0.68076801" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="100" Mapping="507" Parent="2" Children="603" Name="Sketch 1"/>
+						<Atom3d ID="604" Mapping="507" Parent="101" UserID="97" DisplayStyle="Ball and Stick" XYZ="0.94332284,0.79617643,0.20069072" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="101" Mapping="507" Parent="2" Children="604" Name="Sketch 1"/>
+						<Atom3d ID="605" Mapping="507" Parent="102" UserID="98" DisplayStyle="Ball and Stick" XYZ="0.8299641,0.88636655,0.30347443" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="102" Mapping="507" Parent="2" Children="605" Name="Sketch 1"/>
+						<Atom3d ID="606" Mapping="507" Parent="103" UserID="99" DisplayStyle="Ball and Stick" XYZ="0.52969241,0.84152275,0.66003972" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="103" Mapping="507" Parent="2" Children="606" Name="Sketch 1"/>
+						<Atom3d ID="607" Mapping="507" Parent="104" UserID="100" DisplayStyle="Ball and Stick" XYZ="0.54911149,0.21922639,0.47918516" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="104" Mapping="507" Parent="2" Children="607" Name="Sketch 1"/>
+						<Atom3d ID="608" Mapping="507" Parent="105" UserID="101" DisplayStyle="Ball and Stick" XYZ="0.31671721,0.0570349799999999,0.94465715" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="105" Mapping="507" Parent="2" Children="608" Name="Sketch 1"/>
+						<Atom3d ID="609" Mapping="507" Parent="106" UserID="102" DisplayStyle="Ball and Stick" XYZ="0.0561052,0.00417358000000003,0.877317910000001" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="106" Mapping="507" Parent="2" Children="609" Name="Sketch 1"/>
+						<Atom3d ID="610" Mapping="507" Parent="107" UserID="103" DisplayStyle="Ball and Stick" XYZ="0.77566183,0.20722789,0.84824425" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="107" Mapping="507" Parent="2" Children="610" Name="Sketch 1"/>
+						<Atom3d ID="611" Mapping="507" Parent="108" UserID="104" DisplayStyle="Ball and Stick" XYZ="0.72149569,0.2125416,0.12274715" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="108" Mapping="507" Parent="2" Children="611" Name="Sketch 1"/>
+						<Atom3d ID="612" Mapping="507" Parent="109" UserID="105" DisplayStyle="Ball and Stick" XYZ="0.36642265,0.20484452,0.60304934" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="109" Mapping="507" Parent="2" Children="612" Name="Sketch 1"/>
+						<Atom3d ID="613" Mapping="507" Parent="110" UserID="106" DisplayStyle="Ball and Stick" XYZ="0.30727187,0.26538473,0.32347029" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="110" Mapping="507" Parent="2" Children="613" Name="Sketch 1"/>
+						<Atom3d ID="614" Mapping="507" Parent="111" UserID="107" DisplayStyle="Ball and Stick" XYZ="0.61129564,0.09700257,0.35512707" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="111" Mapping="507" Parent="2" Children="614" Name="Sketch 1"/>
+						<Atom3d ID="615" Mapping="507" Parent="112" UserID="108" DisplayStyle="Ball and Stick" XYZ="0.782902480000001,0.15164892,0.42662382" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="112" Mapping="507" Parent="2" Children="615" Name="Sketch 1"/>
+						<Atom3d ID="616" Mapping="507" Parent="113" UserID="109" DisplayStyle="Ball and Stick" XYZ="0.05928857,0.01260572,0.15437232" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="113" Mapping="507" Parent="2" Children="616" Name="Sketch 1"/>
+						<Atom3d ID="617" Mapping="507" Parent="114" UserID="110" DisplayStyle="Ball and Stick" XYZ="0.84669071,0.01717028,0.83049148" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="114" Mapping="507" Parent="2" Children="617" Name="Sketch 1"/>
+						<Atom3d ID="618" Mapping="507" Parent="115" UserID="111" DisplayStyle="Ball and Stick" XYZ="0.41057771,0.28222784,0.20256218" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="115" Mapping="507" Parent="2" Children="618" Name="Sketch 1"/>
+						<Atom3d ID="619" Mapping="507" Parent="116" UserID="112" DisplayStyle="Ball and Stick" XYZ="0.24888736,0.0867054,0.61228681" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="116" Mapping="507" Parent="2" Children="619" Name="Sketch 1"/>
+						<Atom3d ID="620" Mapping="507" Parent="117" UserID="113" DisplayStyle="Ball and Stick" XYZ="0.16084209,0.20531866,0.72028196" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="117" Mapping="507" Parent="2" Children="620" Name="Sketch 1"/>
+						<Atom3d ID="621" Mapping="507" Parent="118" UserID="114" DisplayStyle="Ball and Stick" XYZ="0.74225819,0.17638145,0.6350888" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="118" Mapping="507" Parent="2" Children="621" Name="Sketch 1"/>
+						<Atom3d ID="622" Mapping="507" Parent="119" UserID="115" DisplayStyle="Ball and Stick" XYZ="0.90582043,0.09306764,0.13112867" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="119" Mapping="507" Parent="2" Children="622" Name="Sketch 1"/>
+						<Atom3d ID="623" Mapping="507" Parent="120" UserID="116" DisplayStyle="Ball and Stick" XYZ="0.6909858,0.87311882,0.66372418" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="120" Mapping="507" Parent="2" Children="623" Name="Sketch 1"/>
+						<Atom3d ID="624" Mapping="507" Parent="121" UserID="117" DisplayStyle="Ball and Stick" XYZ="0.48564222,0.76083714,0.15564598" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="121" Mapping="507" Parent="2" Children="624" Name="Sketch 1"/>
+						<Atom3d ID="625" Mapping="507" Parent="122" UserID="118" DisplayStyle="Ball and Stick" XYZ="0.04636013,0.77546972,0.25369096" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="122" Mapping="507" Parent="2" Children="625" Name="Sketch 1"/>
+						<Atom3d ID="626" Mapping="507" Parent="123" UserID="119" DisplayStyle="Ball and Stick" XYZ="0.76570988,0.21531792,0.37712482" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="123" Mapping="507" Parent="2" Children="626" Name="Sketch 1"/>
+						<Atom3d ID="627" Mapping="507" Parent="124" UserID="120" DisplayStyle="Ball and Stick" XYZ="0.62041086,0.90146095,0.29967541" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="124" Mapping="507" Parent="2" Children="627" Name="Sketch 1"/>
+						<Atom3d ID="628" Mapping="507" Parent="125" UserID="121" DisplayStyle="Ball and Stick" XYZ="0.57481802,0.71164113,0.35398358" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="125" Mapping="507" Parent="2" Children="628" Name="Sketch 1"/>
+						<Atom3d ID="629" Mapping="507" Parent="126" UserID="122" DisplayStyle="Ball and Stick" XYZ="0.87175775,0.77968997,0.81511551" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="126" Mapping="507" Parent="2" Children="629" Name="Sketch 1"/>
+						<Atom3d ID="630" Mapping="507" Parent="127" UserID="123" DisplayStyle="Ball and Stick" XYZ="0.26195905,0.65847844,0.59205198" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="127" Mapping="507" Parent="2" Children="630" Name="Sketch 1"/>
+						<Atom3d ID="631" Mapping="507" Parent="128" UserID="124" DisplayStyle="Ball and Stick" XYZ="0.86736572,0.04007457,0.23921555" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="128" Mapping="507" Parent="2" Children="631" Name="Sketch 1"/>
+						<Atom3d ID="632" Mapping="507" Parent="129" UserID="125" DisplayStyle="Ball and Stick" XYZ="0.76077241,0.36724752,0.70316112" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="129" Mapping="507" Parent="2" Children="632" Name="Sketch 1"/>
+						<Atom3d ID="633" Mapping="507" Parent="130" UserID="126" DisplayStyle="Ball and Stick" XYZ="0.40742689,0.70958114,0.36214525" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="130" Mapping="507" Parent="2" Children="633" Name="Sketch 1"/>
+						<Atom3d ID="634" Mapping="507" Parent="131" UserID="127" DisplayStyle="Ball and Stick" XYZ="0.0436398300000001,0.76605809,0.58687985" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="131" Mapping="507" Parent="2" Children="634" Name="Sketch 1"/>
+						<Atom3d ID="635" Mapping="507" Parent="132" UserID="128" DisplayStyle="Ball and Stick" XYZ="0.259671360000001,0.2514827,0.0999703599999998" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="132" Mapping="507" Parent="2" Children="635" Name="Sketch 1"/>
+						<Atom3d ID="636" Mapping="507" Parent="133" UserID="129" DisplayStyle="Ball and Stick" XYZ="0.26513338,0.32446703,0.33206514" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="133" Mapping="507" Parent="2" Children="636" Name="Sketch 1"/>
+						<Atom3d ID="637" Mapping="507" Parent="134" UserID="130" DisplayStyle="Ball and Stick" XYZ="0.42129359,0.72662717,0.98082083" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="134" Mapping="507" Parent="2" Children="637" Name="Sketch 1"/>
+						<Atom3d ID="638" Mapping="507" Parent="135" UserID="131" DisplayStyle="Ball and Stick" XYZ="0.692644420000001,0.94522387,0.62119108" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="135" Mapping="507" Parent="2" Children="638" Name="Sketch 1"/>
+						<Atom3d ID="639" Mapping="507" Parent="136" UserID="132" DisplayStyle="Ball and Stick" XYZ="0.97112453,0.73705536,0.40966788" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="136" Mapping="507" Parent="2" Children="639" Name="Sketch 1"/>
+						<Atom3d ID="640" Mapping="507" Parent="137" UserID="133" DisplayStyle="Ball and Stick" XYZ="0.02856221,0.24042426,0.68097532" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="137" Mapping="507" Parent="2" Children="640" Name="Sketch 1"/>
+						<Atom3d ID="641" Mapping="507" Parent="138" UserID="134" DisplayStyle="Ball and Stick" XYZ="0.15988095,0.72383195,0.90729797" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="138" Mapping="507" Parent="2" Children="641" Name="Sketch 1"/>
+						<Atom3d ID="642" Mapping="507" Parent="139" UserID="135" DisplayStyle="Ball and Stick" XYZ="0.91138053,0.23408246,0.72100931" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="139" Mapping="507" Parent="2" Children="642" Name="Sketch 1"/>
+						<Atom3d ID="643" Mapping="507" Parent="140" UserID="136" DisplayStyle="Ball and Stick" XYZ="0.8437888,0.10287663,0.32225698" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="140" Mapping="507" Parent="2" Children="643" Name="Sketch 1"/>
+						<Atom3d ID="644" Mapping="507" Parent="141" UserID="137" DisplayStyle="Ball and Stick" XYZ="0.93919623,0.819269,0.59799182" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="141" Mapping="507" Parent="2" Children="644" Name="Sketch 1"/>
+						<Atom3d ID="645" Mapping="507" Parent="142" UserID="138" DisplayStyle="Ball and Stick" XYZ="0.25402147,0.93775976,0.74327707" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="142" Mapping="507" Parent="2" Children="645" Name="Sketch 1"/>
+						<Atom3d ID="646" Mapping="507" Parent="143" UserID="139" DisplayStyle="Ball and Stick" XYZ="0.90344632,0.11592307,0.89335507" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="143" Mapping="507" Parent="2" Children="646" Name="Sketch 1"/>
+						<Atom3d ID="647" Mapping="507" Parent="144" UserID="140" DisplayStyle="Ball and Stick" XYZ="0.43006033,0.08270699,0.81119305" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="144" Mapping="507" Parent="2" Children="647" Name="Sketch 1"/>
+						<Atom3d ID="648" Mapping="507" Parent="145" UserID="141" DisplayStyle="Ball and Stick" XYZ="0.72407377,0.00873856000000001,0.67148799" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="145" Mapping="507" Parent="2" Children="648" Name="Sketch 1"/>
+						<Atom3d ID="649" Mapping="507" Parent="146" UserID="142" DisplayStyle="Ball and Stick" XYZ="0.22501342,0.92981464,0.51591504" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="146" Mapping="507" Parent="2" Children="649" Name="Sketch 1"/>
+						<Atom3d ID="650" Mapping="507" Parent="147" UserID="143" DisplayStyle="Ball and Stick" XYZ="0.84283173,0.77703184,0.52693903" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="147" Mapping="507" Parent="2" Children="650" Name="Sketch 1"/>
+						<Atom3d ID="651" Mapping="507" Parent="148" UserID="144" DisplayStyle="Ball and Stick" XYZ="0.12813619,0.85243779,0.498597439999999" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="148" Mapping="507" Parent="2" Children="651" Name="Sketch 1"/>
+						<Atom3d ID="652" Mapping="507" Parent="149" UserID="145" DisplayStyle="Ball and Stick" XYZ="0.0266133,0.61388785,0.66191816" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="149" Mapping="507" Parent="2" Children="652" Name="Sketch 1"/>
+						<Atom3d ID="653" Mapping="507" Parent="150" UserID="146" DisplayStyle="Ball and Stick" XYZ="0.65712488,0.20845601,0.35929838" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="150" Mapping="507" Parent="2" Children="653" Name="Sketch 1"/>
+						<Atom3d ID="654" Mapping="507" Parent="151" UserID="147" DisplayStyle="Ball and Stick" XYZ="0.3533034,0.34218353,0.0758923199999997" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="151" Mapping="507" Parent="2" Children="654" Name="Sketch 1"/>
+						<Atom3d ID="655" Mapping="507" Parent="152" UserID="148" DisplayStyle="Ball and Stick" XYZ="0.14309965,0.63873851,0.54245919" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="152" Mapping="507" Parent="2" Children="655" Name="Sketch 1"/>
+						<Atom3d ID="656" Mapping="507" Parent="153" UserID="149" DisplayStyle="Ball and Stick" XYZ="0.15536584,0.96153772,0.81445402" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="153" Mapping="507" Parent="2" Children="656" Name="Sketch 1"/>
+						<Atom3d ID="657" Mapping="507" Parent="154" UserID="150" DisplayStyle="Ball and Stick" XYZ="0.959319,0.94898838,0.74663949" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="154" Mapping="507" Parent="2" Children="657" Name="Sketch 1"/>
+						<Atom3d ID="658" Mapping="507" Parent="155" UserID="151" DisplayStyle="Ball and Stick" XYZ="0.0411417600000001,0.77700615,0.0162258499999999" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="155" Mapping="507" Parent="2" Children="658" Name="Sketch 1"/>
+						<Atom3d ID="659" Mapping="507" Parent="156" UserID="152" DisplayStyle="Ball and Stick" XYZ="0.25747326,0.37577492,0.43517044" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="156" Mapping="507" Parent="2" Children="659" Name="Sketch 1"/>
+						<Atom3d ID="660" Mapping="507" Parent="157" UserID="153" DisplayStyle="Ball and Stick" XYZ="0.00503373999999998,0.85380071,0.25512272" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="157" Mapping="507" Parent="2" Children="660" Name="Sketch 1"/>
+						<Atom3d ID="661" Mapping="507" Parent="158" UserID="154" DisplayStyle="Ball and Stick" XYZ="0.74319506,0.91404331,0.8407377" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="158" Mapping="507" Parent="2" Children="661" Name="Sketch 1"/>
+						<Atom3d ID="662" Mapping="507" Parent="159" UserID="155" DisplayStyle="Ball and Stick" XYZ="0.24771276,0.01109851,0.79560423" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="159" Mapping="507" Parent="2" Children="662" Name="Sketch 1"/>
+						<Atom3d ID="663" Mapping="507" Parent="160" UserID="156" DisplayStyle="Ball and Stick" XYZ="0.32016873,0.96829724,0.09536682" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="160" Mapping="507" Parent="2" Children="663" Name="Sketch 1"/>
+						<Atom3d ID="664" Mapping="507" Parent="161" UserID="157" DisplayStyle="Ball and Stick" XYZ="0.80787063,0.82356715,0.26535082" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="161" Mapping="507" Parent="2" Children="664" Name="Sketch 1"/>
+						<Atom3d ID="665" Mapping="507" Parent="162" UserID="158" DisplayStyle="Ball and Stick" XYZ="0.79450256,0.6827544,0.90541857" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="162" Mapping="507" Parent="2" Children="665" Name="Sketch 1"/>
+						<Atom3d ID="666" Mapping="507" Parent="163" UserID="159" DisplayStyle="Ball and Stick" XYZ="0.0939586800000001,0.69404078,0.14530775" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="163" Mapping="507" Parent="2" Children="666" Name="Sketch 1"/>
+						<Atom3d ID="667" Mapping="507" Parent="164" UserID="160" DisplayStyle="Ball and Stick" XYZ="0.76041138,0.7254141,0.16371725" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="164" Mapping="507" Parent="2" Children="667" Name="Sketch 1"/>
+						<Atom3d ID="668" Mapping="507" Parent="165" UserID="161" DisplayStyle="Ball and Stick" XYZ="0.24238724,0.22608742,0.43280256" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="165" Mapping="507" Parent="2" Children="668" Name="Sketch 1"/>
+						<Atom3d ID="669" Mapping="507" Parent="166" UserID="162" DisplayStyle="Ball and Stick" XYZ="0.86463195,0.85588062,0.0540754600000003" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="166" Mapping="507" Parent="2" Children="669" Name="Sketch 1"/>
+						<Atom3d ID="670" Mapping="507" Parent="167" UserID="163" DisplayStyle="Ball and Stick" XYZ="0.97381747,0.33307636,0.70498019" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="167" Mapping="507" Parent="2" Children="670" Name="Sketch 1"/>
+						<Atom3d ID="671" Mapping="507" Parent="168" UserID="164" DisplayStyle="Ball and Stick" XYZ="0.03983346,0.30598795,0.90041298" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="168" Mapping="507" Parent="2" Children="671" Name="Sketch 1"/>
+						<Atom3d ID="672" Mapping="507" Parent="169" UserID="165" DisplayStyle="Ball and Stick" XYZ="0.12533616,0.31249636,0.65567523" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="169" Mapping="507" Parent="2" Children="672" Name="Sketch 1"/>
+						<Atom3d ID="673" Mapping="507" Parent="170" UserID="166" DisplayStyle="Ball and Stick" XYZ="0.91184509,0.42214012,0.43442363" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="170" Mapping="507" Parent="2" Children="673" Name="Sketch 1"/>
+						<Atom3d ID="674" Mapping="507" Parent="171" UserID="167" DisplayStyle="Ball and Stick" XYZ="0.61290812,0.25846413,0.33470365" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="171" Mapping="507" Parent="2" Children="674" Name="Sketch 1"/>
+						<Atom3d ID="675" Mapping="507" Parent="172" UserID="168" DisplayStyle="Ball and Stick" XYZ="0.62996036,0.35724968,0.80113983" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="172" Mapping="507" Parent="2" Children="675" Name="Sketch 1"/>
+						<Atom3d ID="676" Mapping="507" Parent="173" UserID="169" DisplayStyle="Ball and Stick" XYZ="0.74755782,0.45654213,0.0292457599999999" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="173" Mapping="507" Parent="2" Children="676" Name="Sketch 1"/>
+						<Atom3d ID="677" Mapping="507" Parent="174" UserID="170" DisplayStyle="Ball and Stick" XYZ="0.71095294,0.79748201,0.35177994" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="174" Mapping="507" Parent="2" Children="677" Name="Sketch 1"/>
+						<Atom3d ID="678" Mapping="507" Parent="175" UserID="171" DisplayStyle="Ball and Stick" XYZ="0.1133011,0.34167302,0.20833693" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="175" Mapping="507" Parent="2" Children="678" Name="Sketch 1"/>
+						<Atom3d ID="679" Mapping="507" Parent="176" UserID="172" DisplayStyle="Ball and Stick" XYZ="0.43279088,0.33601066,0.41722566" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="176" Mapping="507" Parent="2" Children="679" Name="Sketch 1"/>
+						<Atom3d ID="680" Mapping="507" Parent="177" UserID="173" DisplayStyle="Ball and Stick" XYZ="0.58534193,0.94652718,0.43348792" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="177" Mapping="507" Parent="2" Children="680" Name="Sketch 1"/>
+						<Atom3d ID="681" Mapping="507" Parent="178" UserID="174" DisplayStyle="Ball and Stick" XYZ="0.66049695,0.65913004,0.10020787" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="178" Mapping="507" Parent="2" Children="681" Name="Sketch 1"/>
+						<Atom3d ID="682" Mapping="507" Parent="179" UserID="175" DisplayStyle="Ball and Stick" XYZ="0.37397012,0.9073016,0.16660911" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="179" Mapping="507" Parent="2" Children="682" Name="Sketch 1"/>
+						<Atom3d ID="683" Mapping="507" Parent="180" UserID="176" DisplayStyle="Ball and Stick" XYZ="0.63484681,0.8525058,0.46990901" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="180" Mapping="507" Parent="2" Children="683" Name="Sketch 1"/>
+						<Atom3d ID="684" Mapping="507" Parent="181" UserID="177" DisplayStyle="Ball and Stick" XYZ="0.899907470000001,0.03925937,0.01346382" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="181" Mapping="507" Parent="2" Children="684" Name="Sketch 1"/>
+						<Atom3d ID="685" Mapping="507" Parent="182" UserID="178" DisplayStyle="Ball and Stick" XYZ="0.70163423,0.42590564,0.50513703" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="182" Mapping="507" Parent="2" Children="685" Name="Sketch 1"/>
+						<Atom3d ID="686" Mapping="507" Parent="183" UserID="179" DisplayStyle="Ball and Stick" XYZ="0.03128865,0.12844636,0.68384439" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="183" Mapping="507" Parent="2" Children="686" Name="Sketch 1"/>
+						<Atom3d ID="687" Mapping="507" Parent="184" UserID="180" DisplayStyle="Ball and Stick" XYZ="0.59860533,0.30682606,0.94412488" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="184" Mapping="507" Parent="2" Children="687" Name="Sketch 1"/>
+						<Atom3d ID="688" Mapping="507" Parent="185" UserID="181" DisplayStyle="Ball and Stick" XYZ="0.17971256,0.42369834,0.24536222" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="185" Mapping="507" Parent="2" Children="688" Name="Sketch 1"/>
+						<Atom3d ID="689" Mapping="507" Parent="186" UserID="182" DisplayStyle="Ball and Stick" XYZ="0.23633866,0.32383999,0.96842462" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="186" Mapping="507" Parent="2" Children="689" Name="Sketch 1"/>
+						<Atom3d ID="690" Mapping="507" Parent="187" UserID="183" DisplayStyle="Ball and Stick" XYZ="0.22709388,0.25552022,0.86513656" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="187" Mapping="507" Parent="2" Children="690" Name="Sketch 1"/>
+						<Atom3d ID="691" Mapping="507" Parent="188" UserID="184" DisplayStyle="Ball and Stick" XYZ="0.44438455,0.3924841,0.21442713" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="188" Mapping="507" Parent="2" Children="691" Name="Sketch 1"/>
+						<Atom3d ID="692" Mapping="507" Parent="189" UserID="185" DisplayStyle="Ball and Stick" XYZ="0.48786414,0.34345758,0.83246768" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="189" Mapping="507" Parent="2" Children="692" Name="Sketch 1"/>
+						<Atom3d ID="693" Mapping="507" Parent="190" UserID="186" DisplayStyle="Ball and Stick" XYZ="0.51526284,0.6053654,0.34619063" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="190" Mapping="507" Parent="2" Children="693" Name="Sketch 1"/>
+						<Atom3d ID="694" Mapping="507" Parent="191" UserID="187" DisplayStyle="Ball and Stick" XYZ="0.63572562,0.35151455,0.45525157" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="191" Mapping="507" Parent="2" Children="694" Name="Sketch 1"/>
+						<Atom3d ID="695" Mapping="507" Parent="192" UserID="188" DisplayStyle="Ball and Stick" XYZ="0.814369200000001,0.11121602,0.57161766" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="192" Mapping="507" Parent="2" Children="695" Name="Sketch 1"/>
+						<Atom3d ID="696" Mapping="507" Parent="193" UserID="189" DisplayStyle="Ball and Stick" XYZ="0.33934316,0.29705167,0.4963465" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="193" Mapping="507" Parent="2" Children="696" Name="Sketch 1"/>
+						<Atom3d ID="697" Mapping="507" Parent="194" UserID="190" DisplayStyle="Ball and Stick" XYZ="0.58908534,0.2665436,0.6637575" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="194" Mapping="507" Parent="2" Children="697" Name="Sketch 1"/>
+						<Atom3d ID="698" Mapping="507" Parent="195" UserID="191" DisplayStyle="Ball and Stick" XYZ="0.54719001,0.32498088,0.61224616" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="195" Mapping="507" Parent="2" Children="698" Name="Sketch 1"/>
+						<Atom3d ID="699" Mapping="507" Parent="196" UserID="192" DisplayStyle="Ball and Stick" XYZ="0.77086306,0.88953453,0.51464677" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="196" Mapping="507" Parent="2" Children="699" Name="Sketch 1"/>
+						<Atom3d ID="700" Mapping="507" Parent="197" UserID="193" DisplayStyle="Ball and Stick" XYZ="0.67844629,0.28881544,0.48881924" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="197" Mapping="507" Parent="2" Children="700" Name="Sketch 1"/>
+						<Atom3d ID="701" Mapping="507" Parent="198" UserID="194" DisplayStyle="Ball and Stick" XYZ="0.37690544,0.65920621,0.24044684" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="198" Mapping="507" Parent="2" Children="701" Name="Sketch 1"/>
+						<Atom3d ID="702" Mapping="507" Parent="199" UserID="195" DisplayStyle="Ball and Stick" XYZ="0.83239055,0.91592604,0.68935066" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="199" Mapping="507" Parent="2" Children="702" Name="Sketch 1"/>
+						<Atom3d ID="703" Mapping="507" Parent="200" UserID="196" DisplayStyle="Ball and Stick" XYZ="0.76900411,0.34089717,0.93096524" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="200" Mapping="507" Parent="2" Children="703" Name="Sketch 1"/>
+						<Atom3d ID="704" Mapping="507" Parent="201" UserID="197" DisplayStyle="Ball and Stick" XYZ="0.30443704,0.60792506,0.92793274" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="201" Mapping="507" Parent="2" Children="704" Name="Sketch 1"/>
+						<Atom3d ID="705" Mapping="507" Parent="202" UserID="198" DisplayStyle="Ball and Stick" XYZ="0.50487077,0.89195877,0.0743383499999999" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="202" Mapping="507" Parent="2" Children="705" Name="Sketch 1"/>
+						<Atom3d ID="706" Mapping="507" Parent="203" UserID="199" DisplayStyle="Ball and Stick" XYZ="0.84555453,0.95691597,0.07197921" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="203" Mapping="507" Parent="2" Children="706" Name="Sketch 1"/>
+						<Atom3d ID="707" Mapping="507" Parent="204" UserID="200" DisplayStyle="Ball and Stick" XYZ="0.34944332,0.35716179,0.74729377" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="204" Mapping="507" Parent="2" Children="707" Name="Sketch 1"/>
+						<Atom3d ID="708" Mapping="507" Parent="205" UserID="201" DisplayStyle="Ball and Stick" XYZ="0.87245601,0.97790778,0.63645577" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="205" Mapping="507" Parent="2" Children="708" Name="Sketch 1"/>
+						<Atom3d ID="709" Mapping="507" Parent="206" UserID="202" DisplayStyle="Ball and Stick" XYZ="0.73496479,0.70332086,0.72365874" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="206" Mapping="507" Parent="2" Children="709" Name="Sketch 1"/>
+						<Atom3d ID="710" Mapping="507" Parent="207" UserID="203" DisplayStyle="Ball and Stick" XYZ="0.5652526,0.41798311,0.49254236" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="207" Mapping="507" Parent="2" Children="710" Name="Sketch 1"/>
+						<Atom3d ID="711" Mapping="507" Parent="208" UserID="204" DisplayStyle="Ball and Stick" XYZ="0.38134173,0.9064703,0.45995688" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="208" Mapping="507" Parent="2" Children="711" Name="Sketch 1"/>
+						<Atom3d ID="712" Mapping="507" Parent="209" UserID="205" DisplayStyle="Ball and Stick" XYZ="0.55698198,0.69346201,0.00828405000000001" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="209" Mapping="507" Parent="2" Children="712" Name="Sketch 1"/>
+						<Atom3d ID="713" Mapping="507" Parent="210" UserID="206" DisplayStyle="Ball and Stick" XYZ="0.49022105,0.65530443,0.25141564" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="210" Mapping="507" Parent="2" Children="713" Name="Sketch 1"/>
+						<Atom3d ID="714" Mapping="507" Parent="211" UserID="207" DisplayStyle="Ball and Stick" XYZ="0.71998137,0.05526097,0.991915290000001" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="211" Mapping="507" Parent="2" Children="714" Name="Sketch 1"/>
+						<Atom3d ID="715" Mapping="507" Parent="212" UserID="208" DisplayStyle="Ball and Stick" XYZ="0.30080578,0.74866945,0.39470679" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="212" Mapping="507" Parent="2" Children="715" Name="Sketch 1"/>
+						<Atom3d ID="716" Mapping="507" Parent="213" UserID="209" DisplayStyle="Ball and Stick" XYZ="0.950323400000001,0.22069408,0.1297957" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="213" Mapping="507" Parent="2" Children="716" Name="Sketch 1"/>
+						<Atom3d ID="717" Mapping="507" Parent="214" UserID="210" DisplayStyle="Ball and Stick" XYZ="0.26929551,0.24440573,0.6658572" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="214" Mapping="507" Parent="2" Children="717" Name="Sketch 1"/>
+						<Atom3d ID="718" Mapping="507" Parent="215" UserID="211" DisplayStyle="Ball and Stick" XYZ="0.06994428,0.95272303,0.63074511" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="215" Mapping="507" Parent="2" Children="718" Name="Sketch 1"/>
+						<Atom3d ID="719" Mapping="507" Parent="216" UserID="212" DisplayStyle="Ball and Stick" XYZ="0.7167365,0.51394391,0.47417682" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="216" Mapping="507" Parent="2" Children="719" Name="Sketch 1"/>
+						<Atom3d ID="720" Mapping="507" Parent="217" UserID="213" DisplayStyle="Ball and Stick" XYZ="0.869190930000001,0.26629147,0.33009744" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="217" Mapping="507" Parent="2" Children="720" Name="Sketch 1"/>
+						<Atom3d ID="721" Mapping="507" Parent="218" UserID="214" DisplayStyle="Ball and Stick" XYZ="0.27907687,0.02618492,0.43241051" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="218" Mapping="507" Parent="2" Children="721" Name="Sketch 1"/>
+						<Atom3d ID="722" Mapping="507" Parent="219" UserID="215" DisplayStyle="Ball and Stick" XYZ="0.07335188,0.23838608,0.88421929" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="219" Mapping="507" Parent="2" Children="722" Name="Sketch 1"/>
+						<Atom3d ID="723" Mapping="507" Parent="220" UserID="216" DisplayStyle="Ball and Stick" XYZ="0.69931668,0.11215138,0.75147688" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="220" Mapping="507" Parent="2" Children="723" Name="Sketch 1"/>
+						<Atom3d ID="724" Mapping="507" Parent="221" UserID="217" DisplayStyle="Ball and Stick" XYZ="0.9497788,0.94990462,0.23315232" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="221" Mapping="507" Parent="2" Children="724" Name="Sketch 1"/>
+						<Atom3d ID="725" Mapping="507" Parent="222" UserID="218" DisplayStyle="Ball and Stick" XYZ="0.50299507,0.7969113,0.9268893" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="222" Mapping="507" Parent="2" Children="725" Name="Sketch 1"/>
+						<Atom3d ID="726" Mapping="507" Parent="223" UserID="219" DisplayStyle="Ball and Stick" XYZ="0.6480428,0.74699724,0.97059017" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="223" Mapping="507" Parent="2" Children="726" Name="Sketch 1"/>
+						<Atom3d ID="727" Mapping="507" Parent="224" UserID="220" DisplayStyle="Ball and Stick" XYZ="0.28993082,0.72053361,0.01713652" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="224" Mapping="507" Parent="2" Children="727" Name="Sketch 1"/>
+						<Atom3d ID="728" Mapping="507" Parent="225" UserID="221" DisplayStyle="Ball and Stick" XYZ="0.628084,0.76426649,0.54295713" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="225" Mapping="507" Parent="2" Children="728" Name="Sketch 1"/>
+						<Atom3d ID="729" Mapping="507" Parent="226" UserID="222" DisplayStyle="Ball and Stick" XYZ="0.76097703,0.30668494,0.1933016" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="226" Mapping="507" Parent="2" Children="729" Name="Sketch 1"/>
+						<Atom3d ID="730" Mapping="507" Parent="227" UserID="223" DisplayStyle="Ball and Stick" XYZ="0.987181250000001,0.29146671,0.47413135" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="227" Mapping="507" Parent="2" Children="730" Name="Sketch 1"/>
+						<Atom3d ID="731" Mapping="507" Parent="228" UserID="224" DisplayStyle="Ball and Stick" XYZ="0.59171224,0.85489428,0.97476548" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="228" Mapping="507" Parent="2" Children="731" Name="Sketch 1"/>
+						<Atom3d ID="732" Mapping="507" Parent="229" UserID="225" DisplayStyle="Ball and Stick" XYZ="0.14670929,0.87745327,0.32690009" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="229" Mapping="507" Parent="2" Children="732" Name="Sketch 1"/>
+						<Atom3d ID="733" Mapping="507" Parent="230" UserID="226" DisplayStyle="Ball and Stick" XYZ="0.52830386,0.84263796,0.23007907" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="230" Mapping="507" Parent="2" Children="733" Name="Sketch 1"/>
+						<Atom3d ID="734" Mapping="507" Parent="231" UserID="227" DisplayStyle="Ball and Stick" XYZ="0.9484477,0.72229332,0.10689339" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="231" Mapping="507" Parent="2" Children="734" Name="Sketch 1"/>
+						<Atom3d ID="735" Mapping="507" Parent="232" UserID="228" DisplayStyle="Ball and Stick" XYZ="0.59387958,0.45460889,0.71118671" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="232" Mapping="507" Parent="2" Children="735" Name="Sketch 1"/>
+						<Atom3d ID="736" Mapping="507" Parent="233" UserID="229" DisplayStyle="Ball and Stick" XYZ="0.52991682,0.35366195,0.05556074" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="233" Mapping="507" Parent="2" Children="736" Name="Sketch 1"/>
+						<Atom3d ID="737" Mapping="507" Parent="234" UserID="230" DisplayStyle="Ball and Stick" XYZ="0.49235132,0.93658078,0.171116170000001" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="234" Mapping="507" Parent="2" Children="737" Name="Sketch 1"/>
+						<Atom3d ID="738" Mapping="507" Parent="235" UserID="231" DisplayStyle="Ball and Stick" XYZ="0.52989995,0.70641738,0.73137754" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="235" Mapping="507" Parent="2" Children="738" Name="Sketch 1"/>
+						<Atom3d ID="739" Mapping="507" Parent="236" UserID="232" DisplayStyle="Ball and Stick" XYZ="0.89408219,0.4937638,0.52444518" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="236" Mapping="507" Parent="2" Children="739" Name="Sketch 1"/>
+						<Atom3d ID="740" Mapping="507" Parent="237" UserID="233" DisplayStyle="Ball and Stick" XYZ="0.385892,0.67543244,0.0576429299999995" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="237" Mapping="507" Parent="2" Children="740" Name="Sketch 1"/>
+						<Atom3d ID="741" Mapping="507" Parent="238" UserID="234" DisplayStyle="Ball and Stick" XYZ="0.20298794,0.88710606,0.74902886" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="238" Mapping="507" Parent="2" Children="741" Name="Sketch 1"/>
+						<Atom3d ID="742" Mapping="507" Parent="239" UserID="235" DisplayStyle="Ball and Stick" XYZ="0.74736035,0.80795544,0.62079889" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="239" Mapping="507" Parent="2" Children="742" Name="Sketch 1"/>
+						<Atom3d ID="743" Mapping="507" Parent="240" UserID="236" DisplayStyle="Ball and Stick" XYZ="0.79770845,0.46124494,0.70479375" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="240" Mapping="507" Parent="2" Children="743" Name="Sketch 1"/>
+						<Atom3d ID="744" Mapping="507" Parent="241" UserID="237" DisplayStyle="Ball and Stick" XYZ="0.40497002,0.65482777,0.46700281" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="241" Mapping="507" Parent="2" Children="744" Name="Sketch 1"/>
+						<Atom3d ID="745" Mapping="507" Parent="242" UserID="238" DisplayStyle="Ball and Stick" XYZ="0.87134796,0.28946856,0.73189735" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="242" Mapping="507" Parent="2" Children="745" Name="Sketch 1"/>
+						<Atom3d ID="746" Mapping="507" Parent="243" UserID="239" DisplayStyle="Ball and Stick" XYZ="0.66025394,0.40999058,0.88793963" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="243" Mapping="507" Parent="2" Children="746" Name="Sketch 1"/>
+						<Atom3d ID="747" Mapping="507" Parent="244" UserID="240" DisplayStyle="Ball and Stick" XYZ="0.97293383,0.36616746,0.13958558" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="244" Mapping="507" Parent="2" Children="747" Name="Sketch 1"/>
+						<Atom3d ID="748" Mapping="507" Parent="245" UserID="241" DisplayStyle="Ball and Stick" XYZ="0.63476485,0.81865257,0.76170444" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="245" Mapping="507" Parent="2" Children="748" Name="Sketch 1"/>
+						<Atom3d ID="749" Mapping="507" Parent="246" UserID="242" DisplayStyle="Ball and Stick" XYZ="0.88483644,0.32188523,0.43652984" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="246" Mapping="507" Parent="2" Children="749" Name="Sketch 1"/>
+						<Atom3d ID="750" Mapping="507" Parent="247" UserID="243" DisplayStyle="Ball and Stick" XYZ="0.27917948,0.69602317,0.272329" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="247" Mapping="507" Parent="2" Children="750" Name="Sketch 1"/>
+						<Atom3d ID="751" Mapping="507" Parent="248" UserID="244" DisplayStyle="Ball and Stick" XYZ="0.75379157,0.31795466,0.61632854" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="248" Mapping="507" Parent="2" Children="751" Name="Sketch 1"/>
+						<Atom3d ID="752" Mapping="507" Parent="249" UserID="245" DisplayStyle="Ball and Stick" XYZ="0.53780377,0.67935216,0.53066778" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="249" Mapping="507" Parent="2" Children="752" Name="Sketch 1"/>
+						<Atom3d ID="753" Mapping="507" Parent="250" UserID="246" DisplayStyle="Ball and Stick" XYZ="0.98090571,0.44615442,0.20586596" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="250" Mapping="507" Parent="2" Children="753" Name="Sketch 1"/>
+						<Atom3d ID="754" Mapping="507" Parent="251" UserID="247" DisplayStyle="Ball and Stick" XYZ="0.55591249,0.66181737,0.80249012" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="251" Mapping="507" Parent="2" Children="754" Name="Sketch 1"/>
+						<Atom3d ID="755" Mapping="507" Parent="252" UserID="248" DisplayStyle="Ball and Stick" XYZ="0.75859416,0.26816434,0.92676562" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="252" Mapping="507" Parent="2" Children="755" Name="Sketch 1"/>
+						<Atom3d ID="756" Mapping="507" Parent="253" UserID="249" DisplayStyle="Ball and Stick" XYZ="0.90333778,0.48224214,0.09089348" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="253" Mapping="507" Parent="2" Children="756" Name="Sketch 1"/>
+						<Atom3d ID="757" Mapping="507" Parent="254" UserID="250" DisplayStyle="Ball and Stick" XYZ="0.32993987,0.40147853,0.28843981" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="254" Mapping="507" Parent="2" Children="757" Name="Sketch 1"/>
+						<Atom3d ID="758" Mapping="507" Parent="255" UserID="251" DisplayStyle="Ball and Stick" XYZ="0.4115611,0.5746792,0.1849553" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="255" Mapping="507" Parent="2" Children="758" Name="Sketch 1"/>
+						<Atom3d ID="759" Mapping="507" Parent="256" UserID="252" DisplayStyle="Ball and Stick" XYZ="0.0313159,0.53648996,0.76532853" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="256" Mapping="507" Parent="2" Children="759" Name="Sketch 1"/>
+						<Atom3d ID="760" Mapping="507" Parent="257" UserID="253" DisplayStyle="Ball and Stick" XYZ="0.78005838,0.62566471,0.15781139" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="257" Mapping="507" Parent="2" Children="760" Name="Sketch 1"/>
+						<Atom3d ID="761" Mapping="507" Parent="258" UserID="254" DisplayStyle="Ball and Stick" XYZ="0.64210171,0.62761581,0.5800398" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="258" Mapping="507" Parent="2" Children="761" Name="Sketch 1"/>
+						<Atom3d ID="762" Mapping="507" Parent="259" UserID="255" DisplayStyle="Ball and Stick" XYZ="0.0711495999999998,0.59694052,0.32985157" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="259" Mapping="507" Parent="2" Children="762" Name="Sketch 1"/>
+						<Atom3d ID="763" Mapping="507" Parent="260" UserID="256" DisplayStyle="Ball and Stick" XYZ="0.46160403,0.63768446,0.67472619" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="260" Mapping="507" Parent="2" Children="763" Name="Sketch 1"/>
+						<Atom3d ID="764" Mapping="507" Parent="261" UserID="257" DisplayStyle="Ball and Stick" XYZ="0.47836182,0.63018048,0.9817245" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="261" Mapping="507" Parent="2" Children="764" Name="Sketch 1"/>
+						<Atom3d ID="765" Mapping="507" Parent="262" UserID="258" DisplayStyle="Ball and Stick" XYZ="0.12872468,0.10703351,0.47841024" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="262" Mapping="507" Parent="2" Children="765" Name="Sketch 1"/>
+						<Atom3d ID="766" Mapping="507" Parent="263" UserID="259" DisplayStyle="Ball and Stick" XYZ="0.91952109,0.51810479,0.87464118" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="263" Mapping="507" Parent="2" Children="766" Name="Sketch 1"/>
+						<Atom3d ID="767" Mapping="507" Parent="264" UserID="260" DisplayStyle="Ball and Stick" XYZ="0.84688294,0.41110361,0.78438753" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="264" Mapping="507" Parent="2" Children="767" Name="Sketch 1"/>
+						<Atom3d ID="768" Mapping="507" Parent="265" UserID="261" DisplayStyle="Ball and Stick" XYZ="0.22997417,0.59761888,0.64158231" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="265" Mapping="507" Parent="2" Children="768" Name="Sketch 1"/>
+						<Atom3d ID="769" Mapping="507" Parent="266" UserID="262" DisplayStyle="Ball and Stick" XYZ="0.71629262,0.63302916,0.94249606" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="266" Mapping="507" Parent="2" Children="769" Name="Sketch 1"/>
+						<Atom3d ID="770" Mapping="507" Parent="267" UserID="263" DisplayStyle="Ball and Stick" XYZ="0.95671934,0.44108215,0.7279492" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="267" Mapping="507" Parent="2" Children="770" Name="Sketch 1"/>
+						<Atom3d ID="771" Mapping="507" Parent="268" UserID="264" DisplayStyle="Ball and Stick" XYZ="0.470849510000001,0.75657564,0.70869797" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="268" Mapping="507" Parent="2" Children="771" Name="Sketch 1"/>
+						<Atom3d ID="772" Mapping="507" Parent="269" UserID="265" DisplayStyle="Ball and Stick" XYZ="0.893846450000001,0.42623788,0.99212199" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="269" Mapping="507" Parent="2" Children="772" Name="Sketch 1"/>
+						<Atom3d ID="773" Mapping="507" Parent="270" UserID="266" DisplayStyle="Ball and Stick" XYZ="0.47046617,0.58350605,0.81299657" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="270" Mapping="507" Parent="2" Children="773" Name="Sketch 1"/>
+						<Atom3d ID="774" Mapping="507" Parent="271" UserID="267" DisplayStyle="Ball and Stick" XYZ="0.20181154,0.67028713,0.00969063" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="271" Mapping="507" Parent="2" Children="774" Name="Sketch 1"/>
+						<Atom3d ID="775" Mapping="507" Parent="272" UserID="268" DisplayStyle="Ball and Stick" XYZ="0.565144,0.60354835,0.14592449" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="272" Mapping="507" Parent="2" Children="775" Name="Sketch 1"/>
+						<Atom3d ID="776" Mapping="507" Parent="273" UserID="269" DisplayStyle="Ball and Stick" XYZ="0.0943369500000001,0.29678971,0.42193311" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="273" Mapping="507" Parent="2" Children="776" Name="Sketch 1"/>
+						<Atom3d ID="777" Mapping="507" Parent="274" UserID="270" DisplayStyle="Ball and Stick" XYZ="0.31133434,0.29475385,0.83117276" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="274" Mapping="507" Parent="2" Children="777" Name="Sketch 1"/>
+						<Atom3d ID="778" Mapping="507" Parent="275" UserID="271" DisplayStyle="Ball and Stick" XYZ="0.38258168,0.59470522,0.49726057" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="275" Mapping="507" Parent="2" Children="778" Name="Sketch 1"/>
+						<Atom3d ID="779" Mapping="507" Parent="276" UserID="272" DisplayStyle="Ball and Stick" XYZ="0.45866361,0.50707716,0.47153592" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="276" Mapping="507" Parent="2" Children="779" Name="Sketch 1"/>
+						<Atom3d ID="780" Mapping="507" Parent="277" UserID="273" DisplayStyle="Ball and Stick" XYZ="0.97018635,0.59412837,0.92095941" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="277" Mapping="507" Parent="2" Children="780" Name="Sketch 1"/>
+						<Atom3d ID="781" Mapping="507" Parent="278" UserID="274" DisplayStyle="Ball and Stick" XYZ="0.98498267,0.20196787,0.8875224" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="278" Mapping="507" Parent="2" Children="781" Name="Sketch 1"/>
+						<Atom3d ID="782" Mapping="507" Parent="279" UserID="275" DisplayStyle="Ball and Stick" XYZ="0.1180402,0.58373052,0.80596286" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="279" Mapping="507" Parent="2" Children="782" Name="Sketch 1"/>
+						<Atom3d ID="783" Mapping="507" Parent="280" UserID="276" DisplayStyle="Ball and Stick" XYZ="0.0214205399999999,0.88713068,0.56868261" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="280" Mapping="507" Parent="2" Children="783" Name="Sketch 1"/>
+						<Atom3d ID="784" Mapping="507" Parent="281" UserID="277" DisplayStyle="Ball and Stick" XYZ="0.19847332,0.62280303,0.28145835" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="281" Mapping="507" Parent="2" Children="784" Name="Sketch 1"/>
+						<Atom3d ID="785" Mapping="507" Parent="282" UserID="278" DisplayStyle="Ball and Stick" XYZ="0.25999373,0.76650035,0.89925694" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="282" Mapping="507" Parent="2" Children="785" Name="Sketch 1"/>
+						<Atom3d ID="786" Mapping="507" Parent="283" UserID="279" DisplayStyle="Ball and Stick" XYZ="0.20788446,0.00968194999999998,0.20849346" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="283" Mapping="507" Parent="2" Children="786" Name="Sketch 1"/>
+						<Atom3d ID="787" Mapping="507" Parent="284" UserID="280" DisplayStyle="Ball and Stick" XYZ="0.40375838,0.21354938,0.13510998" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="284" Mapping="507" Parent="2" Children="787" Name="Sketch 1"/>
+						<Atom3d ID="788" Mapping="507" Parent="285" UserID="281" DisplayStyle="Ball and Stick" XYZ="0.92836368,0.30622888,0.08713902" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="285" Mapping="507" Parent="2" Children="788" Name="Sketch 1"/>
+						<Atom3d ID="789" Mapping="507" Parent="286" UserID="282" DisplayStyle="Ball and Stick" XYZ="0.80019552,0.49525422,0.31697184" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="286" Mapping="507" Parent="2" Children="789" Name="Sketch 1"/>
+						<Atom3d ID="790" Mapping="507" Parent="287" UserID="283" DisplayStyle="Ball and Stick" XYZ="0.0677389699999999,0.221178,0.13630077" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="287" Mapping="507" Parent="2" Children="790" Name="Sketch 1"/>
+						<Atom3d ID="791" Mapping="507" Parent="288" UserID="284" DisplayStyle="Ball and Stick" XYZ="0.53079712,0.25863689,0.87067658" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="288" Mapping="507" Parent="2" Children="791" Name="Sketch 1"/>
+						<Atom3d ID="792" Mapping="507" Parent="289" UserID="285" DisplayStyle="Ball and Stick" XYZ="0.7855373,0.37517646,0.19109665" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="289" Mapping="507" Parent="2" Children="792" Name="Sketch 1"/>
+						<Atom3d ID="793" Mapping="507" Parent="290" UserID="286" DisplayStyle="Ball and Stick" XYZ="0.11360501,0.42117891,0.99823064" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="290" Mapping="507" Parent="2" Children="793" Name="Sketch 1"/>
+						<Atom3d ID="794" Mapping="507" Parent="291" UserID="287" DisplayStyle="Ball and Stick" XYZ="0.43533736,0.4521457,0.6115979" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="291" Mapping="507" Parent="2" Children="794" Name="Sketch 1"/>
+						<Atom3d ID="795" Mapping="507" Parent="292" UserID="288" DisplayStyle="Ball and Stick" XYZ="0.36464009,0.47039226,0.85393488" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="292" Mapping="507" Parent="2" Children="795" Name="Sketch 1"/>
+						<Atom3d ID="796" Mapping="507" Parent="293" UserID="289" DisplayStyle="Ball and Stick" XYZ="0.91581661,0.65541178,0.89058614" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="293" Mapping="507" Parent="2" Children="796" Name="Sketch 1"/>
+						<Atom3d ID="797" Mapping="507" Parent="294" UserID="290" DisplayStyle="Ball and Stick" XYZ="0.97561711,0.36256731,0.47389063" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="294" Mapping="507" Parent="2" Children="797" Name="Sketch 1"/>
+						<Atom3d ID="798" Mapping="507" Parent="295" UserID="291" DisplayStyle="Ball and Stick" XYZ="0.10642384,0.64120919,0.0683835700000001" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="295" Mapping="507" Parent="2" Children="798" Name="Sketch 1"/>
+						<Atom3d ID="799" Mapping="507" Parent="296" UserID="292" DisplayStyle="Ball and Stick" XYZ="0.98331016,0.08439773,0.0173023" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="296" Mapping="507" Parent="2" Children="799" Name="Sketch 1"/>
+						<Atom3d ID="800" Mapping="507" Parent="297" UserID="293" DisplayStyle="Ball and Stick" XYZ="0.30990139,0.56596524,0.74789101" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="297" Mapping="507" Parent="2" Children="800" Name="Sketch 1"/>
+						<Atom3d ID="801" Mapping="507" Parent="298" UserID="294" DisplayStyle="Ball and Stick" XYZ="0.637896480000001,0.48668507,0.14217524" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="298" Mapping="507" Parent="2" Children="801" Name="Sketch 1"/>
+						<Atom3d ID="802" Mapping="507" Parent="299" UserID="295" DisplayStyle="Ball and Stick" XYZ="0.59473276,0.99349266,0.27172989" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="299" Mapping="507" Parent="2" Children="802" Name="Sketch 1"/>
+						<Atom3d ID="803" Mapping="507" Parent="300" UserID="296" DisplayStyle="Ball and Stick" XYZ="0.61733413,0.71266776,0.84991282" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="300" Mapping="507" Parent="2" Children="803" Name="Sketch 1"/>
+						<Atom3d ID="804" Mapping="507" Parent="301" UserID="297" DisplayStyle="Ball and Stick" XYZ="0.25309941,0.11595883,0.80720675" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="301" Mapping="507" Parent="2" Children="804" Name="Sketch 1"/>
+						<Atom3d ID="805" Mapping="507" Parent="302" UserID="298" DisplayStyle="Ball and Stick" XYZ="0.89602196,0.5444876,0.13878578" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="302" Mapping="507" Parent="2" Children="805" Name="Sketch 1"/>
+						<Atom3d ID="806" Mapping="507" Parent="303" UserID="299" DisplayStyle="Ball and Stick" XYZ="0.3401694,0.09620236,0.38785264" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="303" Mapping="507" Parent="2" Children="806" Name="Sketch 1"/>
+						<Atom3d ID="807" Mapping="507" Parent="304" UserID="300" DisplayStyle="Ball and Stick" XYZ="0.99442047,0.4715879,0.94177783" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="304" Mapping="507" Parent="2" Children="807" Name="Sketch 1"/>
+						<Atom3d ID="808" Mapping="507" Parent="305" UserID="301" DisplayStyle="Ball and Stick" XYZ="0.48692101,0.09275871,0.62231988" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="305" Mapping="507" Parent="2" Children="808" Name="Sketch 1"/>
+						<Atom3d ID="809" Mapping="507" Parent="306" UserID="302" DisplayStyle="Ball and Stick" XYZ="0.26031649,0.37037602,0.145252" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="306" Mapping="507" Parent="2" Children="809" Name="Sketch 1"/>
+						<Atom3d ID="810" Mapping="507" Parent="307" UserID="303" DisplayStyle="Ball and Stick" XYZ="0.20275018,0.37745592,0.82744461" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="307" Mapping="507" Parent="2" Children="810" Name="Sketch 1"/>
+						<Atom3d ID="811" Mapping="507" Parent="308" UserID="304" DisplayStyle="Ball and Stick" XYZ="0.60514724,0.40719166,0.31512868" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="308" Mapping="507" Parent="2" Children="811" Name="Sketch 1"/>
+						<Atom3d ID="812" Mapping="507" Parent="309" UserID="305" DisplayStyle="Ball and Stick" XYZ="0.56003976,0.9407348,0.91727495" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="309" Mapping="507" Parent="2" Children="812" Name="Sketch 1"/>
+						<Atom3d ID="813" Mapping="507" Parent="310" UserID="306" DisplayStyle="Ball and Stick" XYZ="0.00937731999999998,0.50292271,0.36759493" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="310" Mapping="507" Parent="2" Children="813" Name="Sketch 1"/>
+						<Atom3d ID="814" Mapping="507" Parent="311" UserID="307" DisplayStyle="Ball and Stick" XYZ="0.95018452,0.7160058,0.90191364" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="311" Mapping="507" Parent="2" Children="814" Name="Sketch 1"/>
+						<Atom3d ID="815" Mapping="507" Parent="312" UserID="308" DisplayStyle="Ball and Stick" XYZ="0.37501967,0.61138374,0.71663636" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="312" Mapping="507" Parent="2" Children="815" Name="Sketch 1"/>
+						<Atom3d ID="816" Mapping="507" Parent="313" UserID="309" DisplayStyle="Ball and Stick" XYZ="0.39611042,0.69874322,0.60311544" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="313" Mapping="507" Parent="2" Children="816" Name="Sketch 1"/>
+						<Atom3d ID="817" Mapping="507" Parent="314" UserID="310" DisplayStyle="Ball and Stick" XYZ="0.62752157,0.53566957,0.76525456" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="314" Mapping="507" Parent="2" Children="817" Name="Sketch 1"/>
+						<Atom3d ID="818" Mapping="507" Parent="315" UserID="311" DisplayStyle="Ball and Stick" XYZ="0.58995724,0.58042908,0.80833495" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="315" Mapping="507" Parent="2" Children="818" Name="Sketch 1"/>
+						<Atom3d ID="819" Mapping="507" Parent="316" UserID="312" DisplayStyle="Ball and Stick" XYZ="0.18218514,0.45843169,0.83352733" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="316" Mapping="507" Parent="2" Children="819" Name="Sketch 1"/>
+						<Atom3d ID="820" Mapping="507" Parent="317" UserID="313" DisplayStyle="Ball and Stick" XYZ="0.0952113099999997,0.41745275,0.37554711" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="317" Mapping="507" Parent="2" Children="820" Name="Sketch 1"/>
+						<Atom3d ID="821" Mapping="507" Parent="318" UserID="314" DisplayStyle="Ball and Stick" XYZ="0.25092727,0.40843955,0.64593762" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="318" Mapping="507" Parent="2" Children="821" Name="Sketch 1"/>
+						<Atom3d ID="822" Mapping="507" Parent="319" UserID="315" DisplayStyle="Ball and Stick" XYZ="0.20569128,0.28089368,0.50417203" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="319" Mapping="507" Parent="2" Children="822" Name="Sketch 1"/>
+						<Atom3d ID="823" Mapping="507" Parent="320" UserID="316" DisplayStyle="Ball and Stick" XYZ="0.52311182,0.99984354,0.0392814799999994" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="320" Mapping="507" Parent="2" Children="823" Name="Sketch 1"/>
+						<Atom3d ID="824" Mapping="507" Parent="321" UserID="317" DisplayStyle="Ball and Stick" XYZ="0.0994028000000002,0.39886668,0.7917788" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="321" Mapping="507" Parent="2" Children="824" Name="Sketch 1"/>
+						<Atom3d ID="825" Mapping="507" Parent="322" UserID="318" DisplayStyle="Ball and Stick" XYZ="0.90046138,0.57931328,0.6817013" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="322" Mapping="507" Parent="2" Children="825" Name="Sketch 1"/>
+						<Atom3d ID="826" Mapping="507" Parent="323" UserID="319" DisplayStyle="Ball and Stick" XYZ="0.35085627,0.50064725,0.6277343" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="323" Mapping="507" Parent="2" Children="826" Name="Sketch 1"/>
+						<Atom3d ID="827" Mapping="507" Parent="324" UserID="320" DisplayStyle="Ball and Stick" XYZ="0.33135179,0.4048571,0.92927188" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="324" Mapping="507" Parent="2" Children="827" Name="Sketch 1"/>
+						<Atom3d ID="828" Mapping="507" Parent="325" UserID="321" DisplayStyle="Ball and Stick" XYZ="0.86215377,0.5570246,0.96035433" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="325" Mapping="507" Parent="2" Children="828" Name="Sketch 1"/>
+						<Atom3d ID="829" Mapping="507" Parent="326" UserID="322" DisplayStyle="Ball and Stick" XYZ="0.93263876,0.69057494,0.46930122" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="326" Mapping="507" Parent="2" Children="829" Name="Sketch 1"/>
+						<Atom3d ID="830" Mapping="507" Parent="327" UserID="323" DisplayStyle="Ball and Stick" XYZ="0.02964417,0.54822606,0.0632142400000002" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="327" Mapping="507" Parent="2" Children="830" Name="Sketch 1"/>
+						<Atom3d ID="831" Mapping="507" Parent="328" UserID="324" DisplayStyle="Ball and Stick" XYZ="0.88438588,0.15171443,0.60311323" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="328" Mapping="507" Parent="2" Children="831" Name="Sketch 1"/>
+						<Atom3d ID="832" Mapping="507" Parent="329" UserID="325" DisplayStyle="Ball and Stick" XYZ="0.32678923,0.18100582,0.39679924" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="329" Mapping="507" Parent="2" Children="832" Name="Sketch 1"/>
+						<Atom3d ID="833" Mapping="507" Parent="330" UserID="326" DisplayStyle="Ball and Stick" XYZ="0.51089281,0.56673038,0.56877249" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="330" Mapping="507" Parent="2" Children="833" Name="Sketch 1"/>
+						<Atom3d ID="834" Mapping="507" Parent="331" UserID="327" DisplayStyle="Ball and Stick" XYZ="0.20621631,0.56504434,0.3664698" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="331" Mapping="507" Parent="2" Children="834" Name="Sketch 1"/>
+						<Atom3d ID="835" Mapping="507" Parent="332" UserID="328" DisplayStyle="Ball and Stick" XYZ="0.34082833,0.81485605,0.07028668" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="332" Mapping="507" Parent="2" Children="835" Name="Sketch 1"/>
+						<Atom3d ID="836" Mapping="507" Parent="333" UserID="329" DisplayStyle="Ball and Stick" XYZ="0.32200143,0.26487076,0.96588767" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="333" Mapping="507" Parent="2" Children="836" Name="Sketch 1"/>
+						<Atom3d ID="837" Mapping="507" Parent="334" UserID="330" DisplayStyle="Ball and Stick" XYZ="0.70535934,0.51747131,0.12951536" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="334" Mapping="507" Parent="2" Children="837" Name="Sketch 1"/>
+						<Atom3d ID="838" Mapping="507" Parent="335" UserID="331" DisplayStyle="Ball and Stick" XYZ="0.99078918,0.39584273,0.82626301" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="335" Mapping="507" Parent="2" Children="838" Name="Sketch 1"/>
+						<Atom3d ID="839" Mapping="507" Parent="336" UserID="332" DisplayStyle="Ball and Stick" XYZ="0.31148979,0.78294379,0.25750276" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="336" Mapping="507" Parent="2" Children="839" Name="Sketch 1"/>
+						<Atom3d ID="840" Mapping="507" Parent="337" UserID="333" DisplayStyle="Ball and Stick" XYZ="0.18427622,0.69642031,0.63831985" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="337" Mapping="507" Parent="2" Children="840" Name="Sketch 1"/>
+						<Atom3d ID="841" Mapping="507" Parent="338" UserID="334" DisplayStyle="Ball and Stick" XYZ="0.47173434,0.88096809,0.75178087" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="338" Mapping="507" Parent="2" Children="841" Name="Sketch 1"/>
+						<Atom3d ID="842" Mapping="507" Parent="339" UserID="335" DisplayStyle="Ball and Stick" XYZ="0.25407636,0.94786739,0.23815833" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="339" Mapping="507" Parent="2" Children="842" Name="Sketch 1"/>
+						<Atom3d ID="843" Mapping="507" Parent="340" UserID="336" DisplayStyle="Ball and Stick" XYZ="0.77683157,0.57177263,0.13618064" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="340" Mapping="507" Parent="2" Children="843" Name="Sketch 1"/>
+						<Atom3d ID="844" Mapping="507" Parent="341" UserID="337" DisplayStyle="Ball and Stick" XYZ="0.0178751900000001,0.14245111,0.11680518" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="341" Mapping="507" Parent="2" Children="844" Name="Sketch 1"/>
+						<Atom3d ID="845" Mapping="507" Parent="342" UserID="338" DisplayStyle="Ball and Stick" XYZ="0.56738096,0.45145491,0.26840231" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="342" Mapping="507" Parent="2" Children="845" Name="Sketch 1"/>
+						<Atom3d ID="846" Mapping="507" Parent="343" UserID="339" DisplayStyle="Ball and Stick" XYZ="0.46858093,0.48221424,0.06624848" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="343" Mapping="507" Parent="2" Children="846" Name="Sketch 1"/>
+						<Atom3d ID="847" Mapping="507" Parent="344" UserID="340" DisplayStyle="Ball and Stick" XYZ="0.6968295,0.15832393,0.31268752" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="344" Mapping="507" Parent="2" Children="847" Name="Sketch 1"/>
+						<Atom3d ID="848" Mapping="507" Parent="345" UserID="341" DisplayStyle="Ball and Stick" XYZ="0.6556468,0.94979656,0.0927113599999998" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="345" Mapping="507" Parent="2" Children="848" Name="Sketch 1"/>
+						<Atom3d ID="849" Mapping="507" Parent="346" UserID="342" DisplayStyle="Ball and Stick" XYZ="0.61944944,0.15669826,0.60527569" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="346" Mapping="507" Parent="2" Children="849" Name="Sketch 1"/>
+						<Atom3d ID="850" Mapping="507" Parent="347" UserID="343" DisplayStyle="Ball and Stick" XYZ="0.56177396,0.30382702,0.42598283" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="347" Mapping="507" Parent="2" Children="850" Name="Sketch 1"/>
+						<Atom3d ID="851" Mapping="507" Parent="348" UserID="344" DisplayStyle="Ball and Stick" XYZ="0.75360024,0.68101019,0.3321898" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="348" Mapping="507" Parent="2" Children="851" Name="Sketch 1"/>
+						<Atom3d ID="852" Mapping="507" Parent="349" UserID="345" DisplayStyle="Ball and Stick" XYZ="0.88344479,0.46233147,0.29856262" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="349" Mapping="507" Parent="2" Children="852" Name="Sketch 1"/>
+						<Atom3d ID="853" Mapping="507" Parent="350" UserID="346" DisplayStyle="Ball and Stick" XYZ="0.47725818,0.27803087,0.0483826299999996" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="350" Mapping="507" Parent="2" Children="853" Name="Sketch 1"/>
+						<Atom3d ID="854" Mapping="507" Parent="351" UserID="347" DisplayStyle="Ball and Stick" XYZ="0.03907172,0.43705487,0.54786801" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="351" Mapping="507" Parent="2" Children="854" Name="Sketch 1"/>
+						<Atom3d ID="855" Mapping="507" Parent="352" UserID="348" DisplayStyle="Ball and Stick" XYZ="0.5867095,0.41068417,0.04373411" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="352" Mapping="507" Parent="2" Children="855" Name="Sketch 1"/>
+						<Atom3d ID="856" Mapping="507" Parent="353" UserID="349" DisplayStyle="Ball and Stick" XYZ="0.0808960600000001,0.47639704,0.58969575" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="353" Mapping="507" Parent="2" Children="856" Name="Sketch 1"/>
+						<Atom3d ID="857" Mapping="507" Parent="354" UserID="350" DisplayStyle="Ball and Stick" XYZ="0.81890184,0.36203831,0.488251" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="354" Mapping="507" Parent="2" Children="857" Name="Sketch 1"/>
+						<Atom3d ID="858" Mapping="507" Parent="355" UserID="351" DisplayStyle="Ball and Stick" XYZ="0.61644346,0.30555263,0.16446202" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="355" Mapping="507" Parent="2" Children="858" Name="Sketch 1"/>
+						<Atom3d ID="859" Mapping="507" Parent="356" UserID="352" DisplayStyle="Ball and Stick" XYZ="0.01183362,0.75499368,0.85651892" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="356" Mapping="507" Parent="2" Children="859" Name="Sketch 1"/>
+						<Atom3d ID="860" Mapping="507" Parent="357" UserID="353" DisplayStyle="Ball and Stick" XYZ="0.06188158,0.48911628,0.0953722400000001" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="357" Mapping="507" Parent="2" Children="860" Name="Sketch 1"/>
+						<Atom3d ID="861" Mapping="507" Parent="358" UserID="354" DisplayStyle="Ball and Stick" XYZ="0.17543055,0.6934213,0.35961431" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="358" Mapping="507" Parent="2" Children="861" Name="Sketch 1"/>
+						<Atom3d ID="862" Mapping="507" Parent="359" UserID="355" DisplayStyle="Ball and Stick" XYZ="0.90933061,0.60793632,0.15580767" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="359" Mapping="507" Parent="2" Children="862" Name="Sketch 1"/>
+						<Atom3d ID="863" Mapping="507" Parent="360" UserID="356" DisplayStyle="Ball and Stick" XYZ="0.4203293,0.45114201,0.32795241" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="360" Mapping="507" Parent="2" Children="863" Name="Sketch 1"/>
+						<Atom3d ID="864" Mapping="507" Parent="361" UserID="357" DisplayStyle="Ball and Stick" XYZ="0.47889939,0.48927039,0.86289907" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="361" Mapping="507" Parent="2" Children="864" Name="Sketch 1"/>
+						<Atom3d ID="865" Mapping="507" Parent="362" UserID="358" DisplayStyle="Ball and Stick" XYZ="0.38223556,0.94648874,0.96100116" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="362" Mapping="507" Parent="2" Children="865" Name="Sketch 1"/>
+						<Atom3d ID="866" Mapping="507" Parent="363" UserID="359" DisplayStyle="Ball and Stick" XYZ="0.72856349,0.41163924,0.05675225" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="363" Mapping="507" Parent="2" Children="866" Name="Sketch 1"/>
+						<Atom3d ID="867" Mapping="507" Parent="364" UserID="360" DisplayStyle="Ball and Stick" XYZ="0.32144701,0.4951596,0.14349386" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="364" Mapping="507" Parent="2" Children="867" Name="Sketch 1"/>
+						<Atom3d ID="868" Mapping="507" Parent="365" UserID="361" DisplayStyle="Ball and Stick" XYZ="0.28833377,0.87820452,0.855228719999999" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="365" Mapping="507" Parent="2" Children="868" Name="Sketch 1"/>
+						<Atom3d ID="869" Mapping="507" Parent="366" UserID="362" DisplayStyle="Ball and Stick" XYZ="0.85129505,0.69011402,0.57249224" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="366" Mapping="507" Parent="2" Children="869" Name="Sketch 1"/>
+						<Atom3d ID="870" Mapping="507" Parent="367" UserID="363" DisplayStyle="Ball and Stick" XYZ="0.0638588399999998,0.68274575,0.84452742" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="367" Mapping="507" Parent="2" Children="870" Name="Sketch 1"/>
+						<Atom3d ID="871" Mapping="507" Parent="368" UserID="364" DisplayStyle="Ball and Stick" XYZ="0.51028913,0.54360318,0.17009661" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="368" Mapping="507" Parent="2" Children="871" Name="Sketch 1"/>
+						<Atom3d ID="872" Mapping="507" Parent="369" UserID="365" DisplayStyle="Ball and Stick" XYZ="0.2340299,0.49718311,0.593029440000001" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="369" Mapping="507" Parent="2" Children="872" Name="Sketch 1"/>
+						<Atom3d ID="873" Mapping="507" Parent="370" UserID="366" DisplayStyle="Ball and Stick" XYZ="0.51003134,0.22152224,0.22825864" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="370" Mapping="507" Parent="2" Children="873" Name="Sketch 1"/>
+						<Atom3d ID="874" Mapping="507" Parent="371" UserID="367" DisplayStyle="Ball and Stick" XYZ="0.11817657,0.52501547,0.33369261" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="371" Mapping="507" Parent="2" Children="874" Name="Sketch 1"/>
+						<Atom3d ID="875" Mapping="507" Parent="372" UserID="368" DisplayStyle="Ball and Stick" XYZ="0.66496778,0.80376542,0.93634832" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="372" Mapping="507" Parent="2" Children="875" Name="Sketch 1"/>
+						<Atom3d ID="876" Mapping="507" Parent="373" UserID="369" DisplayStyle="Ball and Stick" XYZ="0.0675350400000001,0.56203574,0.4855476" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="373" Mapping="507" Parent="2" Children="876" Name="Sketch 1"/>
+						<Atom3d ID="877" Mapping="507" Parent="374" UserID="370" DisplayStyle="Ball and Stick" XYZ="0.00911237000000004,0.0494652,0.27722442" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="374" Mapping="507" Parent="2" Children="877" Name="Sketch 1"/>
+						<Atom3d ID="878" Mapping="507" Parent="375" UserID="371" DisplayStyle="Ball and Stick" XYZ="0.80112636,0.62285489,0.53381771" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="375" Mapping="507" Parent="2" Children="878" Name="Sketch 1"/>
+						<Atom3d ID="879" Mapping="507" Parent="376" UserID="372" DisplayStyle="Ball and Stick" XYZ="0.64671409,0.37551984,0.18168741" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="376" Mapping="507" Parent="2" Children="879" Name="Sketch 1"/>
+						<Atom3d ID="880" Mapping="507" Parent="377" UserID="373" DisplayStyle="Ball and Stick" XYZ="0.16947557,0.49180922,0.17973357" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="377" Mapping="507" Parent="2" Children="880" Name="Sketch 1"/>
+						<Atom3d ID="881" Mapping="507" Parent="378" UserID="374" DisplayStyle="Ball and Stick" XYZ="0.85507756,0.66229194,0.0464355400000003" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="378" Mapping="507" Parent="2" Children="881" Name="Sketch 1"/>
+						<Atom3d ID="882" Mapping="507" Parent="379" UserID="375" DisplayStyle="Ball and Stick" XYZ="0.80747199,0.40556616,0.95648724" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="379" Mapping="507" Parent="2" Children="882" Name="Sketch 1"/>
+						<Atom3d ID="883" Mapping="507" Parent="380" UserID="376" DisplayStyle="Ball and Stick" XYZ="0.68572265,0.68423277,0.53208739" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="380" Mapping="507" Parent="2" Children="883" Name="Sketch 1"/>
+						<Atom3d ID="884" Mapping="507" Parent="381" UserID="377" DisplayStyle="Ball and Stick" XYZ="0.65509105,0.47309071,0.9152627" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="381" Mapping="507" Parent="2" Children="884" Name="Sketch 1"/>
+						<Atom3d ID="885" Mapping="507" Parent="382" UserID="378" DisplayStyle="Ball and Stick" XYZ="0.90617543,0.83018112,0.4065001" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="382" Mapping="507" Parent="2" Children="885" Name="Sketch 1"/>
+						<Atom3d ID="886" Mapping="507" Parent="383" UserID="379" DisplayStyle="Ball and Stick" XYZ="0.91273034,0.25916094,0.53529143" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="383" Mapping="507" Parent="2" Children="886" Name="Sketch 1"/>
+						<Atom3d ID="887" Mapping="507" Parent="384" UserID="380" DisplayStyle="Ball and Stick" XYZ="0.26098675,0.45625976,0.26182896" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="384" Mapping="507" Parent="2" Children="887" Name="Sketch 1"/>
+						<Atom3d ID="888" Mapping="507" Parent="385" UserID="381" DisplayStyle="Ball and Stick" XYZ="0.11463135,0.242311,0.53087968" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="385" Mapping="507" Parent="2" Children="888" Name="Sketch 1"/>
+						<Atom3d ID="889" Mapping="507" Parent="386" UserID="382" DisplayStyle="Ball and Stick" XYZ="0.69856131,0.49465412,0.65374881" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="386" Mapping="507" Parent="2" Children="889" Name="Sketch 1"/>
+						<Atom3d ID="890" Mapping="507" Parent="387" UserID="383" DisplayStyle="Ball and Stick" XYZ="0.33676678,0.51685768,0.90697914" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="387" Mapping="507" Parent="2" Children="890" Name="Sketch 1"/>
+						<Atom3d ID="891" Mapping="507" Parent="388" UserID="384" DisplayStyle="Ball and Stick" XYZ="0.82154733,0.62848496,0.93059599" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="388" Mapping="507" Parent="2" Children="891" Name="Sketch 1"/>
+						<Atom3d ID="892" Mapping="507" Parent="389" UserID="385" DisplayStyle="Ball and Stick" XYZ="0.64748883,0.56420082,0.31976941" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="389" Mapping="507" Parent="2" Children="892" Name="Sketch 1"/>
+						<Atom3d ID="893" Mapping="507" Parent="390" UserID="386" DisplayStyle="Ball and Stick" XYZ="0.21930188,0.30243355,0.17126611" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="390" Mapping="507" Parent="2" Children="893" Name="Sketch 1"/>
+						<Atom3d ID="894" Mapping="507" Parent="391" UserID="387" DisplayStyle="Ball and Stick" XYZ="0.788057800000001,0.81823212,0.823837999999999" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="391" Mapping="507" Parent="2" Children="894" Name="Sketch 1"/>
+						<Atom3d ID="895" Mapping="507" Parent="392" UserID="388" DisplayStyle="Ball and Stick" XYZ="0.50218648,0.74845344,0.39678174" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="392" Mapping="507" Parent="2" Children="895" Name="Sketch 1"/>
+						<Atom3d ID="896" Mapping="507" Parent="393" UserID="389" DisplayStyle="Ball and Stick" XYZ="0.979018030000001,0.00228040000000004,0.06373325" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="393" Mapping="507" Parent="2" Children="896" Name="Sketch 1"/>
+						<Atom3d ID="897" Mapping="507" Parent="394" UserID="390" DisplayStyle="Ball and Stick" XYZ="0.89365798,0.05326774,0.51923734" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="394" Mapping="507" Parent="2" Children="897" Name="Sketch 1"/>
+						<Atom3d ID="898" Mapping="507" Parent="395" UserID="391" DisplayStyle="Ball and Stick" XYZ="0.2727344,0.43378812,0.78642392" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="395" Mapping="507" Parent="2" Children="898" Name="Sketch 1"/>
+						<Atom3d ID="899" Mapping="507" Parent="396" UserID="392" DisplayStyle="Ball and Stick" XYZ="0.0149599900000001,0.65959728,0.98277533" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="396" Mapping="507" Parent="2" Children="899" Name="Sketch 1"/>
+						<Atom3d ID="900" Mapping="507" Parent="397" UserID="393" DisplayStyle="Ball and Stick" XYZ="0.30904752,0.51401395,0.44187436" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="397" Mapping="507" Parent="2" Children="900" Name="Sketch 1"/>
+						<Atom3d ID="901" Mapping="507" Parent="398" UserID="394" DisplayStyle="Ball and Stick" XYZ="0.56401902,0.51944292,0.00699059000000002" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="398" Mapping="507" Parent="2" Children="901" Name="Sketch 1"/>
+						<Atom3d ID="902" Mapping="507" Parent="399" UserID="395" DisplayStyle="Ball and Stick" XYZ="0.37521857,0.74620217,0.20455436" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="399" Mapping="507" Parent="2" Children="902" Name="Sketch 1"/>
+						<Atom3d ID="903" Mapping="507" Parent="400" UserID="396" DisplayStyle="Ball and Stick" XYZ="0.15473373,0.0617156300000001,0.0272407799999999" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="400" Mapping="507" Parent="2" Children="903" Name="Sketch 1"/>
+						<Atom3d ID="904" Mapping="507" Parent="401" UserID="397" DisplayStyle="Ball and Stick" XYZ="0.69836873,0.60931587,0.73043883" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="401" Mapping="507" Parent="2" Children="904" Name="Sketch 1"/>
+						<Atom3d ID="905" Mapping="507" Parent="402" UserID="398" DisplayStyle="Ball and Stick" XYZ="0.34529161,0.62008375,0.13391718" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="402" Mapping="507" Parent="2" Children="905" Name="Sketch 1"/>
+						<Atom3d ID="906" Mapping="507" Parent="403" UserID="399" DisplayStyle="Ball and Stick" XYZ="0.36010572,0.94900262,0.64791852" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="403" Mapping="507" Parent="2" Children="906" Name="Sketch 1"/>
+						<Atom3d ID="907" Mapping="507" Parent="404" UserID="400" DisplayStyle="Ball and Stick" XYZ="0.58437896,0.00985559,0.55279905" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="404" Mapping="507" Parent="2" Children="907" Name="Sketch 1"/>
+						<Atom3d ID="908" Mapping="507" Parent="405" UserID="401" DisplayStyle="Ball and Stick" XYZ="0.41261056,0.40832826,0.38850525" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="405" Mapping="507" Parent="2" Children="908" Name="Sketch 1"/>
+						<Atom3d ID="909" Mapping="507" Parent="406" UserID="402" DisplayStyle="Ball and Stick" XYZ="0.26335737,0.44978791,0.0607323900000001" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="406" Mapping="507" Parent="2" Children="909" Name="Sketch 1"/>
+						<Atom3d ID="910" Mapping="507" Parent="407" UserID="403" DisplayStyle="Ball and Stick" XYZ="0.842323240000001,0.80868518,0.98822755" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="407" Mapping="507" Parent="2" Children="910" Name="Sketch 1"/>
+						<Atom3d ID="911" Mapping="507" Parent="408" UserID="404" DisplayStyle="Ball and Stick" XYZ="0.10297031,0.37062863,0.45879033" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="408" Mapping="507" Parent="2" Children="911" Name="Sketch 1"/>
+						<Atom3d ID="912" Mapping="507" Parent="409" UserID="405" DisplayStyle="Ball and Stick" XYZ="0.0888870099999999,0.15159664,0.243396010000001" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="409" Mapping="507" Parent="2" Children="912" Name="Sketch 1"/>
+						<Atom3d ID="913" Mapping="507" Parent="410" UserID="406" DisplayStyle="Ball and Stick" XYZ="0.74382681,0.83505267,0.447206170000001" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="410" Mapping="507" Parent="2" Children="913" Name="Sketch 1"/>
+						<Atom3d ID="914" Mapping="507" Parent="411" UserID="407" DisplayStyle="Ball and Stick" XYZ="0.97918934,0.25927255,0.34612894" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="411" Mapping="507" Parent="2" Children="914" Name="Sketch 1"/>
+						<Atom3d ID="915" Mapping="507" Parent="412" UserID="408" DisplayStyle="Ball and Stick" XYZ="0.92083251,0.96610361,0.92286843" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="412" Mapping="507" Parent="2" Children="915" Name="Sketch 1"/>
+						<Atom3d ID="916" Mapping="507" Parent="413" UserID="409" DisplayStyle="Ball and Stick" XYZ="0.95390058,0.52586037,0.25764298" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="413" Mapping="507" Parent="2" Children="916" Name="Sketch 1"/>
+						<Atom3d ID="917" Mapping="507" Parent="414" UserID="410" DisplayStyle="Ball and Stick" XYZ="0.4638322,0.37376845,0.59011739" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="414" Mapping="507" Parent="2" Children="917" Name="Sketch 1"/>
+						<Atom3d ID="918" Mapping="507" Parent="415" UserID="411" DisplayStyle="Ball and Stick" XYZ="0.0843844700000001,0.69330317,0.58949238" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="415" Mapping="507" Parent="2" Children="918" Name="Sketch 1"/>
+						<Atom3d ID="919" Mapping="507" Parent="416" UserID="412" DisplayStyle="Ball and Stick" XYZ="0.14133173,0.58456236,0.17803642" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="416" Mapping="507" Parent="2" Children="919" Name="Sketch 1"/>
+						<Atom3d ID="920" Mapping="507" Parent="417" UserID="413" DisplayStyle="Ball and Stick" XYZ="0.83868724,0.89086783,0.87932825" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="417" Mapping="507" Parent="2" Children="920" Name="Sketch 1"/>
+						<Atom3d ID="921" Mapping="507" Parent="418" UserID="414" DisplayStyle="Ball and Stick" XYZ="0.0806636300000001,0.80560929,0.62296498" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="418" Mapping="507" Parent="2" Children="921" Name="Sketch 1"/>
+						<Atom3d ID="922" Mapping="507" Parent="419" UserID="415" DisplayStyle="Ball and Stick" XYZ="0.42370668,0.86995465,0.20506518" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="419" Mapping="507" Parent="2" Children="922" Name="Sketch 1"/>
+						<Atom3d ID="923" Mapping="507" Parent="420" UserID="416" DisplayStyle="Ball and Stick" XYZ="0.90726954,0.14520313,0.40646058" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="420" Mapping="507" Parent="2" Children="923" Name="Sketch 1"/>
+						<Atom3d ID="924" Mapping="507" Parent="421" UserID="417" DisplayStyle="Ball and Stick" XYZ="0.4966943,0.19090296,0.96763283" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="421" Mapping="507" Parent="2" Children="924" Name="Sketch 1"/>
+						<Atom3d ID="925" Mapping="507" Parent="422" UserID="418" DisplayStyle="Ball and Stick" XYZ="0.494601370000001,0.57896906,0.0190505000000006" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="422" Mapping="507" Parent="2" Children="925" Name="Sketch 1"/>
+						<Atom3d ID="926" Mapping="507" Parent="423" UserID="419" DisplayStyle="Ball and Stick" XYZ="0.98589742,0.68147653,0.22260411" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="423" Mapping="507" Parent="2" Children="926" Name="Sketch 1"/>
+						<Atom3d ID="927" Mapping="507" Parent="424" UserID="420" DisplayStyle="Ball and Stick" XYZ="0.45897913,0.39638913,0.80883551" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="424" Mapping="507" Parent="2" Children="927" Name="Sketch 1"/>
+						<Atom3d ID="928" Mapping="507" Parent="425" UserID="421" DisplayStyle="Ball and Stick" XYZ="0.4510009,0.68675512,0.781546" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="425" Mapping="507" Parent="2" Children="928" Name="Sketch 1"/>
+						<Atom3d ID="929" Mapping="507" Parent="426" UserID="422" DisplayStyle="Ball and Stick" XYZ="0.65836412,0.66739571,0.76806498" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="426" Mapping="507" Parent="2" Children="929" Name="Sketch 1"/>
+						<Atom3d ID="930" Mapping="507" Parent="427" UserID="423" DisplayStyle="Ball and Stick" XYZ="0.27842247,0.61011291,0.44148707" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="427" Mapping="507" Parent="2" Children="930" Name="Sketch 1"/>
+						<Atom3d ID="931" Mapping="507" Parent="428" UserID="424" DisplayStyle="Ball and Stick" XYZ="0.51334018,0.11213341,0.39042872" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="428" Mapping="507" Parent="2" Children="931" Name="Sketch 1"/>
+						<Atom3d ID="932" Mapping="507" Parent="429" UserID="425" DisplayStyle="Ball and Stick" XYZ="0.04722053,0.94607013,0.44795072" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="429" Mapping="507" Parent="2" Children="932" Name="Sketch 1"/>
+						<Atom3d ID="933" Mapping="507" Parent="430" UserID="426" DisplayStyle="Ball and Stick" XYZ="0.02614541,0.61903328,0.14757159" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="430" Mapping="507" Parent="2" Children="933" Name="Sketch 1"/>
+						<Atom3d ID="934" Mapping="507" Parent="431" UserID="427" DisplayStyle="Ball and Stick" XYZ="0.24337246,0.15321718,0.15755691" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="431" Mapping="507" Parent="2" Children="934" Name="Sketch 1"/>
+						<Atom3d ID="935" Mapping="507" Parent="432" UserID="428" DisplayStyle="Ball and Stick" XYZ="0.14471257,0.54854488,0.96572673" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="432" Mapping="507" Parent="2" Children="935" Name="Sketch 1"/>
+						<Atom3d ID="936" Mapping="507" Parent="433" UserID="429" DisplayStyle="Ball and Stick" XYZ="0.95344615,0.87887985,0.99216092" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="433" Mapping="507" Parent="2" Children="936" Name="Sketch 1"/>
+						<Atom3d ID="937" Mapping="507" Parent="434" UserID="430" DisplayStyle="Ball and Stick" XYZ="0.75071615,0.56435442,0.60223222" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="434" Mapping="507" Parent="2" Children="937" Name="Sketch 1"/>
+						<Atom3d ID="938" Mapping="507" Parent="435" UserID="431" DisplayStyle="Ball and Stick" XYZ="0.08364414,0.38959286,0.13249768" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="435" Mapping="507" Parent="2" Children="938" Name="Sketch 1"/>
+						<Atom3d ID="939" Mapping="507" Parent="436" UserID="432" DisplayStyle="Ball and Stick" XYZ="0.42701077,0.29450884,0.86537915" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="436" Mapping="507" Parent="2" Children="939" Name="Sketch 1"/>
+						<Atom3d ID="940" Mapping="507" Parent="437" UserID="433" DisplayStyle="Ball and Stick" XYZ="0.58225155,0.94839996,0.62964165" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="437" Mapping="507" Parent="2" Children="940" Name="Sketch 1"/>
+						<Atom3d ID="941" Mapping="507" Parent="438" UserID="434" DisplayStyle="Ball and Stick" XYZ="0.04702431,0.85630322,0.03438589" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="438" Mapping="507" Parent="2" Children="941" Name="Sketch 1"/>
+						<Atom3d ID="942" Mapping="507" Parent="439" UserID="435" DisplayStyle="Ball and Stick" XYZ="0.74148619,0.5408293,0.8079803" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="439" Mapping="507" Parent="2" Children="942" Name="Sketch 1"/>
+						<Atom3d ID="943" Mapping="507" Parent="440" UserID="436" DisplayStyle="Ball and Stick" XYZ="0.10683247,0.34033984,0.99657619" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="440" Mapping="507" Parent="2" Children="943" Name="Sketch 1"/>
+						<Atom3d ID="944" Mapping="507" Parent="441" UserID="437" DisplayStyle="Ball and Stick" XYZ="0.49492896,0.42574385,0.99909604" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="441" Mapping="507" Parent="2" Children="944" Name="Sketch 1"/>
+						<Atom3d ID="945" Mapping="507" Parent="442" UserID="438" DisplayStyle="Ball and Stick" XYZ="0.70843405,0.87407565,0.16958788" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="442" Mapping="507" Parent="2" Children="945" Name="Sketch 1"/>
+						<Atom3d ID="946" Mapping="507" Parent="443" UserID="439" DisplayStyle="Ball and Stick" XYZ="0.554415580000001,0.14195794,0.19665234" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="443" Mapping="507" Parent="2" Children="946" Name="Sketch 1"/>
+						<Atom3d ID="947" Mapping="507" Parent="444" UserID="440" DisplayStyle="Ball and Stick" XYZ="0.89123023,0.58765346,0.42324135" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="444" Mapping="507" Parent="2" Children="947" Name="Sketch 1"/>
+						<Atom3d ID="948" Mapping="507" Parent="445" UserID="441" DisplayStyle="Ball and Stick" XYZ="0.76647323,0.72899002,0.48059478" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="445" Mapping="507" Parent="2" Children="948" Name="Sketch 1"/>
+						<Atom3d ID="949" Mapping="507" Parent="446" UserID="442" DisplayStyle="Ball and Stick" XYZ="0.87347662,0.35337502,0.94151741" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="446" Mapping="507" Parent="2" Children="949" Name="Sketch 1"/>
+						<Atom3d ID="950" Mapping="507" Parent="447" UserID="443" DisplayStyle="Ball and Stick" XYZ="0.01266897,0.83806145,0.44906989" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="447" Mapping="507" Parent="2" Children="950" Name="Sketch 1"/>
+						<Atom3d ID="951" Mapping="507" Parent="448" UserID="444" DisplayStyle="Ball and Stick" XYZ="0.45295689,0.26024568,0.39599171" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="448" Mapping="507" Parent="2" Children="951" Name="Sketch 1"/>
+						<Atom3d ID="952" Mapping="507" Parent="449" UserID="445" DisplayStyle="Ball and Stick" XYZ="0.3736147,0.31636527,0.28923243" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="449" Mapping="507" Parent="2" Children="952" Name="Sketch 1"/>
+						<Atom3d ID="953" Mapping="507" Parent="450" UserID="446" DisplayStyle="Ball and Stick" XYZ="0.93134749,0.08367097,0.30409503" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="450" Mapping="507" Parent="2" Children="953" Name="Sketch 1"/>
+						<Atom3d ID="954" Mapping="507" Parent="451" UserID="447" DisplayStyle="Ball and Stick" XYZ="0.26789778,0.54370689,0.14834" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="451" Mapping="507" Parent="2" Children="954" Name="Sketch 1"/>
+						<Atom3d ID="955" Mapping="507" Parent="452" UserID="448" DisplayStyle="Ball and Stick" XYZ="0.88987339,0.36852297,0.36092904" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="452" Mapping="507" Parent="2" Children="955" Name="Sketch 1"/>
+						<Atom3d ID="956" Mapping="507" Parent="453" UserID="449" DisplayStyle="Ball and Stick" XYZ="0.97060037,0.61435652,0.40092188" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="453" Mapping="507" Parent="2" Children="956" Name="Sketch 1"/>
+						<Atom3d ID="957" Mapping="507" Parent="454" UserID="450" DisplayStyle="Ball and Stick" XYZ="0.14134836,0.76767325,0.00554297000000005" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="454" Mapping="507" Parent="2" Children="957" Name="Sketch 1"/>
+						<Atom3d ID="958" Mapping="507" Parent="455" UserID="451" DisplayStyle="Ball and Stick" XYZ="0.9678871,0.39968678,0.2807273" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="455" Mapping="507" Parent="2" Children="958" Name="Sketch 1"/>
+						<Atom3d ID="959" Mapping="507" Parent="456" UserID="452" DisplayStyle="Ball and Stick" XYZ="0.22757381,0.33436814,0.74457878" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="456" Mapping="507" Parent="2" Children="959" Name="Sketch 1"/>
+						<Atom3d ID="960" Mapping="507" Parent="457" UserID="453" DisplayStyle="Ball and Stick" XYZ="0.80328763,0.28884789,0.45332304" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="457" Mapping="507" Parent="2" Children="960" Name="Sketch 1"/>
+						<Atom3d ID="961" Mapping="507" Parent="458" UserID="454" DisplayStyle="Ball and Stick" XYZ="0.13553752,0.64924848,0.79630816" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="458" Mapping="507" Parent="2" Children="961" Name="Sketch 1"/>
+						<Atom3d ID="962" Mapping="507" Parent="459" UserID="455" DisplayStyle="Ball and Stick" XYZ="0.22269572,0.55027479,0.84336907" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="459" Mapping="507" Parent="2" Children="962" Name="Sketch 1"/>
+						<Atom3d ID="963" Mapping="507" Parent="460" UserID="456" DisplayStyle="Ball and Stick" XYZ="0.81293541,0.85734475,0.6680997" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="460" Mapping="507" Parent="2" Children="963" Name="Sketch 1"/>
+						<Atom3d ID="964" Mapping="507" Parent="461" UserID="457" DisplayStyle="Ball and Stick" XYZ="0.29550213,0.75181824,0.74306273" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="461" Mapping="507" Parent="2" Children="964" Name="Sketch 1"/>
+						<Atom3d ID="965" Mapping="507" Parent="462" UserID="458" DisplayStyle="Ball and Stick" XYZ="0.44147274,0.17960237,0.24925613" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="462" Mapping="507" Parent="2" Children="965" Name="Sketch 1"/>
+						<Atom3d ID="966" Mapping="507" Parent="463" UserID="459" DisplayStyle="Ball and Stick" XYZ="0.80655164,0.74574792,0.80446166" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="463" Mapping="507" Parent="2" Children="966" Name="Sketch 1"/>
+						<Atom3d ID="967" Mapping="507" Parent="464" UserID="460" DisplayStyle="Ball and Stick" XYZ="0.66549826,0.83101702,0.10877099" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="464" Mapping="507" Parent="2" Children="967" Name="Sketch 1"/>
+						<Atom3d ID="968" Mapping="507" Parent="465" UserID="461" DisplayStyle="Ball and Stick" XYZ="0.7284314,0.76666516,0.21158789" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="465" Mapping="507" Parent="2" Children="968" Name="Sketch 1"/>
+						<Atom3d ID="969" Mapping="507" Parent="466" UserID="462" DisplayStyle="Ball and Stick" XYZ="0.62080204,0.65707356,0.32652447" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="466" Mapping="507" Parent="2" Children="969" Name="Sketch 1"/>
+						<Atom3d ID="970" Mapping="507" Parent="467" UserID="463" DisplayStyle="Ball and Stick" XYZ="0.0745808000000001,0.99780285,0.53597212" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="467" Mapping="507" Parent="2" Children="970" Name="Sketch 1"/>
+						<Atom3d ID="971" Mapping="507" Parent="468" UserID="464" DisplayStyle="Ball and Stick" XYZ="0.0476246,0.65306318,0.39975876" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="468" Mapping="507" Parent="2" Children="971" Name="Sketch 1"/>
+						<Atom3d ID="972" Mapping="507" Parent="469" UserID="465" DisplayStyle="Ball and Stick" XYZ="0.8975299,0.27320945,0.91923821" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="469" Mapping="507" Parent="2" Children="972" Name="Sketch 1"/>
+						<Atom3d ID="973" Mapping="507" Parent="470" UserID="466" DisplayStyle="Ball and Stick" XYZ="0.63555986,0.57714564,0.5401268" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="470" Mapping="507" Parent="2" Children="973" Name="Sketch 1"/>
+						<Atom3d ID="974" Mapping="507" Parent="471" UserID="467" DisplayStyle="Ball and Stick" XYZ="0.82339966,0.50221115,0.96743882" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="471" Mapping="507" Parent="2" Children="974" Name="Sketch 1"/>
+						<Atom3d ID="975" Mapping="507" Parent="472" UserID="468" DisplayStyle="Ball and Stick" XYZ="0.64492494,0.88610375,0.87816024" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="472" Mapping="507" Parent="2" Children="975" Name="Sketch 1"/>
+						<Atom3d ID="976" Mapping="507" Parent="473" UserID="469" DisplayStyle="Ball and Stick" XYZ="0.87832338,0.44925773,0.55873752" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="473" Mapping="507" Parent="2" Children="976" Name="Sketch 1"/>
+						<Atom3d ID="977" Mapping="507" Parent="474" UserID="470" DisplayStyle="Ball and Stick" XYZ="0.4590472,0.19474064,0.41808766" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="474" Mapping="507" Parent="2" Children="977" Name="Sketch 1"/>
+						<Atom3d ID="978" Mapping="507" Parent="475" UserID="471" DisplayStyle="Ball and Stick" XYZ="0.67520732,0.47808251,0.36133572" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="475" Mapping="507" Parent="2" Children="978" Name="Sketch 1"/>
+						<Atom3d ID="979" Mapping="507" Parent="476" UserID="472" DisplayStyle="Ball and Stick" XYZ="0.92869556,0.37154832,0.72561252" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="476" Mapping="507" Parent="2" Children="979" Name="Sketch 1"/>
+						<Atom3d ID="980" Mapping="507" Parent="477" UserID="473" DisplayStyle="Ball and Stick" XYZ="0.15474822,0.42317542,0.57974392" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="477" Mapping="507" Parent="2" Children="980" Name="Sketch 1"/>
+						<Atom3d ID="981" Mapping="507" Parent="478" UserID="474" DisplayStyle="Ball and Stick" XYZ="0.86705595,0.76110274,0.1328343" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="478" Mapping="507" Parent="2" Children="981" Name="Sketch 1"/>
+						<Atom3d ID="982" Mapping="507" Parent="479" UserID="475" DisplayStyle="Ball and Stick" XYZ="0.95430809,0.55337852,0.44471326" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="479" Mapping="507" Parent="2" Children="982" Name="Sketch 1"/>
+						<Atom3d ID="983" Mapping="507" Parent="480" UserID="476" DisplayStyle="Ball and Stick" XYZ="0.16030194,0.89938682,0.55647212" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="480" Mapping="507" Parent="2" Children="983" Name="Sketch 1"/>
+						<Atom3d ID="984" Mapping="507" Parent="481" UserID="477" DisplayStyle="Ball and Stick" XYZ="0.6556372,0.38322046,0.63578981" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="481" Mapping="507" Parent="2" Children="984" Name="Sketch 1"/>
+						<Atom3d ID="985" Mapping="507" Parent="482" UserID="478" DisplayStyle="Ball and Stick" XYZ="0.11743839,0.76157278,0.7022081" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="482" Mapping="507" Parent="2" Children="985" Name="Sketch 1"/>
+						<Atom3d ID="986" Mapping="507" Parent="483" UserID="479" DisplayStyle="Ball and Stick" XYZ="0.73499602,0.11006551,0.4113659" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="483" Mapping="507" Parent="2" Children="986" Name="Sketch 1"/>
+						<Atom3d ID="987" Mapping="507" Parent="484" UserID="480" DisplayStyle="Ball and Stick" XYZ="0.81017566,0.11817326,0.15340698" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="484" Mapping="507" Parent="2" Children="987" Name="Sketch 1"/>
+						<Atom3d ID="988" Mapping="507" Parent="485" UserID="481" DisplayStyle="Ball and Stick" XYZ="0.0226102999999999,0.81657028,0.1187745" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="485" Mapping="507" Parent="2" Children="988" Name="Sketch 1"/>
+						<Atom3d ID="989" Mapping="507" Parent="486" UserID="482" DisplayStyle="Ball and Stick" XYZ="0.43529275,0.50385994,0.23906489" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="486" Mapping="507" Parent="2" Children="989" Name="Sketch 1"/>
+						<Atom3d ID="990" Mapping="507" Parent="487" UserID="483" DisplayStyle="Ball and Stick" XYZ="0.34952551,0.40827832,0.68073261" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="487" Mapping="507" Parent="2" Children="990" Name="Sketch 1"/>
+						<Atom3d ID="991" Mapping="507" Parent="488" UserID="484" DisplayStyle="Ball and Stick" XYZ="0.05321733,0.38286272,0.61764592" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="488" Mapping="507" Parent="2" Children="991" Name="Sketch 1"/>
+						<Atom3d ID="992" Mapping="507" Parent="489" UserID="485" DisplayStyle="Ball and Stick" XYZ="0.81195092,0.72451955,0.00611152000000004" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="489" Mapping="507" Parent="2" Children="992" Name="Sketch 1"/>
+						<Atom3d ID="993" Mapping="507" Parent="490" UserID="486" DisplayStyle="Ball and Stick" XYZ="0.38490021,0.5624426,0.94673872" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="490" Mapping="507" Parent="2" Children="993" Name="Sketch 1"/>
+						<Atom3d ID="994" Mapping="507" Parent="491" UserID="487" DisplayStyle="Ball and Stick" XYZ="0.27996054,0.46022603,0.5105418" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="491" Mapping="507" Parent="2" Children="994" Name="Sketch 1"/>
+						<Atom3d ID="995" Mapping="507" Parent="492" UserID="488" DisplayStyle="Ball and Stick" XYZ="0.18138969,0.18496421,0.5136162" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="492" Mapping="507" Parent="2" Children="995" Name="Sketch 1"/>
+						<Atom3d ID="996" Mapping="507" Parent="493" UserID="489" DisplayStyle="Ball and Stick" XYZ="0.30403057,0.70393676,0.48691037" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="493" Mapping="507" Parent="2" Children="996" Name="Sketch 1"/>
+						<Atom3d ID="997" Mapping="507" Parent="494" UserID="490" DisplayStyle="Ball and Stick" XYZ="0.6490742,0.58684957,0.9754408" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="494" Mapping="507" Parent="2" Children="997" Name="Sketch 1"/>
+						<Atom3d ID="998" Mapping="507" Parent="495" UserID="491" DisplayStyle="Ball and Stick" XYZ="0.6223169,0.18438685,0.93488878" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="495" Mapping="507" Parent="2" Children="998" Name="Sketch 1"/>
+						<Atom3d ID="999" Mapping="507" Parent="496" UserID="492" DisplayStyle="Ball and Stick" XYZ="0.52041507,0.79382104,0.36542132" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="496" Mapping="507" Parent="2" Children="999" Name="Sketch 1"/>
+						<Atom3d ID="1000" Mapping="507" Parent="497" UserID="493" DisplayStyle="Ball and Stick" XYZ="0.82420605,0.20009784,0.56126332" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="497" Mapping="507" Parent="2" Children="1000" Name="Sketch 1"/>
+						<Atom3d ID="1001" Mapping="507" Parent="498" UserID="494" DisplayStyle="Ball and Stick" XYZ="0.14747678,0.54678941,0.72964424" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="498" Mapping="507" Parent="2" Children="1001" Name="Sketch 1"/>
+						<Atom3d ID="1002" Mapping="507" Parent="499" UserID="495" DisplayStyle="Ball and Stick" XYZ="0.5126279,0.48756841,0.32231155" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="499" Mapping="507" Parent="2" Children="1002" Name="Sketch 1"/>
+						<Atom3d ID="1003" Mapping="507" Parent="500" UserID="496" DisplayStyle="Ball and Stick" XYZ="0.762427270000001,0.85878855,0.95399898" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="500" Mapping="507" Parent="2" Children="1003" Name="Sketch 1"/>
+						<Atom3d ID="1004" Mapping="507" Parent="501" UserID="497" DisplayStyle="Ball and Stick" XYZ="0.972986640000001,0.31744021,0.24124561" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="501" Mapping="507" Parent="2" Children="1004" Name="Sketch 1"/>
+						<Atom3d ID="1005" Mapping="507" Parent="502" UserID="498" DisplayStyle="Ball and Stick" XYZ="0.28206694,0.16694841,0.80561769" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="502" Mapping="507" Parent="2" Children="1005" Name="Sketch 1"/>
+						<Atom3d ID="1006" Mapping="507" Parent="503" UserID="499" DisplayStyle="Ball and Stick" XYZ="0.43033493,0.43764365,0.86686265" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="503" Mapping="507" Parent="2" Children="1006" Name="Sketch 1"/>
+						<Atom3d ID="1007" Mapping="507" Parent="504" UserID="500" DisplayStyle="Ball and Stick" XYZ="0.05809492,0.06491592,0.8709113" ForcefieldType="N_3" Components="N"/>
+						<Molecule ID="504" Mapping="507" Parent="2" Children="1007" Name="Sketch 1"/>
+						<SpaceGroup ID="4" Parent="2" Children="1008" AVector="27.5,0,0" BVector="0,59.5,0" CVector="0,0,14.2149235240472" OrientationBase="C along Z, B in YZ plane" Centering="3D Primitive-Centered" Lattice="3D Triclinic" GroupName="P1" Operators="1,0,0,0,0,1,0,0,0,0,1,0" DisplayRange="0,1,0,1,0,1" LineThickness="2" CylinderRadius="0.2" LabelAxes="1" ActiveSystem="2" ITNumber="1" LongName="P 1" Qualifier="Origin-1" SchoenfliesName="C1-1" System="Triclinic" Class="1"/>
+						<ReciprocalLattice3D ID="1008" Parent="4" Visible="0"/>
+					</IdentityMapping>
+					<MappingRepairs NumRepairs="0"/>
+				</MappingFamily>
+				<InfiniteMapping ID="3" Element="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="2"/>
+			</MappingSet>
+			<OriginalObjects ID="1009">
+				<SetCollection/>
+			</OriginalObjects>
+		</SymmetrySystem>
+		<Trajectory ID="1010" End="1" Type="trj" FrameClassType="Bondable"/>
+	</AtomisticTreeRoot>
+</XSD>

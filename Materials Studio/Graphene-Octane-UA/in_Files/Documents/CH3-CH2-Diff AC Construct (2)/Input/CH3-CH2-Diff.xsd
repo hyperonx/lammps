@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="latin1"?>
+<!DOCTYPE XSD []>
+<XSD Version="19.1" WrittenBy="Materials Studio 19.1">
+	<AtomisticTreeRoot ID="1" NumProperties="62" NumChildren="1">
+		<Property Name="AngleAxisType" DefinedOn="AngleBetweenPlanesBender" Type="Enumerated"/>
+		<Property Name="AngleEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="BeadDocumentID" DefinedOn="MesoMoleculeSet" Type="String"/>
+		<Property Name="BendBendEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="BendTorsionBendEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="BondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="EFGAsymmetry" DefinedOn="Atom" Type="Double"/>
+		<Property Name="EFGQuadrupolarCoupling" DefinedOn="Atom" Type="Double"/>
+		<Property Name="ElectrostaticEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="FaceMillerIndex" DefinedOn="GrowthFace" Type="MillerIndex"/>
+		<Property Name="FacetTransparency" DefinedOn="GrowthFace" Type="Float"/>
+		<Property Name="FermiLevel" DefinedOn="ScalarFieldBase" Type="Double"/>
+		<Property Name="Force" DefinedOn="Matter" Type="CoDirection"/>
+		<Property Name="FrameFilter" DefinedOn="Trajectory" Type="String"/>
+		<Property Name="HarmonicForceConstant" DefinedOn="HarmonicRestraint" Type="Double"/>
+		<Property Name="HarmonicMinimum" DefinedOn="HarmonicRestraint" Type="Double"/>
+		<Property Name="HydrogenBondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ImportOrder" DefinedOn="Bondable" Type="UnsignedInteger"/>
+		<Property Name="InversionEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="IsBackboneAtom" DefinedOn="Atom" Type="Boolean"/>
+		<Property Name="IsChiralCenter" DefinedOn="Atom" Type="Boolean"/>
+		<Property Name="IsOutOfPlane" DefinedOn="Atom" Type="Boolean"/>
+		<Property Name="IsRepeatArrowVisible" DefinedOn="ElectrodeWire" Type="Boolean"/>
+		<Property Name="KineticEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="LineExtentPadding" DefinedOn="BestFitLineMonitor" Type="Double"/>
+		<Property Name="LinkageGroupName" DefinedOn="Linkage" Type="String"/>
+		<Property Name="ListIdentifier" DefinedOn="PropertyList" Type="String"/>
+		<Property Name="NMRShielding" DefinedOn="Atom" Type="Double"/>
+		<Property Name="NonBondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="NormalMode" DefinedOn="Bondable" Type="Direction"/>
+		<Property Name="NormalModeFrequency" DefinedOn="Bondable" Type="Double"/>
+		<Property Name="NumScanSteps" DefinedOn="LinearScan" Type="UnsignedInteger"/>
+		<Property Name="OrbitalCutoffRadius" DefinedOn="Bondable" Type="Double"/>
+		<Property Name="PlaneExtentPadding" DefinedOn="BestFitPlaneMonitor" Type="Double"/>
+		<Property Name="PotentialEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="QuantizationValue" DefinedOn="ScalarFieldBase" Type="Double"/>
+		<Property Name="RelativeVelocity" DefinedOn="Matter" Type="Direction"/>
+		<Property Name="RepeatArrowScale" DefinedOn="ElectrodeWire" Type="Float"/>
+		<Property Name="RestraintEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ScanEnd" DefinedOn="LinearScan" Type="Double"/>
+		<Property Name="ScanStart" DefinedOn="LinearScan" Type="Double"/>
+		<Property Name="SeparatedStretchStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ServerDipoleMoment" DefinedOn="MatterGroupProperties" Type="Direction"/>
+		<Property Name="SimulationStep" DefinedOn="Trajectory" Type="Integer"/>
+		<Property Name="SpinQuantizationDirection" DefinedOn="Atom" Type="Direction"/>
+		<Property Name="Stiffness" DefinedOn="SymmetryMatterHessian" Type="Matrix6x6"/>
+		<Property Name="StretchBendStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="StretchStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="StretchTorsionStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="Temperature" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ThreeBodyNonBondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TorsionBendBendEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TorsionEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TorsionStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TotalEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="Units" DefinedOn="ScalarFieldBase" Type="String"/>
+		<Property Name="ValenceCrossTermEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ValenceDiagonalEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="VanDerWaalsEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="_ServerAtomNames" DefinedOn="IndexProvider" Type="String"/>
+		<Property Name="_Stress" DefinedOn="MatterSymmetrySystem" Type="Matrix"/>
+		<Property Name="_TrajectoryStress" DefinedOn="MatterSymmetrySystem" Type="Matrix"/>
+		<Molecule ID="2" NumChildren="28" Name="Sketch 10">
+			<Atom3d ID="3" DisplayStyle="Ball and Stick" XYZ="-2.78039749574554,0.494871655415041,0" Connections="4" BallSize="70" Components="N"/>
+			<Atom3d ID="5" DisplayStyle="Ball and Stick" XYZ="-1.57866483652689,1.43535802733505,0" Connections="4,6" BallSize="70" Components="O"/>
+			<Bond ID="4" Connects="3,5"/>
+			<Atom3d ID="7" DisplayStyle="Ball and Stick" XYZ="-0.256484079376019,0.673443304140956,0" Connections="6,8" BallSize="70" Components="O"/>
+			<Bond ID="6" Connects="5,7"/>
+			<Atom3d ID="9" DisplayStyle="Ball and Stick" XYZ="0.945248579842632,1.61392967606097,0" Connections="8,10" BallSize="70" Components="O"/>
+			<Bond ID="8" Connects="7,9"/>
+			<Atom3d ID="11" DisplayStyle="Ball and Stick" XYZ="2.26742933699351,0.852014952866871,0" Connections="10,12" BallSize="70" Components="O"/>
+			<Bond ID="10" Connects="9,11"/>
+			<Atom3d ID="13" DisplayStyle="Ball and Stick" XYZ="3.46916199621216,1.79250132478688,0" Connections="12,14" BallSize="70" Components="O"/>
+			<Bond ID="12" Connects="11,13"/>
+			<Atom3d ID="15" DisplayStyle="Ball and Stick" XYZ="4.79134275336303,1.03058660159279,0" Connections="14,16" BallSize="70" Components="O"/>
+			<Bond ID="14" Connects="13,15"/>
+			<Atom3d ID="17" DisplayStyle="Ball and Stick" XYZ="5.99307541258169,1.9710729735128,0" Connections="16" BallSize="70" Components="N"/>
+			<Bond ID="16" Connects="15,17"/>
+			<PlanarAngleBender ID="18" NumChildren="1" NumTriggerSets="2">
+				<SymmetryTransformer ID="19" Name="MeasurementFragment" NumTriggerSets="1" ShouldMaintainAtCommonRoot="0">
+					<MonitorTriggerSet ID="20" Objects="9,15,17,13,11,7" EventMask="13"/>
+				</SymmetryTransformer>
+				<RestrictableMonitorTriggerSet ID="21" Objects="3,5,7" ShouldAllowDeletions="0" EventMask="13" IsIndexed="1" Properties="XYZ,XYZ,XYZ"/>
+				<MonitorTriggerSet ID="22" Objects="19" ShouldDefineCommonRoot="0" IsIndexed="1"/>
+			</PlanarAngleBender>
+			<PlanarAngleBender ID="23" NumChildren="1" NumTriggerSets="2">
+				<SymmetryTransformer ID="24" Name="MeasurementFragment" NumTriggerSets="1" ShouldMaintainAtCommonRoot="0">
+					<MonitorTriggerSet ID="25" Objects="9,15,17,13,11" EventMask="13"/>
+				</SymmetryTransformer>
+				<RestrictableMonitorTriggerSet ID="26" Objects="5,7,9" ShouldAllowDeletions="0" EventMask="13" IsIndexed="1" Properties="XYZ,XYZ,XYZ"/>
+				<MonitorTriggerSet ID="27" Objects="24" ShouldDefineCommonRoot="0" IsIndexed="1"/>
+			</PlanarAngleBender>
+			<PlanarAngleBender ID="28" NumChildren="1" NumTriggerSets="2">
+				<SymmetryTransformer ID="29" Name="MeasurementFragment" NumTriggerSets="1" ShouldMaintainAtCommonRoot="0">
+					<MonitorTriggerSet ID="30" Objects="15,17,13,11" EventMask="13"/>
+				</SymmetryTransformer>
+				<RestrictableMonitorTriggerSet ID="31" Objects="7,9,11" ShouldAllowDeletions="0" EventMask="13" IsIndexed="1" Properties="XYZ,XYZ,XYZ"/>
+				<MonitorTriggerSet ID="32" Objects="29" ShouldDefineCommonRoot="0" IsIndexed="1"/>
+			</PlanarAngleBender>
+			<PlanarAngleBender ID="33" NumChildren="1" NumTriggerSets="2">
+				<SymmetryTransformer ID="34" Name="MeasurementFragment" NumTriggerSets="1" ShouldMaintainAtCommonRoot="0">
+					<MonitorTriggerSet ID="35" Objects="15,17,13" EventMask="13"/>
+				</SymmetryTransformer>
+				<RestrictableMonitorTriggerSet ID="36" Objects="9,11,13" ShouldAllowDeletions="0" EventMask="13" IsIndexed="1" Properties="XYZ,XYZ,XYZ"/>
+				<MonitorTriggerSet ID="37" Objects="34" ShouldDefineCommonRoot="0" IsIndexed="1"/>
+			</PlanarAngleBender>
+			<PlanarAngleBender ID="38" NumChildren="1" NumTriggerSets="2">
+				<SymmetryTransformer ID="39" Name="MeasurementFragment" NumTriggerSets="1" ShouldMaintainAtCommonRoot="0">
+					<MonitorTriggerSet ID="40" Objects="15,17" EventMask="13"/>
+				</SymmetryTransformer>
+				<RestrictableMonitorTriggerSet ID="41" Objects="11,13,15" ShouldAllowDeletions="0" EventMask="13" IsIndexed="1" Properties="XYZ,XYZ,XYZ"/>
+				<MonitorTriggerSet ID="42" Objects="39" ShouldDefineCommonRoot="0" IsIndexed="1"/>
+			</PlanarAngleBender>
+			<PlanarAngleBender ID="43" NumChildren="1" NumTriggerSets="2">
+				<SymmetryTransformer ID="44" Name="MeasurementFragment" NumTriggerSets="1" ShouldMaintainAtCommonRoot="0">
+					<MonitorTriggerSet ID="45" Objects="17" EventMask="13"/>
+				</SymmetryTransformer>
+				<RestrictableMonitorTriggerSet ID="46" Objects="13,15,17" ShouldAllowDeletions="0" EventMask="13" IsIndexed="1" Properties="XYZ,XYZ,XYZ"/>
+				<MonitorTriggerSet ID="47" Objects="44" ShouldDefineCommonRoot="0" IsIndexed="1"/>
+			</PlanarAngleBender>
+			<DistanceStretcher ID="48" NumChildren="1" NumTriggerSets="2">
+				<SymmetryTransformer ID="49" Name="MeasurementFragment" NumTriggerSets="1" ShouldMaintainAtCommonRoot="0">
+					<MonitorTriggerSet ID="50" Objects="7,13,15,11,9,5,17" EventMask="13"/>
+				</SymmetryTransformer>
+				<RestrictableMonitorTriggerSet ID="51" Objects="3,5" ShouldAllowDeletions="0" EventMask="13" IsIndexed="1" Properties="XYZ,XYZ"/>
+				<MonitorTriggerSet ID="52" Objects="49" ShouldDefineCommonRoot="0" IsIndexed="1"/>
+			</DistanceStretcher>
+			<DistanceStretcher ID="53" NumChildren="1" NumTriggerSets="2">
+				<SymmetryTransformer ID="54" Name="MeasurementFragment" NumTriggerSets="1" ShouldMaintainAtCommonRoot="0">
+					<MonitorTriggerSet ID="55" Objects="7,13,15,11,9,17" EventMask="13"/>
+				</SymmetryTransformer>
+				<RestrictableMonitorTriggerSet ID="56" Objects="5,7" ShouldAllowDeletions="0" EventMask="13" IsIndexed="1" Properties="XYZ,XYZ"/>
+				<MonitorTriggerSet ID="57" Objects="54" ShouldDefineCommonRoot="0" IsIndexed="1"/>
+			</DistanceStretcher>
+			<DistanceStretcher ID="58" NumChildren="1" NumTriggerSets="2">
+				<SymmetryTransformer ID="59" Name="MeasurementFragment" NumTriggerSets="1" ShouldMaintainAtCommonRoot="0">
+					<MonitorTriggerSet ID="60" Objects="13,15,11,9,17" EventMask="13"/>
+				</SymmetryTransformer>
+				<RestrictableMonitorTriggerSet ID="61" Objects="7,9" ShouldAllowDeletions="0" EventMask="13" IsIndexed="1" Properties="XYZ,XYZ"/>
+				<MonitorTriggerSet ID="62" Objects="59" ShouldDefineCommonRoot="0" IsIndexed="1"/>
+			</DistanceStretcher>
+			<DistanceStretcher ID="63" NumChildren="1" NumTriggerSets="2">
+				<SymmetryTransformer ID="64" Name="MeasurementFragment" NumTriggerSets="1" ShouldMaintainAtCommonRoot="0">
+					<MonitorTriggerSet ID="65" Objects="13,15,11,17" EventMask="13"/>
+				</SymmetryTransformer>
+				<RestrictableMonitorTriggerSet ID="66" Objects="9,11" ShouldAllowDeletions="0" EventMask="13" IsIndexed="1" Properties="XYZ,XYZ"/>
+				<MonitorTriggerSet ID="67" Objects="64" ShouldDefineCommonRoot="0" IsIndexed="1"/>
+			</DistanceStretcher>
+			<DistanceStretcher ID="68" NumChildren="1" NumTriggerSets="2">
+				<SymmetryTransformer ID="69" Name="MeasurementFragment" NumTriggerSets="1" ShouldMaintainAtCommonRoot="0">
+					<MonitorTriggerSet ID="70" Objects="13,15,17" EventMask="13"/>
+				</SymmetryTransformer>
+				<RestrictableMonitorTriggerSet ID="71" Objects="11,13" ShouldAllowDeletions="0" EventMask="13" IsIndexed="1" Properties="XYZ,XYZ"/>
+				<MonitorTriggerSet ID="72" Objects="69" ShouldDefineCommonRoot="0" IsIndexed="1"/>
+			</DistanceStretcher>
+			<DistanceStretcher ID="73" NumChildren="1" NumTriggerSets="2">
+				<SymmetryTransformer ID="74" Name="MeasurementFragment" NumTriggerSets="1" ShouldMaintainAtCommonRoot="0">
+					<MonitorTriggerSet ID="75" Objects="15,17" EventMask="13"/>
+				</SymmetryTransformer>
+				<RestrictableMonitorTriggerSet ID="76" Objects="13,15" ShouldAllowDeletions="0" EventMask="13" IsIndexed="1" Properties="XYZ,XYZ"/>
+				<MonitorTriggerSet ID="77" Objects="74" ShouldDefineCommonRoot="0" IsIndexed="1"/>
+			</DistanceStretcher>
+			<DistanceStretcher ID="78" NumChildren="1" NumTriggerSets="2">
+				<SymmetryTransformer ID="79" Name="MeasurementFragment" NumTriggerSets="1" ShouldMaintainAtCommonRoot="0">
+					<MonitorTriggerSet ID="80" Objects="17" EventMask="13"/>
+				</SymmetryTransformer>
+				<RestrictableMonitorTriggerSet ID="81" Objects="15,17" ShouldAllowDeletions="0" EventMask="13" IsIndexed="1" Properties="XYZ,XYZ"/>
+				<MonitorTriggerSet ID="82" Objects="79" ShouldDefineCommonRoot="0" IsIndexed="1"/>
+			</DistanceStretcher>
+		</Molecule>
+	</AtomisticTreeRoot>
+</XSD>

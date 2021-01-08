@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="latin1"?>
+<EXTENSION VERSION="19.1">
+<LOGICS>
+<LOGICITEM NAME="FindSymmetryLogic">
+	<STATE NAME="SymmetryBuilderFindSymmetryState" VERSION="19.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="MillerPlaneLogic">
+	<STATE NAME="SymmetryBuilderMillerPlaneState" VERSION="19.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="SymmetryBuilderLogic">
+	<STATE NAME="SymmetryBuilderLogicState" VERSION="19.1">
+	<PROPERTIES>
+	<PROPERTY NAME="SpecialPositionTolerance">
+	<VALUE>0.2</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="SurfaceOrientationFlag">
+	<VALUE>6</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="SurfaceOrientationStandard">
+	<VALUE>U along Z, V in XZ plane</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="FixFractionalFlag">
+	<VALUE>0</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="SourceDocumentID">
+	<VALUE>{D8F2157E-B984-4C1F-A173-04C2F9699F63}</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="CleaveDirection">
+	<VALUE>
+	<ITEM>0</ITEM>
+	<ITEM>0</ITEM>
+	<ITEM>1</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="CleaveUVector">
+	<VALUE>
+	<ITEM>1.</ITEM>
+	<ITEM>0.</ITEM>
+	<ITEM>0.</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="CleaveVVector">
+	<VALUE>
+	<ITEM>0.</ITEM>
+	<ITEM>1.</ITEM>
+	<ITEM>0.</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="CleaveOrigin">
+	<VALUE>
+	<ITEM>0.</ITEM>
+	<ITEM>0.</ITEM>
+	<ITEM>6.666667e-002</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="CleaveDepth">
+	<VALUE>0.1</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="ResetCleaveOrientation">
+	<VALUE>false</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+</LOGICS>
+</EXTENSION>

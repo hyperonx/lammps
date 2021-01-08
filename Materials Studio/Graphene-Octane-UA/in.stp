@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+  <Version>19.1</Version>
+  <Reference>{6706B7D8-FBB1-4CEF-AA2F-0737CDADE9F4}</Reference>
+  <DocumentManager>
+    <Document>
+      <ID>{63F66E82-1662-47B2-83C5-8DC4F562B5E5}</ID>
+      <Paths>1</Paths>
+      <URL>.\Graphene.xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{CE360D1D-C532-4A6A-B62E-D9FA4AB70357}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff.xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{A580C010-F29F-451F-A31B-C4B18004FD48}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff AC Construct\Input\CH3-CH2-Diff.xsd</URL>
+    </Document>
+    <Document>
+      <ID>{97119BBE-57AD-4651-BE39-009210875614}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff AC Construct\SMAmorphousBuilder_Extension_CH3-CH2-Diff.xms</URL>
+    </Document>
+    <Document>
+      <ID>{48511766-07A1-4AA1-BA95-4F40D92A0367}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff AC Construct\CH3-CH2-Diff.txt</URL>
+    </Document>
+    <Document>
+      <ID>{778D69FB-8CA4-4BF3-8819-16342FC5669F}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff AC Construct\CH3-CH2-Diff.xtd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{23DDD0AB-9F2C-4E65-B2FD-7883D8495B8E}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff AC Construct\Status.txt</URL>
+    </Document>
+    <Document>
+      <ID>{78E633C3-E1BD-4464-B2B9-26865D1CBA90}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff AC Construct\CH3-CH2-Diff AC Construct\Input\CH3-CH2-Diff.xsd</URL>
+    </Document>
+    <Document>
+      <ID>{71418A40-75D5-4D5F-88C3-80B532B03BC2}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff AC Construct\CH3-CH2-Diff AC Construct\SMAmorphousBuilder_Extension_CH3-CH2-Diff.xms</URL>
+    </Document>
+    <Document>
+      <ID>{ABE7D004-95EE-480B-A6E5-E18BEBE76E61}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff AC Construct\CH3-CH2-Diff AC Construct\CH3-CH2-Diff.txt</URL>
+    </Document>
+    <Document>
+      <ID>{4200077F-F0FE-4066-B525-F61D3846DE16}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff AC Construct\CH3-CH2-Diff AC Construct\CH3-CH2-Diff Energy.xcd</URL>
+    </Document>
+    <Document>
+      <ID>{F867A6FB-3DD0-49C4-8BF1-9BDE9F60EE1B}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff AC Construct\CH3-CH2-Diff AC Construct\CH3-CH2-Diff.xtd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{62642A9F-A2BD-4A6B-812D-687865DE295C}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff AC Construct\CH3-CH2-Diff AC Construct\Status.txt</URL>
+    </Document>
+    <Document>
+      <ID>{E4B4D7B5-2D51-4C8D-BFC9-82587DF07039}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff AC Construct (2)\Input\CH3-CH2-Diff.xsd</URL>
+    </Document>
+    <Document>
+      <ID>{EAD53BF5-A74D-4DBF-9BC0-8B72B0CACE05}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff AC Construct (2)\SMAmorphousBuilder_Extension_CH3-CH2-Diff.xms</URL>
+    </Document>
+    <Document>
+      <ID>{49D43C2C-95B3-49C4-BA74-0484F0921C9F}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff AC Construct (2)\CH3-CH2-Diff.txt</URL>
+    </Document>
+    <Document>
+      <ID>{144C1847-2B21-4E2D-847A-7094D4510D78}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff AC Construct (2)\CH3-CH2-Diff Energy.xcd</URL>
+    </Document>
+    <Document>
+      <ID>{B4CE41B5-93A0-4795-BD4D-9AEAFBD65D1F}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff AC Construct (2)\CH3-CH2-Diff.xtd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{E8629311-89A1-47D9-95D8-3400F1FA5837}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff AC Construct (2)\Status.txt</URL>
+    </Document>
+    <Document>
+      <ID>{56476728-130F-4456-BE51-E85938EBAE6B}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff AC Construct (3)\Input\CH3-CH2-Diff.xsd</URL>
+    </Document>
+    <Document>
+      <ID>{D055189B-A25D-4EB6-80FC-BC8606A5EDF8}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff AC Construct (3)\SMAmorphousBuilder_Extension_CH3-CH2-Diff.xms</URL>
+    </Document>
+    <Document>
+      <ID>{241DFE2E-6B3E-4784-8144-D6EE634985A4}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff AC Construct (3)\CH3-CH2-Diff.txt</URL>
+    </Document>
+    <Document>
+      <ID>{83985733-8D43-4483-9DEB-A4EBE4472D92}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff AC Construct (3)\CH3-CH2-Diff.xtd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{D06B6B4E-5222-4D6D-85A9-223C98D931CF}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff AC Construct (3)\Status.txt</URL>
+    </Document>
+    <Document>
+      <ID>{DA36A307-FB2D-4BEB-96E6-2003E4AF458E}</ID>
+      <Paths>1</Paths>
+      <URL>.\Recovered documents\CH3-CH2-Diff AC Construct (3)\Autosave of CH3-CH2-Diff.xtd</URL>
+    </Document>
+    <Document>
+      <ID>{D9CFD497-EDEB-40E0-85C5-0B73B59CF03A}</ID>
+      <Paths>1</Paths>
+      <URL>.\Graphene (2).xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{38629957-CF8E-4C11-B379-758792959E30}</ID>
+      <Paths>1</Paths>
+      <URL>.\Graphene (2) (0 0 1).xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{84616732-B9C5-4AFF-8153-2BC2BAF029F2}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff AC Construct (4)\Input\CH3-CH2-Diff.xsd</URL>
+    </Document>
+    <Document>
+      <ID>{BDC8E7CE-0D33-46A0-A0E5-33F5057ED712}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff AC Construct (4)\SMAmorphousBuilder_Extension_CH3-CH2-Diff.xms</URL>
+    </Document>
+    <Document>
+      <ID>{3DBFCA3C-3F9E-4F8E-8A7C-EEE3FABC1E37}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff AC Construct (4)\CH3-CH2-Diff.txt</URL>
+    </Document>
+    <Document>
+      <ID>{F73AA658-4339-4B86-8FE0-12296B9911E7}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff AC Construct (4)\CH3-CH2-Diff.xtd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{3E9FD289-C7FC-4C9A-921D-E79E7C684A09}</ID>
+      <Paths>1</Paths>
+      <URL>.\CH3-CH2-Diff AC Construct (4)\Status.txt</URL>
+    </Document>
+    <Document>
+      <ID>{23B71859-C7DE-462E-B08B-04ED096AFEC7}</ID>
+      <Paths>1</Paths>
+      <URL>.\co2_ua.xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{8A3BBDA6-69ED-4A6F-AF4A-6C3C12FD76EB}</ID>
+      <Paths>1</Paths>
+      <URL>.\co2_ua AC Construct\Input\co2_ua.xsd</URL>
+    </Document>
+    <Document>
+      <ID>{5D6D92DC-E438-4C7D-9C5E-C9EB486C0229}</ID>
+      <Paths>1</Paths>
+      <URL>.\co2_ua AC Construct\SMAmorphousBuilder_Extension_co2_ua.xms</URL>
+    </Document>
+    <Document>
+      <ID>{2C2B6C86-C696-4AC1-A198-948BA4E39B4A}</ID>
+      <Paths>1</Paths>
+      <URL>.\co2_ua AC Construct\co2_ua.txt</URL>
+    </Document>
+    <Document>
+      <ID>{0C40F874-7674-4D30-8441-3BDAD54E19E1}</ID>
+      <Paths>1</Paths>
+      <URL>.\co2_ua AC Construct\co2_ua.xtd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{34B0B4AC-EAC9-4C1F-BC3A-F876D278194C}</ID>
+      <Paths>1</Paths>
+      <URL>.\co2_ua AC Construct\Status.txt</URL>
+    </Document>
+    <Document>
+      <ID>{3E611AB5-0604-448F-83D2-403D32EDBEBE}</ID>
+      <Paths>1</Paths>
+      <URL>.\co2_ua AC Construct\co2_ua AC Construct\Input\co2_ua.xsd</URL>
+    </Document>
+    <Document>
+      <ID>{9FDF9E3F-2342-476F-8A0E-F4949EAC6095}</ID>
+      <Paths>1</Paths>
+      <URL>.\co2_ua AC Construct\co2_ua AC Construct\SMAmorphousBuilder_Extension_co2_ua.xms</URL>
+    </Document>
+    <Document>
+      <ID>{2A7CCA49-66D0-4626-8883-34A8E96437AD}</ID>
+      <Paths>1</Paths>
+      <URL>.\co2_ua AC Construct\co2_ua AC Construct\co2_ua.txt</URL>
+    </Document>
+    <Document>
+      <ID>{8752A689-A17E-4C53-971A-2EBB0E04D9CE}</ID>
+      <Paths>1</Paths>
+      <URL>.\co2_ua AC Construct\co2_ua AC Construct\co2_ua.xtd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{C7CBE729-C960-4313-9BD0-D7EE33F050C0}</ID>
+      <Paths>1</Paths>
+      <URL>.\co2_ua AC Construct\co2_ua AC Construct\Status.txt</URL>
+    </Document>
+    <Document>
+      <ID>{BB336132-A481-48BE-B34E-BB20673DBB75}</ID>
+      <Paths>1</Paths>
+      <URL>.\Graphene_small.xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{D8F2157E-B984-4C1F-A173-04C2F9699F63}</ID>
+      <Paths>1</Paths>
+      <URL>.\Graphene (3).xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{FDED5F1B-7C1B-48C8-8370-779042486030}</ID>
+      <Paths>1</Paths>
+      <URL>.\Graphene (3) (0 0 1).xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{FDD83112-7273-4645-A780-5580CB0C19F7}</ID>
+      <Paths>1</Paths>
+      <URL>.\co2_ua AC Construct (2)\Input\co2_ua.xsd</URL>
+    </Document>
+    <Document>
+      <ID>{66ED4DB8-33F0-4DA8-A842-36D82A33B251}</ID>
+      <Paths>1</Paths>
+      <URL>.\co2_ua AC Construct (2)\SMAmorphousBuilder_Extension_co2_ua.xms</URL>
+    </Document>
+    <Document>
+      <ID>{7D38011C-6568-44AA-B0BA-DE4ED23CD5C5}</ID>
+      <Paths>1</Paths>
+      <URL>.\co2_ua AC Construct (2)\co2_ua.txt</URL>
+    </Document>
+    <Document>
+      <ID>{E9CF3844-5BCB-452B-82C4-BE765DAE6F91}</ID>
+      <Paths>1</Paths>
+      <URL>.\co2_ua AC Construct (2)\Status.txt</URL>
+    </Document>
+    <Document>
+      <ID>{7021CBBF-3037-4D33-83BA-CFA12D77E97B}</ID>
+      <Paths>1</Paths>
+      <URL>.\co2_ua AC Construct (2)\co2_ua.xtd</URL>
+    </Document>
+  </DocumentManager>
+  <ViewRegistry>
+    <Frame>
+      <Active>false</Active>
+      <Left>156</Left>
+      <Top>156</Top>
+      <Width>1492</Width>
+      <Height>538</Height>
+      <Maximized>false</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{63F66E82-1662-47B2-83C5-8DC4F562B5E5}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
+      </View>
+    </Frame>
+    <Frame>
+      <Active>false</Active>
+      <Left>182</Left>
+      <Top>182</Top>
+      <Width>1492</Width>
+      <Height>538</Height>
+      <Maximized>false</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{D9CFD497-EDEB-40E0-85C5-0B73B59CF03A}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
+      </View>
+    </Frame>
+    <Frame>
+      <Active>false</Active>
+      <Left>208</Left>
+      <Top>208</Top>
+      <Width>1496</Width>
+      <Height>542</Height>
+      <Maximized>false</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{38629957-CF8E-4C11-B379-758792959E30}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
+      </View>
+    </Frame>
+    <Frame>
+      <Active>false</Active>
+      <Left>260</Left>
+      <Top>260</Top>
+      <Width>1496</Width>
+      <Height>542</Height>
+      <Maximized>false</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{F73AA658-4339-4B86-8FE0-12296B9911E7}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
+      </View>
+    </Frame>
+    <Frame>
+      <Active>false</Active>
+      <Left>0</Left>
+      <Top>0</Top>
+      <Width>1496</Width>
+      <Height>542</Height>
+      <Maximized>false</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{23B71859-C7DE-462E-B08B-04ED096AFEC7}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
+      </View>
+    </Frame>
+    <Frame>
+      <Active>false</Active>
+      <Left>26</Left>
+      <Top>26</Top>
+      <Width>1393</Width>
+      <Height>542</Height>
+      <Maximized>false</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{0C40F874-7674-4D30-8441-3BDAD54E19E1}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
+      </View>
+    </Frame>
+    <Frame>
+      <Active>false</Active>
+      <Left>52</Left>
+      <Top>52</Top>
+      <Width>1393</Width>
+      <Height>542</Height>
+      <Maximized>false</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{8752A689-A17E-4C53-971A-2EBB0E04D9CE}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
+      </View>
+    </Frame>
+    <Frame>
+      <Active>false</Active>
+      <Left>78</Left>
+      <Top>78</Top>
+      <Width>1393</Width>
+      <Height>542</Height>
+      <Maximized>false</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{BB336132-A481-48BE-B34E-BB20673DBB75}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
+      </View>
+    </Frame>
+    <Frame>
+      <Active>false</Active>
+      <Left>104</Left>
+      <Top>104</Top>
+      <Width>1393</Width>
+      <Height>542</Height>
+      <Maximized>false</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{D8F2157E-B984-4C1F-A173-04C2F9699F63}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
+      </View>
+    </Frame>
+    <Frame>
+      <Active>false</Active>
+      <Left>0</Left>
+      <Top>0</Top>
+      <Width>1393</Width>
+      <Height>542</Height>
+      <Maximized>false</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{FDED5F1B-7C1B-48C8-8370-779042486030}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
+      </View>
+    </Frame>
+    <Frame>
+      <Active>false</Active>
+      <Left>260</Left>
+      <Top>260</Top>
+      <Width>1393</Width>
+      <Height>542</Height>
+      <Maximized>false</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{E9CF3844-5BCB-452B-82C4-BE765DAE6F91}</DocumentID>
+        <Type>SVTextViewer.TextViewer</Type>
+      </View>
+    </Frame>
+    <Frame>
+      <Active>true</Active>
+      <Left>0</Left>
+      <Top>0</Top>
+      <Width>1393</Width>
+      <Height>542</Height>
+      <Maximized>true</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{7021CBBF-3037-4D33-83BA-CFA12D77E97B}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
+      </View>
+    </Frame>
+  </ViewRegistry>
+  <DocumentEventManager>
+  </DocumentEventManager>
+</Project>

@@ -1,0 +1,77 @@
+
+Module                          : Amorphous Cell
+Version                         : 2019
+Build date                      : Oct 16 2018
+Host                            : Hyperonx-PC
+Operating system                : Windows
+Task started                    : Wed Dec 30 11:17:56 2020
+
+
+Random number seed              : 1330854053
+
+
+---- Amorphous Cell calculation ----
+
+Task                            : Construction
+Density                         : 0.300 g/cc
+Number of frames                : 1
+Optimize geometry               : no
+Loading steps                   : 1000
+Check ring spearing             : yes
+Restrain rings                  : no
+Check close contacts            : yes
+vdW radius scale factor         : 0.700
+Check energies                  : yes
+Bias temperature                : 1.000 K
+Look ahead                      : 1
+
+Framework charge                : 0.000 e per cell
+
+ | Component    | Charge      | Loading     |
+ |              |             |             |
+ |___________________________________________
+ | CH3-CH2-Diff |       0.000 |         250 |
+
+
+
+
+---- Construction task parameters ----
+
+Ramp density                    : no
+
+
+
+---- Energy parameters ----
+
+Forcefield                      : Universal
+Charges                         : Use current
+Electrostatic terms:
+  Summation method              : Ewald
+  Accuracy                      : 1e-05 kcal/mol
+  Buffer width                  : 0.5 A
+
+van der Waals terms:
+  Summation method              : Atom based
+  Truncation method             : Cubic spline
+  Cutoff distance               : 18.5 A
+  Spline width                  : 1 A
+  Buffer width                  : 0.5 A
+
+
+
+---- Configurational Bias Monte Carlo method parameters ----
+
+ | Component    | Head bias   | Torsion     | Torsion     |
+ |              | steps       | twisters    | bias steps  |
+ |_________________________________________________________
+ | CH3-CH2-Diff |          10 |           0 |             |
+
+Frame 1:  Loading steps 2
+
+
+
+Task terminated                 : Wed Dec 30 11:18:04 2020
+
+Total CPU time used             : 7 seconds
+
+Termination status              : Normal

@@ -1,0 +1,56 @@
+variable file_name string "npt_co2_ua_graphene.dat"
+variable log_file_name string "npt_co2_ua_graphene.log"
+variable dump_file_name string "npt_co2_ua_graphene.lammpstrj"
+
+log ${log_file_name}
+
+units real
+boundary p p p
+atom_style full
+pair_style  lj/cut 13
+# pair_style mie/cut 20
+pair_modify   mix arithmetic  
+# kspace_style     ewald 0.0001
+bond_style      harmonic
+angle_style     harmonic
+dihedral_style opls
+
+
+
+variable xs equal 4.3
+variable ys equal 62.7
+
+# read_data octane_graphene.data extra/atom/types 2 extra/bond/types 2 extra/angle/types 1 extra/dihedral/types 1 extra/bond/per/atom 2 extra/angle/per/atom 2 extra/dihedral/per/atom  12
+read_data octane_graphene_adjust.data extra/atom/types 2 
+# replicate 1 1 2
+read_data co2.data add append offset 3 0 0 0 0  shift 5.0 70 40
+read_data graphene_wall.in add append offset 4 1 2 2 1 shift ${xs} ${ys} -12.5
+read_data graphene_wall.in add append offset 4 1 2 2 1 shift ${xs} ${ys} 91.0
+
+
+include  oil_graphene_0.ff
+# displace_atoms all move 0 -5 0 units box
+# group oil type 1 2
+# 
+
+
+# read_data graphene.in add append offset 2 1 2 2 1 shift -3.2 -4.0 -5.0
+# read_data graphene.in add append offset 2 1 2 2 1 shift -3.2 -4.0 235
+
+
+# group upper_graphene molecule 502
+# group lower_graphene molecule  501
+# # read_data graphene_wall.in add append offset 3 1 1 1 0 shift 27 61 17
+# # read_data co2.in add append offset 3 0 0 0 0  shift 0 63 50
+# # read_data graphene_wall.in add append offset 3 1 1 1 0 shift 27 124 17
+
+# variable yl equal  ylo
+# variable ylow equal ylo+5.5
+# variable yhigh equal yhi+0.5
+# print "${ylow}, ${yhigh}"
+
+# change_box all y final ${ylow} ${yhigh} units box
+write_data temp.data 
+
+
+

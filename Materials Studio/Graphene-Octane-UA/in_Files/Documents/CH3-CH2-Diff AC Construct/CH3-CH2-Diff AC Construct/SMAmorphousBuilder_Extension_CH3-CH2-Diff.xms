@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="latin1"?>
+<EXTENSION VERSION="19.1">
+<LOGICS>
+<LOGICITEM NAME="AmorphousBuilder">
+	<STATE NAME="AmorphousBuilder" VERSION="19.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderClassicalEnergy">
+	<STATE NAME="ClassicalEnergy - Classical Energy Server" VERSION="19.1">
+	<PROPERTIES>
+	<PROPERTY NAME="CalculationQuality">
+	<VALUE>4</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="3DPeriodicvdWEwaldSumAccuracy">
+	<VALUE>1.e-005</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="Hints">
+	<VALUE>
+	<ITEM>0002</ITEM>
+	<ITEM>1001</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="2DPeriodicElectrostaticEwaldSumAccuracy">
+	<VALUE>1.e-005</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="3DPeriodicElectrostaticEwaldSumAccuracy">
+	<VALUE>1.e-005</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="3DPeriodicElectrostaticPPPMAccuracy">
+	<VALUE>1.e-005</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="NonPeriodicvdWAtomCubicSplineCutOff">
+	<VALUE>18.5</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="2DPeriodicvdWAtomCubicSplineCutOff">
+	<VALUE>18.5</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="3DPeriodicvdWAtomCubicSplineCutOff">
+	<VALUE>18.5</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="NonPeriodicvdWChargeGroupCubicSplineCutOff">
+	<VALUE>18.5</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="2DPeriodicvdWChargeGroupCubicSplineCutOff">
+	<VALUE>18.5</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="3DPeriodicvdWChargeGroupCubicSplineCutOff">
+	<VALUE>18.5</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="NonPeriodicEAMAtomCubicSplineCutOff">
+	<VALUE>18.5</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="2DPeriodicEAMAtomCubicSplineCutOff">
+	<VALUE>18.5</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="3DPeriodicEAMAtomCubicSplineCutOff">
+	<VALUE>18.5</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderConfigBiasMonteCarlo">
+	<STATE NAME="SorptionConfigBiasMonteCarlo" VERSION="19.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderConfinedLayer">
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderConstruction">
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderCreateLattice">
+	<STATE NAME="CreateLattice" VERSION="19.1">
+	<PROPERTIES>
+	<PROPERTY NAME="LatticeType">
+	<VALUE>2</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="LengthA">
+	<VALUE>24.</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="LengthB">
+	<VALUE>50.</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="LengthC">
+	<VALUE>85.80004300919569</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="Volume">
+	<VALUE>102960.0516110348</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderFindTorsions">
+	<STATE NAME="Find Torsions" VERSION="19.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderIntraMolecularEnergy">
+	<STATE NAME="ClassicalEnergy - Classical Energy Server" VERSION="19.1">
+	<PROPERTIES>
+	<PROPERTY NAME="Hints">
+	<VALUE>
+	<ITEM>0002</ITEM>
+	<ITEM>1001</ITEM>
+	</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderJobHandler">
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderJobLauncher">
+	<STATE NAME="SMXAmorphousBuilder.AmorphousBuilderJobLauncher" VERSION="19.1">
+	<PROPERTIES>
+	<PROPERTY NAME="TaskTypeDescription">
+	<VALUE>Construct</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderMinimizer">
+	<STATE NAME="Minimize" VERSION="19.1">
+	<PROPERTIES>
+	<PROPERTY NAME="uiConvLevel">
+	<VALUE>4</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="SmartOptimizationAlgorithm">
+	<VALUE>
+	<ITEM>2</ITEM>
+	<ITEM>5</ITEM>
+	<ITEM>4</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="SmartAtomLimit">
+	<VALUE>
+	<ITEM>0</ITEM>
+	<ITEM>0</ITEM>
+	<ITEM>0</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="SmartAssymetericAtomLimit">
+	<VALUE>
+	<ITEM>0</ITEM>
+	<ITEM>0</ITEM>
+	<ITEM>200</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="SmartExitCriteria">
+	<VALUE>
+	<ITEM>1000.</ITEM>
+	<ITEM>50.</ITEM>
+	<ITEM>0.1</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="udRmsForceCrit">
+	<VALUE>2.e-004</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="udRmsStressCrit">
+	<VALUE>2.e-004</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="MaxForce">
+	<VALUE>1.e-003</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="MaxStress">
+	<VALUE>1.e-003</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="udRmsShiftCrit">
+	<VALUE>2.e-006</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="MaxDisplacement">
+	<VALUE>1.e-005</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="MaxEnergy">
+	<VALUE>2.e-005</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="ulSelRmsStress">
+	<VALUE>true</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="UseMaxStress">
+	<VALUE>true</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="ulSelRmsShift">
+	<VALUE>true</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="UseMaxDisplacement">
+	<VALUE>true</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderMinimizerEnergy">
+	<STATE NAME="ClassicalEnergy - Classical Energy Server" VERSION="19.1">
+	<PROPERTIES>
+	<PROPERTY NAME="Hints">
+	<VALUE>
+	<ITEM>0002</ITEM>
+	<ITEM>1001</ITEM>
+	</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderPacking">
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderServer">
+	<STATE NAME="AmorphousBuilderServer" VERSION="19.1">
+	<PROPERTIES>
+	<PROPERTY NAME="Quality">
+	<VALUE>4</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="Temperature">
+	<VALUE>1.</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="TargetDensity">
+	<VALUE>0.5</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="MonteCarloSchemeId">
+	<VALUE>
+	<ITEM>AmorphousBuilderMetropolisMonteCarlo</ITEM>
+	<ITEM>AmorphousBuilderConfigBiasMonteCarlo</ITEM>
+	</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderSystem">
+	<STATE NAME="SorptionSystem" VERSION="19.1">
+	<PROPERTIES>
+	<PROPERTY NAME="SorbateID">
+	<VALUE>
+	<ITEM>{78E633C3-E1BD-4464-B2B9-26865D1CBA90}</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="SorbateLoading">
+	<VALUE>
+	<ITEM>250</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="SorbateMoleRatio">
+	<VALUE>
+	<ITEM>1.</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="SorbateStartFugacity">
+	<VALUE></VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="SorbateEndFugacity">
+	<VALUE></VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="CheckCloseContacts">
+	<VALUE>true</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="CloseContactvdWScale">
+	<VALUE>0.7</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderTrjMinimizer">
+	<STATE NAME="ForciteTrjHelper" VERSION="19.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="BondIncrement">
+	<STATE NAME="BondIncrement" VERSION="19.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="BondOrder">
+	<STATE NAME="UFFBondOrder" VERSION="19.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="ChargeEditor">
+	<STATE NAME="SMXCharge.ChargeEditor" VERSION="19.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="ChargeGasteiger">
+	<STATE NAME="SMXCharge.ChargeGasteiger" VERSION="19.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="ChargeGroups">
+	<STATE NAME="Charge Groups" VERSION="19.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="ChargeQEq">
+	<STATE NAME="SMXCharge.ChargeQEq" VERSION="19.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="ForcefieldChooser">
+	<STATE NAME="ForciteForcefieldChooser" VERSION="19.1">
+	<PROPERTIES>
+	<PROPERTY NAME="RecentlyUsedForcefields">
+	<VALUE></VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="ForcefieldPreparation">
+	<STATE NAME="Forcefield preparation" VERSION="19.1">
+	<PROPERTIES>
+	<PROPERTY NAME="ChargeAssignment">
+	<VALUE>1</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="OFFAtomTyping">
+	<STATE NAME="OFFAtomTyping" VERSION="19.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="PotentialAtomTyping">
+	<STATE NAME="PotentialAtomTyping" VERSION="19.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="RampDensity">
+	<STATE NAME="Ramp Density" VERSION="19.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="RampDensityDynamics">
+	<STATE NAME="Dynamics" VERSION="19.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="RampDensityMinimize">
+	<STATE NAME="Minimize" VERSION="19.1">
+	<PROPERTIES>
+	<PROPERTY NAME="SmartOptimizationAlgorithm">
+	<VALUE>
+	<ITEM>2</ITEM>
+	<ITEM>5</ITEM>
+	<ITEM>4</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="SmartAtomLimit">
+	<VALUE>
+	<ITEM>0</ITEM>
+	<ITEM>0</ITEM>
+	<ITEM>0</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="SmartAssymetericAtomLimit">
+	<VALUE>
+	<ITEM>0</ITEM>
+	<ITEM>0</ITEM>
+	<ITEM>200</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="SmartExitCriteria">
+	<VALUE>
+	<ITEM>1000.</ITEM>
+	<ITEM>50.</ITEM>
+	<ITEM>0.1</ITEM>
+	</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="RestrainRings">
+	<STATE NAME="RestrainRings" VERSION="19.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="RestrainRingsMinimize">
+	<STATE NAME="Minimize" VERSION="19.1">
+	<PROPERTIES>
+	<PROPERTY NAME="SmartOptimizationAlgorithm">
+	<VALUE>
+	<ITEM>2</ITEM>
+	<ITEM>5</ITEM>
+	<ITEM>4</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="SmartAtomLimit">
+	<VALUE>
+	<ITEM>0</ITEM>
+	<ITEM>0</ITEM>
+	<ITEM>0</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="SmartAssymetericAtomLimit">
+	<VALUE>
+	<ITEM>0</ITEM>
+	<ITEM>0</ITEM>
+	<ITEM>200</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="SmartExitCriteria">
+	<VALUE>
+	<ITEM>1000.</ITEM>
+	<ITEM>50.</ITEM>
+	<ITEM>0.1</ITEM>
+	</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+</LOGICS>
+</EXTENSION>

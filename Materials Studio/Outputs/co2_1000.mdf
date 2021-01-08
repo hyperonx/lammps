@@ -1,0 +1,4025 @@
+!BIOSYM molecular_data 4
+ 
+!Date: Wed Jan  6 21:29:31 2021   Materials Studio Generated MDF file
+ 
+#topology
+
+@column 1 element
+@column 2 atom_type
+@column 3 charge_group
+@column 4 isotope
+@column 5 formal_charge
+@column 6 charge
+@column 7 switching_atom
+@column 8 oop_flag
+@column 9 chirality_flag
+@column 10 occupancy
+@column 11 xray_temp_factor
+@column 12 connections
+ 
+@molecule Molecule
+ 
+XXXX_1:N1           N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule2
+ 
+XXXX_2:N2           N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule3
+ 
+XXXX_3:N3           N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule4
+ 
+XXXX_4:N4           N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule5
+ 
+XXXX_5:N5           N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule6
+ 
+XXXX_6:N6           N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule7
+ 
+XXXX_7:N7           N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule8
+ 
+XXXX_8:N8           N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule9
+ 
+XXXX_9:N9           N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule10
+ 
+XXXX_10:N10         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule11
+ 
+XXXX_11:N11         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule12
+ 
+XXXX_12:N12         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule13
+ 
+XXXX_13:N13         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule14
+ 
+XXXX_14:N14         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule15
+ 
+XXXX_15:N15         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule16
+ 
+XXXX_16:N16         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule17
+ 
+XXXX_17:N17         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule18
+ 
+XXXX_18:N18         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule19
+ 
+XXXX_19:N19         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule20
+ 
+XXXX_20:N20         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule21
+ 
+XXXX_21:N21         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule22
+ 
+XXXX_22:N22         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule23
+ 
+XXXX_23:N23         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule24
+ 
+XXXX_24:N24         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule25
+ 
+XXXX_25:N25         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule26
+ 
+XXXX_26:N26         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule27
+ 
+XXXX_27:N27         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule28
+ 
+XXXX_28:N28         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule29
+ 
+XXXX_29:N29         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule30
+ 
+XXXX_30:N30         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule31
+ 
+XXXX_31:N31         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule32
+ 
+XXXX_32:N32         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule33
+ 
+XXXX_33:N33         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule34
+ 
+XXXX_34:N34         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule35
+ 
+XXXX_35:N35         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule36
+ 
+XXXX_36:N36         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule37
+ 
+XXXX_37:N37         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule38
+ 
+XXXX_38:N38         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule39
+ 
+XXXX_39:N39         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule40
+ 
+XXXX_40:N40         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule41
+ 
+XXXX_41:N41         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule42
+ 
+XXXX_42:N42         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule43
+ 
+XXXX_43:N43         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule44
+ 
+XXXX_44:N44         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule45
+ 
+XXXX_45:N45         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule46
+ 
+XXXX_46:N46         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule47
+ 
+XXXX_47:N47         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule48
+ 
+XXXX_48:N48         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule49
+ 
+XXXX_49:N49         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule50
+ 
+XXXX_50:N50         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule51
+ 
+XXXX_51:N51         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule52
+ 
+XXXX_52:N52         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule53
+ 
+XXXX_53:N53         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule54
+ 
+XXXX_54:N54         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule55
+ 
+XXXX_55:N55         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule56
+ 
+XXXX_56:N56         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule57
+ 
+XXXX_57:N57         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule58
+ 
+XXXX_58:N58         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule59
+ 
+XXXX_59:N59         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule60
+ 
+XXXX_60:N60         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule61
+ 
+XXXX_61:N61         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule62
+ 
+XXXX_62:N62         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule63
+ 
+XXXX_63:N63         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule64
+ 
+XXXX_64:N64         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule65
+ 
+XXXX_65:N65         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule66
+ 
+XXXX_66:N66         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule67
+ 
+XXXX_67:N67         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule68
+ 
+XXXX_68:N68         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule69
+ 
+XXXX_69:N69         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule70
+ 
+XXXX_70:N70         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule71
+ 
+XXXX_71:N71         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule72
+ 
+XXXX_72:N72         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule73
+ 
+XXXX_73:N73         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule74
+ 
+XXXX_74:N74         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule75
+ 
+XXXX_75:N75         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule76
+ 
+XXXX_76:N76         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule77
+ 
+XXXX_77:N77         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule78
+ 
+XXXX_78:N78         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule79
+ 
+XXXX_79:N79         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule80
+ 
+XXXX_80:N80         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule81
+ 
+XXXX_81:N81         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule82
+ 
+XXXX_82:N82         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule83
+ 
+XXXX_83:N83         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule84
+ 
+XXXX_84:N84         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule85
+ 
+XXXX_85:N85         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule86
+ 
+XXXX_86:N86         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule87
+ 
+XXXX_87:N87         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule88
+ 
+XXXX_88:N88         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule89
+ 
+XXXX_89:N89         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule90
+ 
+XXXX_90:N90         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule91
+ 
+XXXX_91:N91         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule92
+ 
+XXXX_92:N92         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule93
+ 
+XXXX_93:N93         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule94
+ 
+XXXX_94:N94         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule95
+ 
+XXXX_95:N95         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule96
+ 
+XXXX_96:N96         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule97
+ 
+XXXX_97:N97         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule98
+ 
+XXXX_98:N98         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule99
+ 
+XXXX_99:N99         N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule100
+ 
+XXXX_100:N100       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule101
+ 
+XXXX_101:N101       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule102
+ 
+XXXX_102:N102       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule103
+ 
+XXXX_103:N103       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule104
+ 
+XXXX_104:N104       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule105
+ 
+XXXX_105:N105       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule106
+ 
+XXXX_106:N106       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule107
+ 
+XXXX_107:N107       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule108
+ 
+XXXX_108:N108       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule109
+ 
+XXXX_109:N109       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule110
+ 
+XXXX_110:N110       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule111
+ 
+XXXX_111:N111       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule112
+ 
+XXXX_112:N112       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule113
+ 
+XXXX_113:N113       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule114
+ 
+XXXX_114:N114       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule115
+ 
+XXXX_115:N115       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule116
+ 
+XXXX_116:N116       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule117
+ 
+XXXX_117:N117       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule118
+ 
+XXXX_118:N118       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule119
+ 
+XXXX_119:N119       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule120
+ 
+XXXX_120:N120       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule121
+ 
+XXXX_121:N121       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule122
+ 
+XXXX_122:N122       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule123
+ 
+XXXX_123:N123       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule124
+ 
+XXXX_124:N124       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule125
+ 
+XXXX_125:N125       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule126
+ 
+XXXX_126:N126       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule127
+ 
+XXXX_127:N127       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule128
+ 
+XXXX_128:N128       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule129
+ 
+XXXX_129:N129       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule130
+ 
+XXXX_130:N130       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule131
+ 
+XXXX_131:N131       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule132
+ 
+XXXX_132:N132       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule133
+ 
+XXXX_133:N133       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule134
+ 
+XXXX_134:N134       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule135
+ 
+XXXX_135:N135       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule136
+ 
+XXXX_136:N136       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule137
+ 
+XXXX_137:N137       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule138
+ 
+XXXX_138:N138       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule139
+ 
+XXXX_139:N139       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule140
+ 
+XXXX_140:N140       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule141
+ 
+XXXX_141:N141       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule142
+ 
+XXXX_142:N142       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule143
+ 
+XXXX_143:N143       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule144
+ 
+XXXX_144:N144       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule145
+ 
+XXXX_145:N145       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule146
+ 
+XXXX_146:N146       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule147
+ 
+XXXX_147:N147       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule148
+ 
+XXXX_148:N148       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule149
+ 
+XXXX_149:N149       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule150
+ 
+XXXX_150:N150       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule151
+ 
+XXXX_151:N151       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule152
+ 
+XXXX_152:N152       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule153
+ 
+XXXX_153:N153       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule154
+ 
+XXXX_154:N154       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule155
+ 
+XXXX_155:N155       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule156
+ 
+XXXX_156:N156       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule157
+ 
+XXXX_157:N157       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule158
+ 
+XXXX_158:N158       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule159
+ 
+XXXX_159:N159       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule160
+ 
+XXXX_160:N160       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule161
+ 
+XXXX_161:N161       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule162
+ 
+XXXX_162:N162       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule163
+ 
+XXXX_163:N163       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule164
+ 
+XXXX_164:N164       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule165
+ 
+XXXX_165:N165       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule166
+ 
+XXXX_166:N166       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule167
+ 
+XXXX_167:N167       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule168
+ 
+XXXX_168:N168       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule169
+ 
+XXXX_169:N169       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule170
+ 
+XXXX_170:N170       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule171
+ 
+XXXX_171:N171       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule172
+ 
+XXXX_172:N172       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule173
+ 
+XXXX_173:N173       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule174
+ 
+XXXX_174:N174       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule175
+ 
+XXXX_175:N175       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule176
+ 
+XXXX_176:N176       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule177
+ 
+XXXX_177:N177       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule178
+ 
+XXXX_178:N178       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule179
+ 
+XXXX_179:N179       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule180
+ 
+XXXX_180:N180       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule181
+ 
+XXXX_181:N181       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule182
+ 
+XXXX_182:N182       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule183
+ 
+XXXX_183:N183       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule184
+ 
+XXXX_184:N184       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule185
+ 
+XXXX_185:N185       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule186
+ 
+XXXX_186:N186       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule187
+ 
+XXXX_187:N187       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule188
+ 
+XXXX_188:N188       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule189
+ 
+XXXX_189:N189       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule190
+ 
+XXXX_190:N190       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule191
+ 
+XXXX_191:N191       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule192
+ 
+XXXX_192:N192       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule193
+ 
+XXXX_193:N193       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule194
+ 
+XXXX_194:N194       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule195
+ 
+XXXX_195:N195       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule196
+ 
+XXXX_196:N196       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule197
+ 
+XXXX_197:N197       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule198
+ 
+XXXX_198:N198       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule199
+ 
+XXXX_199:N199       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule200
+ 
+XXXX_200:N200       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule201
+ 
+XXXX_201:N201       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule202
+ 
+XXXX_202:N202       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule203
+ 
+XXXX_203:N203       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule204
+ 
+XXXX_204:N204       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule205
+ 
+XXXX_205:N205       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule206
+ 
+XXXX_206:N206       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule207
+ 
+XXXX_207:N207       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule208
+ 
+XXXX_208:N208       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule209
+ 
+XXXX_209:N209       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule210
+ 
+XXXX_210:N210       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule211
+ 
+XXXX_211:N211       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule212
+ 
+XXXX_212:N212       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule213
+ 
+XXXX_213:N213       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule214
+ 
+XXXX_214:N214       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule215
+ 
+XXXX_215:N215       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule216
+ 
+XXXX_216:N216       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule217
+ 
+XXXX_217:N217       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule218
+ 
+XXXX_218:N218       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule219
+ 
+XXXX_219:N219       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule220
+ 
+XXXX_220:N220       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule221
+ 
+XXXX_221:N221       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule222
+ 
+XXXX_222:N222       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule223
+ 
+XXXX_223:N223       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule224
+ 
+XXXX_224:N224       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule225
+ 
+XXXX_225:N225       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule226
+ 
+XXXX_226:N226       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule227
+ 
+XXXX_227:N227       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule228
+ 
+XXXX_228:N228       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule229
+ 
+XXXX_229:N229       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule230
+ 
+XXXX_230:N230       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule231
+ 
+XXXX_231:N231       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule232
+ 
+XXXX_232:N232       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule233
+ 
+XXXX_233:N233       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule234
+ 
+XXXX_234:N234       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule235
+ 
+XXXX_235:N235       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule236
+ 
+XXXX_236:N236       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule237
+ 
+XXXX_237:N237       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule238
+ 
+XXXX_238:N238       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule239
+ 
+XXXX_239:N239       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule240
+ 
+XXXX_240:N240       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule241
+ 
+XXXX_241:N241       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule242
+ 
+XXXX_242:N242       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule243
+ 
+XXXX_243:N243       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule244
+ 
+XXXX_244:N244       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule245
+ 
+XXXX_245:N245       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule246
+ 
+XXXX_246:N246       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule247
+ 
+XXXX_247:N247       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule248
+ 
+XXXX_248:N248       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule249
+ 
+XXXX_249:N249       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule250
+ 
+XXXX_250:N250       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule251
+ 
+XXXX_251:N251       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule252
+ 
+XXXX_252:N252       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule253
+ 
+XXXX_253:N253       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule254
+ 
+XXXX_254:N254       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule255
+ 
+XXXX_255:N255       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule256
+ 
+XXXX_256:N256       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule257
+ 
+XXXX_257:N257       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule258
+ 
+XXXX_258:N258       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule259
+ 
+XXXX_259:N259       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule260
+ 
+XXXX_260:N260       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule261
+ 
+XXXX_261:N261       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule262
+ 
+XXXX_262:N262       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule263
+ 
+XXXX_263:N263       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule264
+ 
+XXXX_264:N264       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule265
+ 
+XXXX_265:N265       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule266
+ 
+XXXX_266:N266       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule267
+ 
+XXXX_267:N267       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule268
+ 
+XXXX_268:N268       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule269
+ 
+XXXX_269:N269       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule270
+ 
+XXXX_270:N270       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule271
+ 
+XXXX_271:N271       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule272
+ 
+XXXX_272:N272       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule273
+ 
+XXXX_273:N273       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule274
+ 
+XXXX_274:N274       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule275
+ 
+XXXX_275:N275       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule276
+ 
+XXXX_276:N276       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule277
+ 
+XXXX_277:N277       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule278
+ 
+XXXX_278:N278       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule279
+ 
+XXXX_279:N279       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule280
+ 
+XXXX_280:N280       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule281
+ 
+XXXX_281:N281       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule282
+ 
+XXXX_282:N282       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule283
+ 
+XXXX_283:N283       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule284
+ 
+XXXX_284:N284       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule285
+ 
+XXXX_285:N285       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule286
+ 
+XXXX_286:N286       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule287
+ 
+XXXX_287:N287       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule288
+ 
+XXXX_288:N288       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule289
+ 
+XXXX_289:N289       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule290
+ 
+XXXX_290:N290       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule291
+ 
+XXXX_291:N291       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule292
+ 
+XXXX_292:N292       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule293
+ 
+XXXX_293:N293       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule294
+ 
+XXXX_294:N294       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule295
+ 
+XXXX_295:N295       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule296
+ 
+XXXX_296:N296       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule297
+ 
+XXXX_297:N297       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule298
+ 
+XXXX_298:N298       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule299
+ 
+XXXX_299:N299       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule300
+ 
+XXXX_300:N300       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule301
+ 
+XXXX_301:N301       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule302
+ 
+XXXX_302:N302       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule303
+ 
+XXXX_303:N303       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule304
+ 
+XXXX_304:N304       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule305
+ 
+XXXX_305:N305       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule306
+ 
+XXXX_306:N306       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule307
+ 
+XXXX_307:N307       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule308
+ 
+XXXX_308:N308       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule309
+ 
+XXXX_309:N309       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule310
+ 
+XXXX_310:N310       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule311
+ 
+XXXX_311:N311       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule312
+ 
+XXXX_312:N312       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule313
+ 
+XXXX_313:N313       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule314
+ 
+XXXX_314:N314       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule315
+ 
+XXXX_315:N315       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule316
+ 
+XXXX_316:N316       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule317
+ 
+XXXX_317:N317       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule318
+ 
+XXXX_318:N318       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule319
+ 
+XXXX_319:N319       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule320
+ 
+XXXX_320:N320       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule321
+ 
+XXXX_321:N321       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule322
+ 
+XXXX_322:N322       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule323
+ 
+XXXX_323:N323       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule324
+ 
+XXXX_324:N324       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule325
+ 
+XXXX_325:N325       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule326
+ 
+XXXX_326:N326       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule327
+ 
+XXXX_327:N327       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule328
+ 
+XXXX_328:N328       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule329
+ 
+XXXX_329:N329       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule330
+ 
+XXXX_330:N330       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule331
+ 
+XXXX_331:N331       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule332
+ 
+XXXX_332:N332       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule333
+ 
+XXXX_333:N333       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule334
+ 
+XXXX_334:N334       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule335
+ 
+XXXX_335:N335       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule336
+ 
+XXXX_336:N336       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule337
+ 
+XXXX_337:N337       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule338
+ 
+XXXX_338:N338       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule339
+ 
+XXXX_339:N339       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule340
+ 
+XXXX_340:N340       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule341
+ 
+XXXX_341:N341       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule342
+ 
+XXXX_342:N342       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule343
+ 
+XXXX_343:N343       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule344
+ 
+XXXX_344:N344       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule345
+ 
+XXXX_345:N345       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule346
+ 
+XXXX_346:N346       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule347
+ 
+XXXX_347:N347       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule348
+ 
+XXXX_348:N348       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule349
+ 
+XXXX_349:N349       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule350
+ 
+XXXX_350:N350       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule351
+ 
+XXXX_351:N351       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule352
+ 
+XXXX_352:N352       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule353
+ 
+XXXX_353:N353       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule354
+ 
+XXXX_354:N354       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule355
+ 
+XXXX_355:N355       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule356
+ 
+XXXX_356:N356       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule357
+ 
+XXXX_357:N357       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule358
+ 
+XXXX_358:N358       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule359
+ 
+XXXX_359:N359       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule360
+ 
+XXXX_360:N360       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule361
+ 
+XXXX_361:N361       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule362
+ 
+XXXX_362:N362       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule363
+ 
+XXXX_363:N363       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule364
+ 
+XXXX_364:N364       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule365
+ 
+XXXX_365:N365       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule366
+ 
+XXXX_366:N366       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule367
+ 
+XXXX_367:N367       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule368
+ 
+XXXX_368:N368       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule369
+ 
+XXXX_369:N369       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule370
+ 
+XXXX_370:N370       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule371
+ 
+XXXX_371:N371       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule372
+ 
+XXXX_372:N372       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule373
+ 
+XXXX_373:N373       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule374
+ 
+XXXX_374:N374       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule375
+ 
+XXXX_375:N375       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule376
+ 
+XXXX_376:N376       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule377
+ 
+XXXX_377:N377       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule378
+ 
+XXXX_378:N378       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule379
+ 
+XXXX_379:N379       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule380
+ 
+XXXX_380:N380       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule381
+ 
+XXXX_381:N381       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule382
+ 
+XXXX_382:N382       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule383
+ 
+XXXX_383:N383       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule384
+ 
+XXXX_384:N384       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule385
+ 
+XXXX_385:N385       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule386
+ 
+XXXX_386:N386       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule387
+ 
+XXXX_387:N387       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule388
+ 
+XXXX_388:N388       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule389
+ 
+XXXX_389:N389       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule390
+ 
+XXXX_390:N390       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule391
+ 
+XXXX_391:N391       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule392
+ 
+XXXX_392:N392       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule393
+ 
+XXXX_393:N393       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule394
+ 
+XXXX_394:N394       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule395
+ 
+XXXX_395:N395       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule396
+ 
+XXXX_396:N396       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule397
+ 
+XXXX_397:N397       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule398
+ 
+XXXX_398:N398       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule399
+ 
+XXXX_399:N399       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule400
+ 
+XXXX_400:N400       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule401
+ 
+XXXX_401:N401       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule402
+ 
+XXXX_402:N402       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule403
+ 
+XXXX_403:N403       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule404
+ 
+XXXX_404:N404       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule405
+ 
+XXXX_405:N405       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule406
+ 
+XXXX_406:N406       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule407
+ 
+XXXX_407:N407       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule408
+ 
+XXXX_408:N408       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule409
+ 
+XXXX_409:N409       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule410
+ 
+XXXX_410:N410       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule411
+ 
+XXXX_411:N411       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule412
+ 
+XXXX_412:N412       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule413
+ 
+XXXX_413:N413       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule414
+ 
+XXXX_414:N414       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule415
+ 
+XXXX_415:N415       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule416
+ 
+XXXX_416:N416       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule417
+ 
+XXXX_417:N417       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule418
+ 
+XXXX_418:N418       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule419
+ 
+XXXX_419:N419       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule420
+ 
+XXXX_420:N420       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule421
+ 
+XXXX_421:N421       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule422
+ 
+XXXX_422:N422       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule423
+ 
+XXXX_423:N423       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule424
+ 
+XXXX_424:N424       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule425
+ 
+XXXX_425:N425       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule426
+ 
+XXXX_426:N426       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule427
+ 
+XXXX_427:N427       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule428
+ 
+XXXX_428:N428       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule429
+ 
+XXXX_429:N429       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule430
+ 
+XXXX_430:N430       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule431
+ 
+XXXX_431:N431       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule432
+ 
+XXXX_432:N432       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule433
+ 
+XXXX_433:N433       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule434
+ 
+XXXX_434:N434       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule435
+ 
+XXXX_435:N435       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule436
+ 
+XXXX_436:N436       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule437
+ 
+XXXX_437:N437       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule438
+ 
+XXXX_438:N438       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule439
+ 
+XXXX_439:N439       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule440
+ 
+XXXX_440:N440       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule441
+ 
+XXXX_441:N441       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule442
+ 
+XXXX_442:N442       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule443
+ 
+XXXX_443:N443       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule444
+ 
+XXXX_444:N444       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule445
+ 
+XXXX_445:N445       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule446
+ 
+XXXX_446:N446       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule447
+ 
+XXXX_447:N447       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule448
+ 
+XXXX_448:N448       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule449
+ 
+XXXX_449:N449       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule450
+ 
+XXXX_450:N450       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule451
+ 
+XXXX_451:N451       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule452
+ 
+XXXX_452:N452       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule453
+ 
+XXXX_453:N453       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule454
+ 
+XXXX_454:N454       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule455
+ 
+XXXX_455:N455       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule456
+ 
+XXXX_456:N456       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule457
+ 
+XXXX_457:N457       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule458
+ 
+XXXX_458:N458       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule459
+ 
+XXXX_459:N459       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule460
+ 
+XXXX_460:N460       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule461
+ 
+XXXX_461:N461       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule462
+ 
+XXXX_462:N462       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule463
+ 
+XXXX_463:N463       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule464
+ 
+XXXX_464:N464       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule465
+ 
+XXXX_465:N465       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule466
+ 
+XXXX_466:N466       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule467
+ 
+XXXX_467:N467       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule468
+ 
+XXXX_468:N468       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule469
+ 
+XXXX_469:N469       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule470
+ 
+XXXX_470:N470       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule471
+ 
+XXXX_471:N471       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule472
+ 
+XXXX_472:N472       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule473
+ 
+XXXX_473:N473       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule474
+ 
+XXXX_474:N474       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule475
+ 
+XXXX_475:N475       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule476
+ 
+XXXX_476:N476       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule477
+ 
+XXXX_477:N477       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule478
+ 
+XXXX_478:N478       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule479
+ 
+XXXX_479:N479       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule480
+ 
+XXXX_480:N480       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule481
+ 
+XXXX_481:N481       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule482
+ 
+XXXX_482:N482       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule483
+ 
+XXXX_483:N483       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule484
+ 
+XXXX_484:N484       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule485
+ 
+XXXX_485:N485       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule486
+ 
+XXXX_486:N486       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule487
+ 
+XXXX_487:N487       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule488
+ 
+XXXX_488:N488       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule489
+ 
+XXXX_489:N489       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule490
+ 
+XXXX_490:N490       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule491
+ 
+XXXX_491:N491       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule492
+ 
+XXXX_492:N492       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule493
+ 
+XXXX_493:N493       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule494
+ 
+XXXX_494:N494       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule495
+ 
+XXXX_495:N495       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule496
+ 
+XXXX_496:N496       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule497
+ 
+XXXX_497:N497       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule498
+ 
+XXXX_498:N498       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule499
+ 
+XXXX_499:N499       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule500
+ 
+XXXX_500:N500       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule501
+ 
+XXXX_501:N501       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule502
+ 
+XXXX_502:N502       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule503
+ 
+XXXX_503:N503       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule504
+ 
+XXXX_504:N504       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule505
+ 
+XXXX_505:N505       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule506
+ 
+XXXX_506:N506       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule507
+ 
+XXXX_507:N507       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule508
+ 
+XXXX_508:N508       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule509
+ 
+XXXX_509:N509       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule510
+ 
+XXXX_510:N510       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule511
+ 
+XXXX_511:N511       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule512
+ 
+XXXX_512:N512       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule513
+ 
+XXXX_513:N513       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule514
+ 
+XXXX_514:N514       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule515
+ 
+XXXX_515:N515       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule516
+ 
+XXXX_516:N516       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule517
+ 
+XXXX_517:N517       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule518
+ 
+XXXX_518:N518       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule519
+ 
+XXXX_519:N519       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule520
+ 
+XXXX_520:N520       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule521
+ 
+XXXX_521:N521       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule522
+ 
+XXXX_522:N522       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule523
+ 
+XXXX_523:N523       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule524
+ 
+XXXX_524:N524       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule525
+ 
+XXXX_525:N525       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule526
+ 
+XXXX_526:N526       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule527
+ 
+XXXX_527:N527       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule528
+ 
+XXXX_528:N528       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule529
+ 
+XXXX_529:N529       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule530
+ 
+XXXX_530:N530       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule531
+ 
+XXXX_531:N531       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule532
+ 
+XXXX_532:N532       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule533
+ 
+XXXX_533:N533       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule534
+ 
+XXXX_534:N534       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule535
+ 
+XXXX_535:N535       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule536
+ 
+XXXX_536:N536       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule537
+ 
+XXXX_537:N537       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule538
+ 
+XXXX_538:N538       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule539
+ 
+XXXX_539:N539       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule540
+ 
+XXXX_540:N540       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule541
+ 
+XXXX_541:N541       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule542
+ 
+XXXX_542:N542       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule543
+ 
+XXXX_543:N543       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule544
+ 
+XXXX_544:N544       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule545
+ 
+XXXX_545:N545       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule546
+ 
+XXXX_546:N546       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule547
+ 
+XXXX_547:N547       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule548
+ 
+XXXX_548:N548       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule549
+ 
+XXXX_549:N549       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule550
+ 
+XXXX_550:N550       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule551
+ 
+XXXX_551:N551       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule552
+ 
+XXXX_552:N552       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule553
+ 
+XXXX_553:N553       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule554
+ 
+XXXX_554:N554       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule555
+ 
+XXXX_555:N555       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule556
+ 
+XXXX_556:N556       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule557
+ 
+XXXX_557:N557       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule558
+ 
+XXXX_558:N558       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule559
+ 
+XXXX_559:N559       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule560
+ 
+XXXX_560:N560       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule561
+ 
+XXXX_561:N561       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule562
+ 
+XXXX_562:N562       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule563
+ 
+XXXX_563:N563       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule564
+ 
+XXXX_564:N564       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule565
+ 
+XXXX_565:N565       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule566
+ 
+XXXX_566:N566       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule567
+ 
+XXXX_567:N567       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule568
+ 
+XXXX_568:N568       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule569
+ 
+XXXX_569:N569       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule570
+ 
+XXXX_570:N570       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule571
+ 
+XXXX_571:N571       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule572
+ 
+XXXX_572:N572       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule573
+ 
+XXXX_573:N573       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule574
+ 
+XXXX_574:N574       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule575
+ 
+XXXX_575:N575       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule576
+ 
+XXXX_576:N576       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule577
+ 
+XXXX_577:N577       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule578
+ 
+XXXX_578:N578       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule579
+ 
+XXXX_579:N579       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule580
+ 
+XXXX_580:N580       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule581
+ 
+XXXX_581:N581       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule582
+ 
+XXXX_582:N582       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule583
+ 
+XXXX_583:N583       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule584
+ 
+XXXX_584:N584       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule585
+ 
+XXXX_585:N585       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule586
+ 
+XXXX_586:N586       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule587
+ 
+XXXX_587:N587       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule588
+ 
+XXXX_588:N588       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule589
+ 
+XXXX_589:N589       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule590
+ 
+XXXX_590:N590       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule591
+ 
+XXXX_591:N591       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule592
+ 
+XXXX_592:N592       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule593
+ 
+XXXX_593:N593       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule594
+ 
+XXXX_594:N594       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule595
+ 
+XXXX_595:N595       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule596
+ 
+XXXX_596:N596       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule597
+ 
+XXXX_597:N597       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule598
+ 
+XXXX_598:N598       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule599
+ 
+XXXX_599:N599       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule600
+ 
+XXXX_600:N600       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule601
+ 
+XXXX_601:N601       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule602
+ 
+XXXX_602:N602       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule603
+ 
+XXXX_603:N603       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule604
+ 
+XXXX_604:N604       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule605
+ 
+XXXX_605:N605       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule606
+ 
+XXXX_606:N606       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule607
+ 
+XXXX_607:N607       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule608
+ 
+XXXX_608:N608       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule609
+ 
+XXXX_609:N609       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule610
+ 
+XXXX_610:N610       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule611
+ 
+XXXX_611:N611       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule612
+ 
+XXXX_612:N612       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule613
+ 
+XXXX_613:N613       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule614
+ 
+XXXX_614:N614       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule615
+ 
+XXXX_615:N615       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule616
+ 
+XXXX_616:N616       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule617
+ 
+XXXX_617:N617       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule618
+ 
+XXXX_618:N618       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule619
+ 
+XXXX_619:N619       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule620
+ 
+XXXX_620:N620       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule621
+ 
+XXXX_621:N621       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule622
+ 
+XXXX_622:N622       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule623
+ 
+XXXX_623:N623       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule624
+ 
+XXXX_624:N624       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule625
+ 
+XXXX_625:N625       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule626
+ 
+XXXX_626:N626       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule627
+ 
+XXXX_627:N627       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule628
+ 
+XXXX_628:N628       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule629
+ 
+XXXX_629:N629       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule630
+ 
+XXXX_630:N630       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule631
+ 
+XXXX_631:N631       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule632
+ 
+XXXX_632:N632       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule633
+ 
+XXXX_633:N633       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule634
+ 
+XXXX_634:N634       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule635
+ 
+XXXX_635:N635       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule636
+ 
+XXXX_636:N636       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule637
+ 
+XXXX_637:N637       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule638
+ 
+XXXX_638:N638       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule639
+ 
+XXXX_639:N639       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule640
+ 
+XXXX_640:N640       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule641
+ 
+XXXX_641:N641       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule642
+ 
+XXXX_642:N642       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule643
+ 
+XXXX_643:N643       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule644
+ 
+XXXX_644:N644       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule645
+ 
+XXXX_645:N645       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule646
+ 
+XXXX_646:N646       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule647
+ 
+XXXX_647:N647       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule648
+ 
+XXXX_648:N648       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule649
+ 
+XXXX_649:N649       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule650
+ 
+XXXX_650:N650       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule651
+ 
+XXXX_651:N651       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule652
+ 
+XXXX_652:N652       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule653
+ 
+XXXX_653:N653       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule654
+ 
+XXXX_654:N654       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule655
+ 
+XXXX_655:N655       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule656
+ 
+XXXX_656:N656       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule657
+ 
+XXXX_657:N657       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule658
+ 
+XXXX_658:N658       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule659
+ 
+XXXX_659:N659       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule660
+ 
+XXXX_660:N660       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule661
+ 
+XXXX_661:N661       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule662
+ 
+XXXX_662:N662       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule663
+ 
+XXXX_663:N663       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule664
+ 
+XXXX_664:N664       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule665
+ 
+XXXX_665:N665       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule666
+ 
+XXXX_666:N666       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule667
+ 
+XXXX_667:N667       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule668
+ 
+XXXX_668:N668       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule669
+ 
+XXXX_669:N669       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule670
+ 
+XXXX_670:N670       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule671
+ 
+XXXX_671:N671       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule672
+ 
+XXXX_672:N672       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule673
+ 
+XXXX_673:N673       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule674
+ 
+XXXX_674:N674       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule675
+ 
+XXXX_675:N675       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule676
+ 
+XXXX_676:N676       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule677
+ 
+XXXX_677:N677       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule678
+ 
+XXXX_678:N678       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule679
+ 
+XXXX_679:N679       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule680
+ 
+XXXX_680:N680       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule681
+ 
+XXXX_681:N681       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule682
+ 
+XXXX_682:N682       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule683
+ 
+XXXX_683:N683       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule684
+ 
+XXXX_684:N684       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule685
+ 
+XXXX_685:N685       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule686
+ 
+XXXX_686:N686       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule687
+ 
+XXXX_687:N687       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule688
+ 
+XXXX_688:N688       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule689
+ 
+XXXX_689:N689       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule690
+ 
+XXXX_690:N690       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule691
+ 
+XXXX_691:N691       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule692
+ 
+XXXX_692:N692       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule693
+ 
+XXXX_693:N693       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule694
+ 
+XXXX_694:N694       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule695
+ 
+XXXX_695:N695       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule696
+ 
+XXXX_696:N696       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule697
+ 
+XXXX_697:N697       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule698
+ 
+XXXX_698:N698       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule699
+ 
+XXXX_699:N699       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule700
+ 
+XXXX_700:N700       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule701
+ 
+XXXX_701:N701       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule702
+ 
+XXXX_702:N702       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule703
+ 
+XXXX_703:N703       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule704
+ 
+XXXX_704:N704       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule705
+ 
+XXXX_705:N705       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule706
+ 
+XXXX_706:N706       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule707
+ 
+XXXX_707:N707       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule708
+ 
+XXXX_708:N708       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule709
+ 
+XXXX_709:N709       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule710
+ 
+XXXX_710:N710       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule711
+ 
+XXXX_711:N711       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule712
+ 
+XXXX_712:N712       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule713
+ 
+XXXX_713:N713       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule714
+ 
+XXXX_714:N714       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule715
+ 
+XXXX_715:N715       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule716
+ 
+XXXX_716:N716       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule717
+ 
+XXXX_717:N717       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule718
+ 
+XXXX_718:N718       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule719
+ 
+XXXX_719:N719       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule720
+ 
+XXXX_720:N720       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule721
+ 
+XXXX_721:N721       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule722
+ 
+XXXX_722:N722       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule723
+ 
+XXXX_723:N723       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule724
+ 
+XXXX_724:N724       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule725
+ 
+XXXX_725:N725       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule726
+ 
+XXXX_726:N726       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule727
+ 
+XXXX_727:N727       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule728
+ 
+XXXX_728:N728       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule729
+ 
+XXXX_729:N729       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule730
+ 
+XXXX_730:N730       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule731
+ 
+XXXX_731:N731       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule732
+ 
+XXXX_732:N732       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule733
+ 
+XXXX_733:N733       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule734
+ 
+XXXX_734:N734       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule735
+ 
+XXXX_735:N735       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule736
+ 
+XXXX_736:N736       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule737
+ 
+XXXX_737:N737       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule738
+ 
+XXXX_738:N738       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule739
+ 
+XXXX_739:N739       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule740
+ 
+XXXX_740:N740       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule741
+ 
+XXXX_741:N741       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule742
+ 
+XXXX_742:N742       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule743
+ 
+XXXX_743:N743       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule744
+ 
+XXXX_744:N744       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule745
+ 
+XXXX_745:N745       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule746
+ 
+XXXX_746:N746       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule747
+ 
+XXXX_747:N747       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule748
+ 
+XXXX_748:N748       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule749
+ 
+XXXX_749:N749       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule750
+ 
+XXXX_750:N750       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule751
+ 
+XXXX_751:N751       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule752
+ 
+XXXX_752:N752       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule753
+ 
+XXXX_753:N753       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule754
+ 
+XXXX_754:N754       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule755
+ 
+XXXX_755:N755       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule756
+ 
+XXXX_756:N756       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule757
+ 
+XXXX_757:N757       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule758
+ 
+XXXX_758:N758       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule759
+ 
+XXXX_759:N759       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule760
+ 
+XXXX_760:N760       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule761
+ 
+XXXX_761:N761       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule762
+ 
+XXXX_762:N762       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule763
+ 
+XXXX_763:N763       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule764
+ 
+XXXX_764:N764       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule765
+ 
+XXXX_765:N765       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule766
+ 
+XXXX_766:N766       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule767
+ 
+XXXX_767:N767       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule768
+ 
+XXXX_768:N768       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule769
+ 
+XXXX_769:N769       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule770
+ 
+XXXX_770:N770       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule771
+ 
+XXXX_771:N771       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule772
+ 
+XXXX_772:N772       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule773
+ 
+XXXX_773:N773       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule774
+ 
+XXXX_774:N774       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule775
+ 
+XXXX_775:N775       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule776
+ 
+XXXX_776:N776       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule777
+ 
+XXXX_777:N777       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule778
+ 
+XXXX_778:N778       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule779
+ 
+XXXX_779:N779       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule780
+ 
+XXXX_780:N780       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule781
+ 
+XXXX_781:N781       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule782
+ 
+XXXX_782:N782       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule783
+ 
+XXXX_783:N783       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule784
+ 
+XXXX_784:N784       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule785
+ 
+XXXX_785:N785       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule786
+ 
+XXXX_786:N786       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule787
+ 
+XXXX_787:N787       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule788
+ 
+XXXX_788:N788       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule789
+ 
+XXXX_789:N789       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule790
+ 
+XXXX_790:N790       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule791
+ 
+XXXX_791:N791       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule792
+ 
+XXXX_792:N792       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule793
+ 
+XXXX_793:N793       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule794
+ 
+XXXX_794:N794       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule795
+ 
+XXXX_795:N795       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule796
+ 
+XXXX_796:N796       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule797
+ 
+XXXX_797:N797       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule798
+ 
+XXXX_798:N798       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule799
+ 
+XXXX_799:N799       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule800
+ 
+XXXX_800:N800       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule801
+ 
+XXXX_801:N801       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule802
+ 
+XXXX_802:N802       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule803
+ 
+XXXX_803:N803       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule804
+ 
+XXXX_804:N804       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule805
+ 
+XXXX_805:N805       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule806
+ 
+XXXX_806:N806       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule807
+ 
+XXXX_807:N807       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule808
+ 
+XXXX_808:N808       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule809
+ 
+XXXX_809:N809       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule810
+ 
+XXXX_810:N810       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule811
+ 
+XXXX_811:N811       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule812
+ 
+XXXX_812:N812       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule813
+ 
+XXXX_813:N813       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule814
+ 
+XXXX_814:N814       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule815
+ 
+XXXX_815:N815       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule816
+ 
+XXXX_816:N816       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule817
+ 
+XXXX_817:N817       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule818
+ 
+XXXX_818:N818       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule819
+ 
+XXXX_819:N819       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule820
+ 
+XXXX_820:N820       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule821
+ 
+XXXX_821:N821       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule822
+ 
+XXXX_822:N822       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule823
+ 
+XXXX_823:N823       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule824
+ 
+XXXX_824:N824       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule825
+ 
+XXXX_825:N825       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule826
+ 
+XXXX_826:N826       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule827
+ 
+XXXX_827:N827       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule828
+ 
+XXXX_828:N828       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule829
+ 
+XXXX_829:N829       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule830
+ 
+XXXX_830:N830       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule831
+ 
+XXXX_831:N831       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule832
+ 
+XXXX_832:N832       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule833
+ 
+XXXX_833:N833       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule834
+ 
+XXXX_834:N834       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule835
+ 
+XXXX_835:N835       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule836
+ 
+XXXX_836:N836       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule837
+ 
+XXXX_837:N837       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule838
+ 
+XXXX_838:N838       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule839
+ 
+XXXX_839:N839       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule840
+ 
+XXXX_840:N840       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule841
+ 
+XXXX_841:N841       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule842
+ 
+XXXX_842:N842       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule843
+ 
+XXXX_843:N843       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule844
+ 
+XXXX_844:N844       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule845
+ 
+XXXX_845:N845       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule846
+ 
+XXXX_846:N846       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule847
+ 
+XXXX_847:N847       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule848
+ 
+XXXX_848:N848       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule849
+ 
+XXXX_849:N849       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule850
+ 
+XXXX_850:N850       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule851
+ 
+XXXX_851:N851       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule852
+ 
+XXXX_852:N852       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule853
+ 
+XXXX_853:N853       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule854
+ 
+XXXX_854:N854       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule855
+ 
+XXXX_855:N855       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule856
+ 
+XXXX_856:N856       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule857
+ 
+XXXX_857:N857       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule858
+ 
+XXXX_858:N858       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule859
+ 
+XXXX_859:N859       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule860
+ 
+XXXX_860:N860       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule861
+ 
+XXXX_861:N861       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule862
+ 
+XXXX_862:N862       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule863
+ 
+XXXX_863:N863       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule864
+ 
+XXXX_864:N864       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule865
+ 
+XXXX_865:N865       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule866
+ 
+XXXX_866:N866       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule867
+ 
+XXXX_867:N867       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule868
+ 
+XXXX_868:N868       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule869
+ 
+XXXX_869:N869       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule870
+ 
+XXXX_870:N870       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule871
+ 
+XXXX_871:N871       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule872
+ 
+XXXX_872:N872       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule873
+ 
+XXXX_873:N873       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule874
+ 
+XXXX_874:N874       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule875
+ 
+XXXX_875:N875       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule876
+ 
+XXXX_876:N876       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule877
+ 
+XXXX_877:N877       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule878
+ 
+XXXX_878:N878       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule879
+ 
+XXXX_879:N879       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule880
+ 
+XXXX_880:N880       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule881
+ 
+XXXX_881:N881       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule882
+ 
+XXXX_882:N882       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule883
+ 
+XXXX_883:N883       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule884
+ 
+XXXX_884:N884       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule885
+ 
+XXXX_885:N885       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule886
+ 
+XXXX_886:N886       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule887
+ 
+XXXX_887:N887       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule888
+ 
+XXXX_888:N888       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule889
+ 
+XXXX_889:N889       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule890
+ 
+XXXX_890:N890       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule891
+ 
+XXXX_891:N891       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule892
+ 
+XXXX_892:N892       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule893
+ 
+XXXX_893:N893       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule894
+ 
+XXXX_894:N894       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule895
+ 
+XXXX_895:N895       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule896
+ 
+XXXX_896:N896       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule897
+ 
+XXXX_897:N897       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule898
+ 
+XXXX_898:N898       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule899
+ 
+XXXX_899:N899       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule900
+ 
+XXXX_900:N900       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule901
+ 
+XXXX_901:N901       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule902
+ 
+XXXX_902:N902       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule903
+ 
+XXXX_903:N903       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule904
+ 
+XXXX_904:N904       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule905
+ 
+XXXX_905:N905       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule906
+ 
+XXXX_906:N906       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule907
+ 
+XXXX_907:N907       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule908
+ 
+XXXX_908:N908       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule909
+ 
+XXXX_909:N909       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule910
+ 
+XXXX_910:N910       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule911
+ 
+XXXX_911:N911       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule912
+ 
+XXXX_912:N912       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule913
+ 
+XXXX_913:N913       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule914
+ 
+XXXX_914:N914       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule915
+ 
+XXXX_915:N915       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule916
+ 
+XXXX_916:N916       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule917
+ 
+XXXX_917:N917       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule918
+ 
+XXXX_918:N918       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule919
+ 
+XXXX_919:N919       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule920
+ 
+XXXX_920:N920       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule921
+ 
+XXXX_921:N921       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule922
+ 
+XXXX_922:N922       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule923
+ 
+XXXX_923:N923       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule924
+ 
+XXXX_924:N924       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule925
+ 
+XXXX_925:N925       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule926
+ 
+XXXX_926:N926       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule927
+ 
+XXXX_927:N927       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule928
+ 
+XXXX_928:N928       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule929
+ 
+XXXX_929:N929       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule930
+ 
+XXXX_930:N930       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule931
+ 
+XXXX_931:N931       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule932
+ 
+XXXX_932:N932       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule933
+ 
+XXXX_933:N933       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule934
+ 
+XXXX_934:N934       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule935
+ 
+XXXX_935:N935       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule936
+ 
+XXXX_936:N936       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule937
+ 
+XXXX_937:N937       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule938
+ 
+XXXX_938:N938       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule939
+ 
+XXXX_939:N939       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule940
+ 
+XXXX_940:N940       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule941
+ 
+XXXX_941:N941       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule942
+ 
+XXXX_942:N942       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule943
+ 
+XXXX_943:N943       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule944
+ 
+XXXX_944:N944       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule945
+ 
+XXXX_945:N945       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule946
+ 
+XXXX_946:N946       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule947
+ 
+XXXX_947:N947       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule948
+ 
+XXXX_948:N948       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule949
+ 
+XXXX_949:N949       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule950
+ 
+XXXX_950:N950       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule951
+ 
+XXXX_951:N951       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule952
+ 
+XXXX_952:N952       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule953
+ 
+XXXX_953:N953       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule954
+ 
+XXXX_954:N954       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule955
+ 
+XXXX_955:N955       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule956
+ 
+XXXX_956:N956       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule957
+ 
+XXXX_957:N957       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule958
+ 
+XXXX_958:N958       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule959
+ 
+XXXX_959:N959       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule960
+ 
+XXXX_960:N960       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule961
+ 
+XXXX_961:N961       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule962
+ 
+XXXX_962:N962       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule963
+ 
+XXXX_963:N963       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule964
+ 
+XXXX_964:N964       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule965
+ 
+XXXX_965:N965       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule966
+ 
+XXXX_966:N966       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule967
+ 
+XXXX_967:N967       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule968
+ 
+XXXX_968:N968       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule969
+ 
+XXXX_969:N969       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule970
+ 
+XXXX_970:N970       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule971
+ 
+XXXX_971:N971       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule972
+ 
+XXXX_972:N972       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule973
+ 
+XXXX_973:N973       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule974
+ 
+XXXX_974:N974       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule975
+ 
+XXXX_975:N975       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule976
+ 
+XXXX_976:N976       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule977
+ 
+XXXX_977:N977       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule978
+ 
+XXXX_978:N978       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule979
+ 
+XXXX_979:N979       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule980
+ 
+XXXX_980:N980       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule981
+ 
+XXXX_981:N981       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule982
+ 
+XXXX_982:N982       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule983
+ 
+XXXX_983:N983       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule984
+ 
+XXXX_984:N984       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule985
+ 
+XXXX_985:N985       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule986
+ 
+XXXX_986:N986       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule987
+ 
+XXXX_987:N987       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule988
+ 
+XXXX_988:N988       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule989
+ 
+XXXX_989:N989       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule990
+ 
+XXXX_990:N990       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule991
+ 
+XXXX_991:N991       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule992
+ 
+XXXX_992:N992       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule993
+ 
+XXXX_993:N993       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule994
+ 
+XXXX_994:N994       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule995
+ 
+XXXX_995:N995       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule996
+ 
+XXXX_996:N996       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule997
+ 
+XXXX_997:N997       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule998
+ 
+XXXX_998:N998       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule999
+ 
+XXXX_999:N999       N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+@molecule Molecule1000
+ 
+XXXX_1000:N1000     N  N_3     ?     0  3-    0.0000 0 0 8 1.0000  0.0000 
+ 
+!
+#symmetry
+@periodicity 3 xyz
+@group (P1)
+
+#end
