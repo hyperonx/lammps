@@ -1,0 +1,165 @@
+
+units real
+boundary p p p
+atom_style full
+pair_style  lj/cut 13
+# pair_style mie/cut 20
+pair_modify   mix arithmetic
+# kspace_style     ewald 0.0001
+bond_style      harmonic
+angle_style     harmonic
+dihedral_style opls
+
+
+
+variable xs equal 0
+variable ys equal 100
+# replicate 1 1 2
+# read_data octane_graphene.data extra/atom/types 2 extra/bond/types 2 extra/angle/types 1 extra/dihedral/types 1 extra/bond/per/atom 2 extra/angle/per/atom 2 extra/dihedral/per/atom  12
+
+
+read_data complete_sim_3000000.data
+Reading data file ...
+  orthogonal box = (-1.0000000e-06 100.00000 -13.000000) to (27.500002 173.50000 106.27970)
+  1 by 1 by 1 MPI processor grid
+  reading atoms ...
+  7330 atoms
+  reading velocities ...
+  7330 velocities
+  scanning bonds ...
+  3 = max bonds/atom
+  scanning angles ...
+  3 = max angles/atom
+  scanning dihedrals ...
+  12 = max dihedrals/atom
+  reading bonds ...
+  5270 bonds
+  reading angles ...
+  6388 angles
+  reading dihedrals ...
+  9030 dihedrals
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0.0      0.0      0.0     
+  special bond factors coul:  0.0      0.0      0.0     
+     3 = max # of 1-2 neighbors
+     6 = max # of 1-3 neighbors
+    18 = max # of 1-4 neighbors
+    18 = max # of special neighbors
+  special bonds CPU = 0.017 seconds
+  read_data CPU = 0.183 seconds
+# read_data oct_graphene.data
+
+# read_data co2.data add append offset 3 0 0 0 0  shift 0.0 170 40
+# read_data graphene_wall.in add append offset 4 1 2 2 1 shift ${xs} ${ys} -13.0
+# read_data graphene_wall.in add append offset 4 1 2 2 1 shift ${xs} 161.5 -13.0
+
+
+# include  oil_graphene_0.ff
+# displace_atoms all move 0 -5 0 units box
+
+
+#Pair Coeffs # lj/cut/omp
+
+pair_coeff 1 1 0.175 3.905 13.0 #CH3-CH3
+pair_coeff 1 2 0.1437 3.905 13.0 #CH3-CH2
+pair_coeff 1 3 0.1107 3.7275 13.0 #CH3-C
+pair_coeff 1 4 0.2798 3.8475 13.0 #CH3-CO2
+pair_coeff 1 5 1.0 1.0 1.1225 #CH3-Wall
+pair_coeff 2 2 0.118 3.905 13.0 #CH2-CH2
+pair_coeff 2 3 0.0909 3.7275 13.0 #CH2-C
+pair_coeff 2 4 0.2298 3.8475 13.0 #CH2-CO2
+pair_coeff 2 5 1.0 1.0 1.1225 #CH2-Wall
+pair_coeff 3 3 0.0 0.0 0.0 #C-C
+pair_coeff 3 4 0.177 3.67 13.0 #C-CO2
+pair_coeff 3 5 0.0 0.0 0.0 #C-Wall
+pair_coeff 4 4 0.4475 3.79 13.0 #CO2-CO2
+pair_coeff 4 5 1.0 1.0 1.1225 #CO2-Wall
+pair_coeff 5 5 0.0 0.0 0.0 #Wall-Wall
+
+#Bond Coeffs # harmonic/omp
+
+bond_coeff 1 260.0 1.526
+bond_coeff 2 0.0 1.400
+
+#Angle Coeffs # harmonic/omp
+
+angle_coeff 1 63.0 112.0
+angle_coeff 2 63.0 112.0
+angle_coeff 3 0.0 120.0
+
+#Dihedral Coeffs # opls/omp
+
+dihedral_coeff 1 1.411 -0.271 3.145 0
+dihedral_coeff 2 1.411 -0.271 3.145 0
+dihedral_coeff 3 0.0 0.0 0.0 0.0
+
+
+region wall_pore block INF INF  101.5 102.5  31.39 61.49
+
+delete_atoms region wall_pore bond yes
+WARNING: Ignoring 'compress yes' for molecular system (src/delete_atoms.cpp:125)
+Deleted 322 atoms, new total = 7008
+Deleted 0 bonds, new total = 5270
+Deleted 0 angles, new total = 6388
+Deleted 0 dihedrals, new total = 9030
+delete_bonds all atom 5 remove
+System init for delete_bonds ...
+Neighbor list info ...
+  update every 1 steps, delay 10 steps, check yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 15
+  ghost atom cutoff = 15
+  binsize = 7.5, bins = 4 10 16
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair lj/cut, perpetual
+      attributes: half, newton on
+      pair build: half/bin/newton
+      stencil: half/bin/3d/newton
+      bin: standard
+Deleting bonds ...
+  5270 total bonds, 5270 turned on, 0 turned off
+  6388 total angles, 6388 turned on, 0 turned off
+  9030 total dihedrals, 9030 turned on, 0 turned off
+  0 total impropers, 0 turned on, 0 turned off
+reset_atom_ids sort yes
+Resetting atom IDs ...
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0.0      0.0      0.0     
+  special bond factors coul:  0.0      0.0      0.0     
+     3 = max # of 1-2 neighbors
+     6 = max # of 1-3 neighbors
+    18 = max # of 1-4 neighbors
+    18 = max # of special neighbors
+  special bonds CPU = 0.013 seconds
+
+
+
+
+# set type 1*3 image 0 0 0
+# group oil type 1 2
+#
+
+
+# read_data graphene.in add append offset 2 1 2 2 1 shift -3.2 -4.0 -5.0
+# read_data graphene.in add append offset 2 1 2 2 1 shift -3.2 -4.0 235
+
+
+# group upper_graphene molecule 502
+# group lower_graphene molecule  501
+# # read_data graphene_wall.in add append offset 3 1 1 1 0 shift 27 61 17
+# # read_data co2.in add append offset 3 0 0 0 0  shift 0 63 50
+# # read_data graphene_wall.in add append offset 3 1 1 1 0 shift 27 124 17
+
+# variable yl equal  ylo
+# variable ylow equal ylo+5.5
+# variable yhigh equal yhi+0.5
+# print "${ylow}, ${yhigh}"
+
+# change_box all y final ${ylow} ${yhigh} units box
+write_data temp.data
+System init for write_data ...
+WARNING: Not all mixed pair coeffs generated from mixing. Use write_data with 'pair ij' option to store all pair coeffs. (src/write_data.cpp:312)
+
+
+
+Total wall time: 0:00:00

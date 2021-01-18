@@ -17,15 +17,15 @@ dihedral_style opls
 
 
 
-variable xs equal 11
-variable ys equal 63.5
+variable xs equal 4.3
+variable ys equal 62.7
 
 # read_data octane_graphene.data extra/atom/types 2 extra/bond/types 2 extra/angle/types 1 extra/dihedral/types 1 extra/bond/per/atom 2 extra/angle/per/atom 2 extra/dihedral/per/atom  12
-read_data octane_graphene_adjust.data extra/atom/types 2 
+read_data octane_graphene.data 
 # replicate 1 1 2
-read_data co2.data add append offset 3 0 0 0 0  shift 4.55 70 40
-read_data graphene_wall_small.in add append offset 4 1 2 2 1 shift ${xs} ${ys} -22
-read_data graphene_wall_small.in add append offset 4 1 2 2 1 shift ${xs} ${ys} 81.0
+read_data co2.data add append offset 3 1 1 1 1  shift 5.0 70 40
+# read_data graphene_wall.in add append offset 4 1 2 2 1 shift ${xs} ${ys} -12.5
+# read_data graphene_wall.in add append offset 4 1 2 2 1 shift ${xs} ${ys} 91.0
 
 
 include  oil_graphene_0.ff

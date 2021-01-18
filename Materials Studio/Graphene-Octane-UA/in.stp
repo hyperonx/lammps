@@ -332,6 +332,11 @@
       <ID>{7021CBBF-3037-4D33-83BA-CFA12D77E97B}</ID>
       <Paths>1</Paths>
       <URL>.\co2_ua AC Construct (2)\co2_ua.xtd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
     </Document>
   </DocumentManager>
   <ViewRegistry>
@@ -462,12 +467,12 @@
       </View>
     </Frame>
     <Frame>
-      <Active>false</Active>
+      <Active>true</Active>
       <Left>0</Left>
       <Top>0</Top>
       <Width>1393</Width>
       <Height>542</Height>
-      <Maximized>false</Maximized>
+      <Maximized>true</Maximized>
       <Minimized>false</Minimized>
       <View>
         <Active>true</Active>
@@ -490,12 +495,12 @@
       </View>
     </Frame>
     <Frame>
-      <Active>true</Active>
+      <Active>false</Active>
       <Left>0</Left>
       <Top>0</Top>
       <Width>1393</Width>
       <Height>542</Height>
-      <Maximized>true</Maximized>
+      <Maximized>false</Maximized>
       <Minimized>false</Minimized>
       <View>
         <Active>true</Active>

@@ -12,18 +12,18 @@ dihedral_style opls
 
 
 
-variable xs equal 11
-variable ys equal 63.5
-
+variable xs equal 0
+variable ys equal 100
+# replicate 1 1 2
 # read_data octane_graphene.data extra/atom/types 2 extra/bond/types 2 extra/angle/types 1 extra/dihedral/types 1 extra/bond/per/atom 2 extra/angle/per/atom 2 extra/dihedral/per/atom  12
-read_data octane_graphene_adjust.data extra/atom/types 2
+read_data complete_sim_5000000.data
 Reading data file ...
-  orthogonal box = (4.6318560 3.0000000 -1.0000000) to (32.131856 62.500000 92.000000)
-  1 by 1 by 1 MPI processor grid
+  orthogonal box = (-1.0000000e-06 70.000000 -13.000000) to (27.500002 173.50000 106.27970)
+  1 by 2 by 2 MPI processor grid
   reading atoms ...
-  5232 atoms
+  6187 atoms
   reading velocities ...
-  5232 velocities
+  6187 velocities
   scanning bonds ...
   3 = max bonds/atom
   scanning angles ...
@@ -31,11 +31,11 @@ Reading data file ...
   scanning dihedrals ...
   12 = max dihedrals/atom
   reading bonds ...
-  5270 bonds
+  4927 bonds
   reading angles ...
-  6388 angles
+  6094 angles
   reading dihedrals ...
-  9030 dihedrals
+  8785 dihedrals
 Finding 1-2 1-3 1-4 neighbors ...
   special bond factors lj:    0.0      0.0      0.0     
   special bond factors coul:  0.0      0.0      0.0     
@@ -43,17 +43,17 @@ Finding 1-2 1-3 1-4 neighbors ...
      6 = max # of 1-3 neighbors
     18 = max # of 1-4 neighbors
     18 = max # of special neighbors
-  special bonds CPU = 0.005 seconds
-  read_data CPU = 0.228 seconds
-# replicate 1 1 2
-read_data co2.data add append offset 3 0 0 0 0  shift 4.55 70 40
+  special bonds CPU = 0.002 seconds
+  read_data CPU = 0.235 seconds
+region left_wall_plus_vacuum block INF INF  INF 102 INF INF
+
+
+read_data co2.data add append offset 3 0 0 0 0  shift 0.0 170 40
 Reading data file ...
-  orthogonal box = (4.5771050 3.0000000 -1.0000000) to (32.131856 129.59996 95.177344)
-  1 by 1 by 1 MPI processor grid
+  orthogonal box = (-1.0000000e-06 70.000000 -13.000000) to (27.500002 229.50000 106.27970)
+  1 by 2 by 2 MPI processor grid
   reading atoms ...
-  1000 atoms
-  reading velocities ...
-  1000 velocities
+  500 atoms
 Finding 1-2 1-3 1-4 neighbors ...
   special bond factors lj:    0.0      0.0      0.0     
   special bond factors coul:  0.0      0.0      0.0     
@@ -61,41 +61,33 @@ Finding 1-2 1-3 1-4 neighbors ...
      6 = max # of 1-3 neighbors
     18 = max # of 1-4 neighbors
     18 = max # of special neighbors
-  special bonds CPU = 0.006 seconds
-  read_data CPU = 0.027 seconds
-read_data graphene_wall_small.in add append offset 4 1 2 2 1 shift ${xs} ${ys} -22
-read_data graphene_wall_small.in add append offset 4 1 2 2 1 shift 11 ${ys} -22
-read_data graphene_wall_small.in add append offset 4 1 2 2 1 shift 11 63.5 -22
+  special bonds CPU = 0.002 seconds
+  read_data CPU = 0.009 seconds
+# read_data graphene_wall.in add append offset 4 1 2 2 1 shift ${xs} 161.5 -13.0
+
+delete_atoms region left_wall_plus_vacuum bond yes
+WARNING: Ignoring 'compress yes' for molecular system (src/delete_atoms.cpp:125)
+Deleted 968 atoms, new total = 5719
+Deleted 0 bonds, new total = 4927
+Deleted 0 angles, new total = 6094
+Deleted 0 dihedrals, new total = 8785
+# include  oil_graphene_0.ff
+read_data graphene_wall.in add append offset 4 1 2 2 1 shift ${xs} ${ys} -13.0
+read_data graphene_wall.in add append offset 4 1 2 2 1 shift 0 ${ys} -13.0
+read_data graphene_wall.in add append offset 4 1 2 2 1 shift 0 100 -13.0
 Reading data file ...
-  orthogonal box = (4.5771050 3.0000000 -12.428381) to (32.131856 129.59996 95.177344)
-  1 by 1 by 1 MPI processor grid
+  orthogonal box = (-1.0000000e-06 70.000000 -13.000000) to (27.500002 229.50000 106.27970)
+  1 by 2 by 2 MPI processor grid
   reading atoms ...
-  132 atoms
+  1288 atoms
   scanning bonds ...
   3 = max bonds/atom
+  scanning angles ...
+  3 = max angles/atom
   reading bonds ...
-  181 bonds
-Finding 1-2 1-3 1-4 neighbors ...
-  special bond factors lj:    0.0      0.0      0.0     
-  special bond factors coul:  0.0      0.0      0.0     
-     3 = max # of 1-2 neighbors
-     6 = max # of 1-3 neighbors
-    18 = max # of 1-4 neighbors
-    18 = max # of special neighbors
-  special bonds CPU = 0.008 seconds
-  read_data CPU = 0.015 seconds
-read_data graphene_wall_small.in add append offset 4 1 2 2 1 shift ${xs} ${ys} 81.0
-read_data graphene_wall_small.in add append offset 4 1 2 2 1 shift 11 ${ys} 81.0
-read_data graphene_wall_small.in add append offset 4 1 2 2 1 shift 11 63.5 81.0
-Reading data file ...
-  orthogonal box = (4.5771050 3.0000000 -12.428381) to (32.131856 129.59996 102.57162)
-  1 by 1 by 1 MPI processor grid
-  reading atoms ...
-  132 atoms
-  scanning bonds ...
-  3 = max bonds/atom
-  reading bonds ...
-  181 bonds
+  1865 bonds
+  reading angles ...
+  3596 angles
 Finding 1-2 1-3 1-4 neighbors ...
   special bond factors lj:    0.0      0.0      0.0     
   special bond factors coul:  0.0      0.0      0.0     
@@ -104,10 +96,10 @@ Finding 1-2 1-3 1-4 neighbors ...
     18 = max # of 1-4 neighbors
     18 = max # of special neighbors
   special bonds CPU = 0.004 seconds
-  read_data CPU = 0.007 seconds
+  read_data CPU = 0.074 seconds
+# displace_atoms all move 0 -5 0 units box
 
 
-include  oil_graphene_0.ff
 #Pair Coeffs # lj/cut/omp
 
 pair_coeff 1 1 0.175 3.905 13.0 #CH3-CH3
@@ -142,7 +134,45 @@ angle_coeff 3 0.0 120.0
 dihedral_coeff 1 1.411 -0.271 3.145 0
 dihedral_coeff 2 1.411 -0.271 3.145 0
 dihedral_coeff 3 0.0 0.0 0.0 0.0
-# displace_atoms all move 0 -5 0 units box
+
+
+# region wall_pore block INF INF  163.5 164.5  1 92
+
+
+delete_bonds all atom 5 remove
+System init for delete_bonds ...
+Neighbor list info ...
+  update every 1 steps, delay 10 steps, check yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 15
+  ghost atom cutoff = 15
+  binsize = 7.5, bins = 4 22 16
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair lj/cut, perpetual
+      attributes: half, newton on
+      pair build: half/bin/newton
+      stencil: half/bin/3d/newton
+      bin: standard
+Deleting bonds ...
+  4927 total bonds, 4927 turned on, 0 turned off
+  6094 total angles, 6094 turned on, 0 turned off
+  8785 total dihedrals, 8785 turned on, 0 turned off
+  0 total impropers, 0 turned on, 0 turned off
+reset_atom_ids sort yes
+Resetting atom IDs ...
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0.0      0.0      0.0     
+  special bond factors coul:  0.0      0.0      0.0     
+     3 = max # of 1-2 neighbors
+     6 = max # of 1-3 neighbors
+    18 = max # of 1-4 neighbors
+    18 = max # of special neighbors
+  special bonds CPU = 0.003 seconds
+
+
+
+
+# set type 1*3 image 0 0 0
 # group oil type 1 2
 #
 
@@ -165,18 +195,6 @@ dihedral_coeff 3 0.0 0.0 0.0 0.0
 # change_box all y final ${ylow} ${yhigh} units box
 write_data temp.data
 System init for write_data ...
-Neighbor list info ...
-  update every 1 steps, delay 10 steps, check yes
-  max neighbors/atom: 2000, page size: 100000
-  master list distance cutoff = 15
-  ghost atom cutoff = 15
-  binsize = 7.5, bins = 4 17 16
-  1 neighbor lists, perpetual/occasional/extra = 1 0 0
-  (1) pair lj/cut, perpetual
-      attributes: half, newton on
-      pair build: half/bin/newton
-      stencil: half/bin/3d/newton
-      bin: standard
 WARNING: Not all mixed pair coeffs generated from mixing. Use write_data with 'pair ij' option to store all pair coeffs. (src/write_data.cpp:312)
 
 
